@@ -1,0 +1,407 @@
+[2025]
+(0001): 189B3560 'PmDefault'  grIdx=00B0
+	lst0[0000] = (0005): DF9CA7B0 'PmDefault'   lst0=[] u16=000 val=""
+		ref_0 = (0004): F7676AB1flags=00A3 u8_0=00 u8_4=00 a0=(000,000,000,000,007)  index=009E a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0002 u8_3=00 u32_0=0000
+			*items[0000] = (00B1): D9F96B81
+			*items[0001] = (00B2): 9E77CCC1
+			*items[0002] = (00AE): FolderBodies
+			*items[0003] = (00AD): FolderBodies
+			*items[0004] = (00B3): 18BAA333
+			*items[0005] = (00A5): FolderBrowser 'Origin'
+			*items[0006] = (00AF): ReferenceAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+			*items[0007] = (00A3): EndOfPart
+(0002): EntryManager  u32_0=009E
+	entries[0001] = (0006): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'flags=0000 u16_0=001 a0=(000,000,018)  index=0001 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0013 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0007): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+	entries[0002] = (0007): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'flags=0000 u16_0=002 a0=(000,000,019)  index=0002 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0014 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0003] = (0008): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'flags=0000 u16_0=003 a0=(000,000,01B)  index=0003 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0016 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0009): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+	entries[0004] = (0009): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'flags=0000 u16_0=004 a0=(000,000,01C)  index=0004 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0017 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0005] = (000A): Body 'Solid2'flags=0400 u16_0=002 a0=(000,000,01D)  index=0005 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0018 u8_3=00 u32_0=0000 dcCreatorIdx=001B a5=(0000,0001)
+		*items[0000] = (0009): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+	entries[0006] = (000B): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'flags=0000 u16_0=003 a0=(000,000,01E)  index=0006 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0019 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (000C): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+	entries[0007] = (000C): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'flags=0000 u16_0=004 a0=(000,000,01F)  index=0007 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001A u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0008] = (000D): Body 'Solid3'flags=0400 u16_0=003 a0=(000,000,020)  index=0008 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001B u8_3=00 u32_0=0000 dcCreatorIdx=0020 a5=(0000,0001)
+		*items[0000] = (000C): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+	entries[0009] = (000E): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'flags=0000 u16_0=004 a0=(000,000,021)  index=0009 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001C u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (000F): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+	entries[000A] = (000F): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'flags=0000 u16_0=005 a0=(000,000,022)  index=000A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001D u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[000B] = (0010): Body 'Solid4'flags=0400 u16_0=004 a0=(000,000,023)  index=000B a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001E u8_3=00 u32_0=0000 dcCreatorIdx=0025 a5=(0000,0001)
+		*items[0000] = (000F): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+	entries[000C] = (0011): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'flags=0000 u16_0=005 a0=(000,000,024)  index=000C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=001F u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0012): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+	entries[000D] = (0012): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'flags=0000 u16_0=006 a0=(000,000,025)  index=000D a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0020 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[000E] = (0013): Body 'Solid5'flags=0400 u16_0=005 a0=(000,000,026)  index=000E a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0021 u8_3=00 u32_0=0000 dcCreatorIdx=002A a5=(0000,0001)
+		*items[0000] = (0012): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+	entries[000F] = (0014): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'flags=0000 u16_0=006 a0=(000,000,027)  index=000F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0022 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0015): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+	entries[0010] = (0015): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'flags=0000 u16_0=007 a0=(000,000,028)  index=0010 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0023 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0011] = (0016): Body 'Solid6'flags=0400 u16_0=006 a0=(000,000,029)  index=0011 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0024 u8_3=00 u32_0=0000 dcCreatorIdx=002F a5=(0000,0001)
+		*items[0000] = (0015): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+	entries[0012] = (0017): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'flags=0000 u16_0=007 a0=(000,000,02A)  index=0012 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0025 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0018): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+	entries[0013] = (0018): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'flags=0000 u16_0=008 a0=(000,000,02B)  index=0013 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0026 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0014] = (0019): Body 'Solid7'flags=0400 u16_0=007 a0=(000,000,02C)  index=0014 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0027 u8_3=00 u32_0=0000 dcCreatorIdx=0034 a5=(0000,0001)
+		*items[0000] = (0018): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+	entries[0015] = (001A): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'flags=0000 u16_0=008 a0=(000,000,02D)  index=0015 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0028 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (001B): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+	entries[0016] = (001B): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'flags=0000 u16_0=009 a0=(000,000,02E)  index=0016 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0029 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0017] = (001C): Body 'Solid8'flags=0400 u16_0=008 a0=(000,000,02F)  index=0017 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=002A u8_3=00 u32_0=0000 dcCreatorIdx=0039 a5=(0000,0001)
+		*items[0000] = (001B): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+	entries[0018] = (001D): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'flags=0000 u16_0=009 a0=(000,000,030)  index=0018 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=002B u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (001E): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+	entries[0019] = (001E): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'flags=0000 u16_0=00A a0=(000,000,031)  index=0019 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=002C u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[001A] = (001F): Body 'Solid9'flags=0400 u16_0=009 a0=(000,000,032)  index=001A a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=002D u8_3=00 u32_0=0000 dcCreatorIdx=003E a5=(0000,0001)
+		*items[0000] = (001E): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+	entries[001B] = (0020): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'flags=0000 u16_0=00A a0=(000,000,033)  index=001B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=002E u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0021): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+	entries[001C] = (0021): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'flags=0000 u16_0=00B a0=(000,000,034)  index=001C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=002F u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[001D] = (0022): Body 'Solid10'flags=0400 u16_0=00A a0=(000,000,035)  index=001D a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0030 u8_3=00 u32_0=0000 dcCreatorIdx=0043 a5=(0000,0001)
+		*items[0000] = (0021): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+	entries[001E] = (0023): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'flags=0000 u16_0=00B a0=(000,000,036)  index=001E a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0031 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0024): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+	entries[001F] = (0024): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'flags=0000 u16_0=00C a0=(000,000,037)  index=001F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0032 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0020] = (0025): Body 'Solid11'flags=0400 u16_0=00B a0=(000,000,038)  index=0020 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0033 u8_3=00 u32_0=0000 dcCreatorIdx=0048 a5=(0000,0001)
+		*items[0000] = (0024): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+	entries[0021] = (0026): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'flags=0000 u16_0=00C a0=(000,000,039)  index=0021 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0034 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0027): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+	entries[0022] = (0027): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'flags=0000 u16_0=00D a0=(000,000,03A)  index=0022 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0035 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0023] = (0028): Body 'Solid12'flags=0400 u16_0=00C a0=(000,000,03B)  index=0023 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0036 u8_3=00 u32_0=0000 dcCreatorIdx=004D a5=(0000,0001)
+		*items[0000] = (0027): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+	entries[0024] = (0029): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'flags=0000 u16_0=00D a0=(000,000,03C)  index=0024 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0037 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (002A): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+	entries[0025] = (002A): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'flags=0000 u16_0=00E a0=(000,000,03D)  index=0025 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0038 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0026] = (002B): Body 'Solid13'flags=0400 u16_0=00D a0=(000,000,03E)  index=0026 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0039 u8_3=00 u32_0=0000 dcCreatorIdx=0052 a5=(0000,0001)
+		*items[0000] = (002A): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+	entries[0027] = (002C): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'flags=0000 u16_0=00E a0=(000,000,03F)  index=0027 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=003A u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (002D): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+	entries[0028] = (002D): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'flags=0000 u16_0=00F a0=(000,000,040)  index=0028 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=003B u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0029] = (002E): Body 'Solid14'flags=0400 u16_0=00E a0=(000,000,041)  index=0029 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=003C u8_3=00 u32_0=0000 dcCreatorIdx=0057 a5=(0000,0001)
+		*items[0000] = (002D): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+	entries[002A] = (002F): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'flags=0000 u16_0=00F a0=(000,000,042)  index=002A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=003D u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0030): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+	entries[002B] = (0030): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'flags=0000 u16_0=010 a0=(000,000,043)  index=002B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=003E u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[002C] = (0031): Body 'Solid15'flags=0400 u16_0=00F a0=(000,000,044)  index=002C a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=003F u8_3=00 u32_0=0000 dcCreatorIdx=005C a5=(0000,0001)
+		*items[0000] = (0030): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+	entries[002D] = (0032): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'flags=0000 u16_0=010 a0=(000,000,045)  index=002D a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0040 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0033): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+	entries[002E] = (0033): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'flags=0000 u16_0=011 a0=(000,000,046)  index=002E a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0041 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[002F] = (0034): Body 'Solid16'flags=0400 u16_0=010 a0=(000,000,047)  index=002F a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0042 u8_3=00 u32_0=0000 dcCreatorIdx=0061 a5=(0000,0001)
+		*items[0000] = (0033): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+	entries[0030] = (0035): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'flags=0000 u16_0=011 a0=(000,000,048)  index=0030 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0043 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0036): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+	entries[0031] = (0036): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'flags=0000 u16_0=012 a0=(000,000,049)  index=0031 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0044 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0032] = (0037): Body 'Solid17'flags=0400 u16_0=011 a0=(000,000,04A)  index=0032 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0045 u8_3=00 u32_0=0000 dcCreatorIdx=0066 a5=(0000,0001)
+		*items[0000] = (0036): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+	entries[0033] = (0038): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'flags=0000 u16_0=012 a0=(000,000,04B)  index=0033 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0046 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0039): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+	entries[0034] = (0039): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'flags=0000 u16_0=013 a0=(000,000,04C)  index=0034 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0047 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0035] = (003A): Body 'Solid18'flags=0400 u16_0=012 a0=(000,000,04D)  index=0035 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0048 u8_3=00 u32_0=0000 dcCreatorIdx=006B a5=(0000,0001)
+		*items[0000] = (0039): ReferenceSurface '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+	entries[0036] = (003B): ReferenceSolid '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'flags=0000 u16_0=013 a0=(000,000,04E)  index=0036 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0049 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (003C): ReferenceSurface '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+	entries[0037] = (003C): ReferenceSurface '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'flags=0000 u16_0=014 a0=(000,000,04F)  index=0037 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=004A u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0038] = (003D): Body 'Solid19'flags=0400 u16_0=013 a0=(000,000,050)  index=0038 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=004B u8_3=00 u32_0=0000 dcCreatorIdx=0070 a5=(0000,0001)
+		*items[0000] = (003C): ReferenceSurface '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+	entries[0039] = (003E): ReferenceSolid 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'flags=0000 u16_0=014 a0=(000,000,051)  index=0039 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=004C u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (003F): ReferenceSurface 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+	entries[003A] = (003F): ReferenceSurface 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'flags=0000 u16_0=015 a0=(000,000,052)  index=003A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=004D u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[003B] = (0040): Body 'Solid20'flags=0400 u16_0=014 a0=(000,000,053)  index=003B a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=004E u8_3=00 u32_0=0000 dcCreatorIdx=0075 a5=(0000,0001)
+		*items[0000] = (003F): ReferenceSurface 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+	entries[003C] = (0041): ReferenceSolid 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'flags=0000 u16_0=015 a0=(000,000,054)  index=003C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=004F u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0042): ReferenceSurface 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+		*items[0001] = (0044): 3dObject 'Arbeitsebene1'
+		*items[0002] = (0045): 3dObject 'Arbeitsebene2'
+	entries[003D] = (0042): ReferenceSurface 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'flags=0000 u16_0=016 a0=(000,000,055)  index=003D a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0050 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[003E] = (0043): Body 'Solid21'flags=0400 u16_0=015 a0=(000,000,056)  index=003E a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0051 u8_3=00 u32_0=0000 dcCreatorIdx=007A a5=(0000,0001)
+		*items[0000] = (0042): ReferenceSurface 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+	entries[003F] = (0044): 3dObject 'Arbeitsebene1'flags=0080 u16_0=016 a0=(000,000,057)  index=003F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0052 u8_3=00 u32_0=0000 u8_5=00
+	entries[0040] = (0045): 3dObject 'Arbeitsebene2'flags=0080 u16_0=017 a0=(000,000,058)  index=0040 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0053 u8_3=00 u32_0=0000 u8_5=00
+	entries[0041] = (0046): ReferenceSolid 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'flags=0000 u16_0=018 a0=(000,000,059)  index=0041 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0054 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0047): ReferenceSurface 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+	entries[0042] = (0047): ReferenceSurface 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'flags=0000 u16_0=019 a0=(000,000,05A)  index=0042 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0055 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0043] = (0048): Body 'Solid22'flags=0400 u16_0=016 a0=(000,000,05B)  index=0043 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0056 u8_3=00 u32_0=0000 dcCreatorIdx=0081 a5=(0000,0001)
+		*items[0000] = (0047): ReferenceSurface 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+	entries[0044] = (0049): ReferenceSolid 'BACK__X2_4E9A514B529B_X0_.ipt:1'flags=0000 u16_0=017 a0=(000,000,05C)  index=0044 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0057 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (004A): ReferenceSurface 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+	entries[0045] = (004A): ReferenceSurface 'BACK__X2_4E9A514B529B_X0_.ipt:1'flags=0000 u16_0=018 a0=(000,000,05D)  index=0045 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0058 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0046] = (004B): Body 'Solid23'flags=0400 u16_0=017 a0=(000,000,05E)  index=0046 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0059 u8_3=00 u32_0=0000 dcCreatorIdx=0086 a5=(0000,0001)
+		*items[0000] = (004A): ReferenceSurface 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+	entries[0047] = (004C): ReferenceSolid 'R5__X2_89D294DD652F67B6_X0_.ipt:1'flags=0000 u16_0=018 a0=(000,000,05F)  index=0047 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=005A u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (004D): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+	entries[0048] = (004D): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:1'flags=0000 u16_0=019 a0=(000,000,060)  index=0048 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=005B u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0049] = (004E): Body 'Solid24'flags=0400 u16_0=018 a0=(000,000,061)  index=0049 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=005C u8_3=00 u32_0=0000 dcCreatorIdx=008B a5=(0000,0001)
+		*items[0000] = (004D): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+	entries[004A] = (004F): ReferenceSolid 'RIGHT_TYPE-C.ipt:1'flags=0000 u16_0=019 a0=(000,000,062)  index=004A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=005D u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0050): ReferenceSurface 'RIGHT_TYPE-C.ipt:1'
+	entries[004B] = (0050): ReferenceSurface 'RIGHT_TYPE-C.ipt:1'flags=0000 u16_0=01A a0=(000,000,063)  index=004B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=005E u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[004C] = (0051): Body 'Solid25'flags=0400 u16_0=019 a0=(000,000,064)  index=004C a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=005F u8_3=00 u32_0=0000 dcCreatorIdx=0090 a5=(0000,0001)
+		*items[0000] = (0050): ReferenceSurface 'RIGHT_TYPE-C.ipt:1'
+	entries[004D] = (0052): ReferenceSolid 'LEFT__X2_955C5934_X0_.ipt:1'flags=0000 u16_0=01A a0=(000,000,065)  index=004D a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0060 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0053): ReferenceSurface 'LEFT__X2_955C5934_X0_.ipt:1'
+	entries[004E] = (0053): ReferenceSurface 'LEFT__X2_955C5934_X0_.ipt:1'flags=0000 u16_0=01B a0=(000,000,066)  index=004E a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0061 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[004F] = (0054): Body 'Solid26'flags=0400 u16_0=01A a0=(000,000,067)  index=004F a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0062 u8_3=00 u32_0=0000 dcCreatorIdx=0095 a5=(0000,0001)
+		*items[0000] = (0053): ReferenceSurface 'LEFT__X2_955C5934_X0_.ipt:1'
+	entries[0050] = (0055): ReferenceSolid 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'flags=0000 u16_0=01B a0=(000,000,068)  index=0050 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0063 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0056): ReferenceSurface 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+	entries[0051] = (0056): ReferenceSurface 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'flags=0000 u16_0=01C a0=(000,000,069)  index=0051 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0064 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0052] = (0057): Body 'Solid27'flags=0400 u16_0=01B a0=(000,000,06A)  index=0052 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0065 u8_3=00 u32_0=0000 dcCreatorIdx=009A a5=(0000,0001)
+		*items[0000] = (0056): ReferenceSurface 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+	entries[0053] = (0058): ReferenceSolid 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'flags=0000 u16_0=01C a0=(000,000,06B)  index=0053 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0066 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0059): ReferenceSurface 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+	entries[0054] = (0059): ReferenceSurface 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'flags=0000 u16_0=01D a0=(000,000,06C)  index=0054 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0067 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0055] = (005A): Body 'Solid28'flags=0400 u16_0=01C a0=(000,000,06D)  index=0055 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0068 u8_3=00 u32_0=0000 dcCreatorIdx=009F a5=(0000,0001)
+		*items[0000] = (0059): ReferenceSurface 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+	entries[0056] = (005B): ReferenceSolid '_X2_5BFC8F689694677F_X0_.ipt:1'flags=0000 u16_0=01D a0=(000,000,06E)  index=0056 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0069 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (005C): ReferenceSurface '_X2_5BFC8F689694677F_X0_.ipt:1'
+	entries[0057] = (005C): ReferenceSurface '_X2_5BFC8F689694677F_X0_.ipt:1'flags=0000 u16_0=01E a0=(000,000,06F)  index=0057 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=006A u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0058] = (005D): Body 'Solid29'flags=0400 u16_0=01D a0=(000,000,070)  index=0058 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=006B u8_3=00 u32_0=0000 dcCreatorIdx=00A4 a5=(0000,0001)
+		*items[0000] = (005C): ReferenceSurface '_X2_5BFC8F689694677F_X0_.ipt:1'
+	entries[0059] = (005E): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'flags=0000 u16_0=01E a0=(000,000,071)  index=0059 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=006C u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (005F): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+		*items[0001] = (0061): 3dObject 'Work Plane3'
+		*items[0002] = (0062): 3dObject 'Work Plane4'
+		*items[0003] = (0063): 3dObject 'Work Axis1'
+	entries[005A] = (005F): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'flags=0000 u16_0=01F a0=(000,000,072)  index=005A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=006D u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[005B] = (0060): Body 'Solid30'flags=0400 u16_0=01E a0=(000,000,073)  index=005B a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=006E u8_3=00 u32_0=0000 dcCreatorIdx=00A9 a5=(0000,0001)
+		*items[0000] = (005F): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+	entries[005C] = (0061): 3dObject 'Work Plane3'flags=0080 u16_0=008 a0=(000,000,074)  index=005C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=006F u8_3=00 u32_0=0000 u8_5=00
+	entries[005D] = (0062): 3dObject 'Work Plane4'flags=0080 u16_0=009 a0=(000,000,075)  index=005D a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0070 u8_3=00 u32_0=0000 u8_5=00
+	entries[005E] = (0063): 3dObject 'Work Axis1'flags=0080 u16_0=014 a0=(000,000,076)  index=005E a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0071 u8_3=00 u32_0=0000 u8_5=01
+	entries[005F] = (0064): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'flags=0000 u16_0=015 a0=(000,000,077)  index=005F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0072 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0065): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+		*items[0001] = (0067): 3dObject 'Work Plane8_1'
+		*items[0002] = (0068): 3dObject 'Work Plane9_1'
+		*items[0003] = (0069): 3dObject 'Work Axis20_1'
+	entries[0060] = (0065): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'flags=0000 u16_0=016 a0=(000,000,078)  index=0060 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0073 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0061] = (0066): Body 'Solid31'flags=0400 u16_0=01F a0=(000,000,079)  index=0061 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0074 u8_3=00 u32_0=0000 dcCreatorIdx=00B1 a5=(0000,0001)
+		*items[0000] = (0065): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+	entries[0062] = (0067): 3dObject 'Work Plane8_1'flags=0080 u16_0=020 a0=(000,000,07A)  index=0062 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0075 u8_3=00 u32_0=0000 u8_5=00
+	entries[0063] = (0068): 3dObject 'Work Plane9_1'flags=0080 u16_0=021 a0=(000,000,07B)  index=0063 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0076 u8_3=00 u32_0=0000 u8_5=00
+	entries[0064] = (0069): 3dObject 'Work Axis20_1'flags=0080 u16_0=022 a0=(000,000,07C)  index=0064 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0077 u8_3=00 u32_0=0000 u8_5=01
+	entries[0065] = (006A): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'flags=0000 u16_0=023 a0=(000,000,07D)  index=0065 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0078 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (006B): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+		*items[0001] = (006D): 3dObject 'Work Axis3'
+	entries[0066] = (006B): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'flags=0000 u16_0=024 a0=(000,000,07E)  index=0066 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0079 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0067] = (006C): Body 'Solid32'flags=0400 u16_0=020 a0=(000,000,07F)  index=0067 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=007A u8_3=00 u32_0=0000 dcCreatorIdx=00BB a5=(0000,0001)
+		*items[0000] = (006B): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+	entries[0068] = (006D): 3dObject 'Work Axis3'flags=0080 u16_0=004 a0=(000,000,080)  index=0068 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=007B u8_3=00 u32_0=0000 u8_5=04
+	entries[0069] = (006E): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'flags=0000 u16_0=005 a0=(000,000,081)  index=0069 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=007C u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (006F): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+	entries[006A] = (006F): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'flags=0000 u16_0=006 a0=(000,000,082)  index=006A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=007D u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[006B] = (0070): Body 'Solid33'flags=0400 u16_0=021 a0=(000,000,083)  index=006B a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=007E u8_3=00 u32_0=0000 dcCreatorIdx=00C1 a5=(0000,0001)
+		*items[0000] = (006F): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+	entries[006C] = (0071): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'flags=0000 u16_0=022 a0=(000,000,084)  index=006C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=007F u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0072): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+	entries[006D] = (0072): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'flags=0000 u16_0=023 a0=(000,000,085)  index=006D a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0080 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[006E] = (0073): Body 'Solid34'flags=0400 u16_0=022 a0=(000,000,086)  index=006E a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0081 u8_3=00 u32_0=0000 dcCreatorIdx=00C6 a5=(0000,0001)
+		*items[0000] = (0072): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+	entries[006F] = (0074): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'flags=0000 u16_0=023 a0=(000,000,087)  index=006F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0082 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0075): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+	entries[0070] = (0075): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'flags=0000 u16_0=024 a0=(000,000,088)  index=0070 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0083 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0071] = (0076): Body 'Solid35'flags=0400 u16_0=023 a0=(000,000,089)  index=0071 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0084 u8_3=00 u32_0=0000 dcCreatorIdx=00CB a5=(0000,0001)
+		*items[0000] = (0075): ReferenceSurface 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+	entries[0072] = (0077): ReferenceSolid 'R5__X2_89D294DD652F67B6_X0_.ipt:2'flags=0000 u16_0=024 a0=(000,000,08A)  index=0072 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0085 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0078): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+	entries[0073] = (0078): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:2'flags=0000 u16_0=025 a0=(000,000,08B)  index=0073 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0086 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0074] = (0079): Body 'Solid36'flags=0400 u16_0=024 a0=(000,000,08C)  index=0074 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0087 u8_3=00 u32_0=0000 dcCreatorIdx=00D0 a5=(0000,0001)
+		*items[0000] = (0078): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+	entries[0075] = (007A): ReferenceSolid 'R5__X2_89D294DD652F67B6_X0_.ipt:3'flags=0000 u16_0=025 a0=(000,000,08D)  index=0075 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0088 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (007B): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+	entries[0076] = (007B): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:3'flags=0000 u16_0=026 a0=(000,000,08E)  index=0076 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0089 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0077] = (007C): Body 'Solid37'flags=0400 u16_0=025 a0=(000,000,08F)  index=0077 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=008A u8_3=00 u32_0=0000 dcCreatorIdx=00D4 a5=(0000,0001)
+		*items[0000] = (007B): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+	entries[0078] = (007D): ReferenceSolid 'R5__X2_89D294DD652F67B6_X0_.ipt:4'flags=0000 u16_0=026 a0=(000,000,090)  index=0078 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=008B u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (007E): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+	entries[0079] = (007E): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:4'flags=0000 u16_0=027 a0=(000,000,091)  index=0079 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=008C u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[007A] = (007F): Body 'Solid38'flags=0400 u16_0=026 a0=(000,000,092)  index=007A a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=008D u8_3=00 u32_0=0000 dcCreatorIdx=00D8 a5=(0000,0001)
+		*items[0000] = (007E): ReferenceSurface 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+	entries[007B] = (0080): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'flags=0000 u16_0=027 a0=(000,000,093)  index=007B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=008E u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0081): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+	entries[007C] = (0081): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'flags=0000 u16_0=028 a0=(000,000,094)  index=007C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=008F u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[007D] = (0082): Body 'Solid39'flags=0400 u16_0=027 a0=(000,000,095)  index=007D a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0090 u8_3=00 u32_0=0000 dcCreatorIdx=00DC a5=(0000,0001)
+		*items[0000] = (0081): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+	entries[007E] = (0083): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'flags=0000 u16_0=028 a0=(000,000,096)  index=007E a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0091 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0084): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+	entries[007F] = (0084): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'flags=0000 u16_0=029 a0=(000,000,097)  index=007F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0092 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0080] = (0085): Body 'Solid40'flags=0400 u16_0=028 a0=(000,000,098)  index=0080 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0093 u8_3=00 u32_0=0000 dcCreatorIdx=00E1 a5=(0000,0001)
+		*items[0000] = (0084): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+	entries[0081] = (0086): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'flags=0000 u16_0=029 a0=(000,000,099)  index=0081 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0094 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0087): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+	entries[0082] = (0087): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'flags=0000 u16_0=02A a0=(000,000,09A)  index=0082 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0095 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0083] = (0088): Body 'Solid41'flags=0400 u16_0=029 a0=(000,000,09B)  index=0083 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0096 u8_3=00 u32_0=0000 dcCreatorIdx=00E6 a5=(0000,0001)
+		*items[0000] = (0087): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+	entries[0084] = (0089): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'flags=0000 u16_0=02A a0=(000,000,09C)  index=0084 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0097 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (008A): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+	entries[0085] = (008A): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'flags=0000 u16_0=02B a0=(000,000,09D)  index=0085 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0098 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0086] = (008B): Body 'Solid42'flags=0400 u16_0=02A a0=(000,000,09E)  index=0086 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0099 u8_3=00 u32_0=0000 dcCreatorIdx=00EB a5=(0000,0001)
+		*items[0000] = (008A): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+	entries[0087] = (008C): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'flags=0000 u16_0=02B a0=(000,000,09F)  index=0087 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=009A u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (008D): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+	entries[0088] = (008D): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'flags=0000 u16_0=02C a0=(000,000,0A0)  index=0088 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=009B u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0089] = (008E): Body 'Solid43'flags=0400 u16_0=02B a0=(000,000,0A1)  index=0089 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=009C u8_3=00 u32_0=0000 dcCreatorIdx=00F0 a5=(0000,0001)
+		*items[0000] = (008D): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+	entries[008A] = (008F): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'flags=0000 u16_0=02C a0=(000,000,0A2)  index=008A a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=009D u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0090): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+		*items[0001] = (0092): FxUnknown 'Flä1::Derived'
+	entries[008B] = (0090): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'flags=0000 u16_0=02D a0=(000,000,0A3)  index=008B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=009E u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[008C] = (0091): Body 'Solid44'flags=0400 u16_0=02C a0=(000,000,0A4)  index=008C a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=009F u8_3=00 u32_0=0000 dcCreatorIdx=00F5 a5=(0000,0001)
+		*items[0000] = (0090): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+	entries[008D] = (0092): FxUnknown 'Flä1::Derived'flags=0000 u16_0=02D a0=(000,000,0A5)  index=008D a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00A0 u8_3=00 u32_0=0000 uid_0={FF890279-4A2B-3DB4-72B9-82BC4B1A1122} u32_2=0000 txt_0="" s32_0=-1
+	entries[008E] = (0093): Body 'Srf1'flags=0200 u16_0=001 a0=(000,000,0A6)  index=008E a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00A1 u8_3=00 u32_0=0000 dcCreatorIdx=00FA a5=(0000,0001)
+		*items[0000] = (0092): FxUnknown 'Flä1::Derived'
+	entries[008F] = (0094): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'flags=0000 u16_0=002 a0=(000,000,0A7)  index=008F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00A2 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0095): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+	entries[0090] = (0095): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'flags=0000 u16_0=003 a0=(000,000,0A8)  index=0090 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00A3 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0091] = (0096): Body 'Solid45'flags=0400 u16_0=02D a0=(000,000,0A9)  index=0091 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00A4 u8_3=00 u32_0=0000 dcCreatorIdx=00FF a5=(0000,0001)
+		*items[0000] = (0095): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+	entries[0092] = (0097): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'flags=0000 u16_0=02E a0=(000,000,0AA)  index=0092 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00A5 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (0098): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+	entries[0093] = (0098): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'flags=0000 u16_0=02F a0=(000,000,0AB)  index=0093 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00A6 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0094] = (0099): Body 'Solid46'flags=0400 u16_0=02E a0=(000,000,0AC)  index=0094 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00A7 u8_3=00 u32_0=0000 dcCreatorIdx=0104 a5=(0000,0001)
+		*items[0000] = (0098): ReferenceSurface 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+	entries[0095] = (009A): ReferenceSolid 'P_MAGNET.ipt:1'flags=0000 u16_0=02F a0=(000,000,0AD)  index=0095 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00A8 u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (009B): ReferenceSurface 'P_MAGNET.ipt:1'
+	entries[0096] = (009B): ReferenceSurface 'P_MAGNET.ipt:1'flags=0000 u16_0=030 a0=(000,000,0AE)  index=0096 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00A9 u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[0097] = (009C): Body 'Solid47'flags=0400 u16_0=02F a0=(000,000,0AF)  index=0097 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00AA u8_3=00 u32_0=0000 dcCreatorIdx=0109 a5=(0000,0001)
+		*items[0000] = (009B): ReferenceSurface 'P_MAGNET.ipt:1'
+	entries[0098] = (009D): ReferenceSolid 'P_MAGNET.ipt:2'flags=0000 u16_0=030 a0=(000,000,0B0)  index=0098 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00AB u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (009E): ReferenceSurface 'P_MAGNET.ipt:2'
+	entries[0099] = (009E): ReferenceSurface 'P_MAGNET.ipt:2'flags=0000 u16_0=031 a0=(000,000,0B1)  index=0099 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00AC u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[009A] = (009F): Body 'Solid48'flags=0400 u16_0=030 a0=(000,000,0B2)  index=009A a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00AD u8_3=00 u32_0=0000 dcCreatorIdx=010E a5=(0000,0001)
+		*items[0000] = (009E): ReferenceSurface 'P_MAGNET.ipt:2'
+	entries[009B] = (00A0): ReferenceSolid '322040145，Xiao-显微镜_物镜压盖.ipt:1'flags=0000 u16_0=031 a0=(000,000,0B3)  index=009B a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00AE u8_3=00 u32_0=0000 ui={1433EA34-4801-FDF6-02EA-64A9BC434DEF}
+		*items[0000] = (00A1): ReferenceSurface '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+	entries[009C] = (00A1): ReferenceSurface '322040145，Xiao-显微镜_物镜压盖.ipt:1'flags=0000 u16_0=032 a0=(000,000,0B4)  index=009C a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00AF u8_3=00 u32_0=0000 ui={1B44008B-11D4-47A8-C000-1C85E89C6B4F}
+	entries[009D] = (00A2): Body 'Solid49'flags=0400 u16_0=031 a0=(000,000,0B5)  index=009D a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=00B0 u8_3=00 u32_0=0000 dcCreatorIdx=0112 a5=(0000,0001)
+		*items[0000] = (00A1): ReferenceSurface '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+	*entries[009E] = (0004): F7676AB1
+	entries[009F] = (00A3): EndOfPartflags=0000 u16_0=032 a0=(000,000,008)  index=009F a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0003 u8_3=00 u32_0=0000
+	entries[00A0] = (00A4): Body 'Solid1'flags=0400 u16_0=001 a0=(000,000,01A)  index=00A0 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0015 u8_3=00 u32_0=0000 dcCreatorIdx=0002 a5=(0000,0001)
+		*items[0000] = (0007): ReferenceSurface '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+	entries[00A1] = (00A5): FolderBrowser 'Origin'flags=0200 u16_0=000 a0=(000,000,010)  index=00A1 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000B u8_3=00 u32_0=0000
+		*items[0000] = (00A6): 3dObject 'YZ Plane'
+		*items[0001] = (00A7): 3dObject 'XZ Plane'
+		*items[0002] = (00A8): 3dObject 'XY Plane'
+		*items[0003] = (00A9): 3dObject 'X Axis'
+		*items[0004] = (00AA): 3dObject 'Y Axis'
+		*items[0005] = (00AB): 3dObject 'Z Axis'
+		*items[0006] = (00AC): 3dObject 'Center Point'
+	entries[00A2] = (00A6): 3dObject 'YZ Plane'flags=0004 u16_0=000 a0=(000,000,009)  index=00A2 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0004 u8_3=00 u32_0=0000 u8_5=08
+	entries[00A3] = (00A7): 3dObject 'XZ Plane'flags=0004 u16_0=000 a0=(000,000,00A)  index=00A3 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0005 u8_3=00 u32_0=0000 u8_5=07
+	entries[00A4] = (00A8): 3dObject 'XY Plane'flags=0004 u16_0=000 a0=(000,000,00B)  index=00A4 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0006 u8_3=00 u32_0=0000 u8_5=06
+	entries[00A5] = (00A9): 3dObject 'X Axis'flags=0004 u16_0=000 a0=(000,000,00C)  index=00A5 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0007 u8_3=00 u32_0=0000 u8_5=09
+	entries[00A6] = (00AA): 3dObject 'Y Axis'flags=0004 u16_0=000 a0=(000,000,00D)  index=00A6 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0008 u8_3=00 u32_0=0000 u8_5=0A
+	entries[00A7] = (00AB): 3dObject 'Z Axis'flags=0004 u16_0=000 a0=(000,000,00E)  index=00A7 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0009 u8_3=00 u32_0=0000 u8_5=0B
+	entries[00A8] = (00AC): 3dObject 'Center Point'flags=0004 u16_0=000 a0=(000,000,00F)  index=00A8 a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000A u8_3=00 u32_0=0000 u8_5=0C
+	entries[00A9] = (00AD): FolderBodiesflags=0200 u16_0=001 a0=(000,000,012)  index=00A9 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000D u8_3=00 u32_0=0000
+		*items[0000] = (0093): Body 'Srf1'
+	entries[00AA] = (00AE): FolderBodiesflags=0400 u16_0=002 a0=(000,000,013)  index=00AA a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000E u8_3=00 u32_0=0000
+		*items[0000] = (00A4): Body 'Solid1'
+		*items[0001] = (000A): Body 'Solid2'
+		*items[0002] = (000D): Body 'Solid3'
+		*items[0003] = (0010): Body 'Solid4'
+		*items[0004] = (0013): Body 'Solid5'
+		*items[0005] = (0016): Body 'Solid6'
+		*items[0006] = (0019): Body 'Solid7'
+		*items[0007] = (001C): Body 'Solid8'
+		*items[0008] = (001F): Body 'Solid9'
+		*items[0009] = (0022): Body 'Solid10'
+		*items[000A] = (0025): Body 'Solid11'
+		*items[000B] = (0028): Body 'Solid12'
+		*items[000C] = (002B): Body 'Solid13'
+		*items[000D] = (002E): Body 'Solid14'
+		*items[000E] = (0031): Body 'Solid15'
+		*items[000F] = (0034): Body 'Solid16'
+		*items[0010] = (0037): Body 'Solid17'
+		*items[0011] = (003A): Body 'Solid18'
+		*items[0012] = (003D): Body 'Solid19'
+		*items[0013] = (0040): Body 'Solid20'
+		*items[0014] = (0043): Body 'Solid21'
+		*items[0015] = (0048): Body 'Solid22'
+		*items[0016] = (004B): Body 'Solid23'
+		*items[0017] = (004E): Body 'Solid24'
+		*items[0018] = (0051): Body 'Solid25'
+		*items[0019] = (0054): Body 'Solid26'
+		*items[001A] = (0057): Body 'Solid27'
+		*items[001B] = (005A): Body 'Solid28'
+		*items[001C] = (005D): Body 'Solid29'
+		*items[001D] = (0060): Body 'Solid30'
+		*items[001E] = (0066): Body 'Solid31'
+		*items[001F] = (006C): Body 'Solid32'
+		*items[0020] = (0070): Body 'Solid33'
+		*items[0021] = (0073): Body 'Solid34'
+		*items[0022] = (0076): Body 'Solid35'
+		*items[0023] = (0079): Body 'Solid36'
+		*items[0024] = (007C): Body 'Solid37'
+		*items[0025] = (007F): Body 'Solid38'
+		*items[0026] = (0082): Body 'Solid39'
+		*items[0027] = (0085): Body 'Solid40'
+		*items[0028] = (0088): Body 'Solid41'
+		*items[0029] = (008B): Body 'Solid42'
+		*items[002A] = (008E): Body 'Solid43'
+		*items[002B] = (0091): Body 'Solid44'
+		*items[002C] = (0096): Body 'Solid45'
+		*items[002D] = (0099): Body 'Solid46'
+		*items[002E] = (009C): Body 'Solid47'
+		*items[002F] = (009F): Body 'Solid48'
+		*items[0030] = (00A2): Body 'Solid49'
+	entries[00AB] = (00AF): ReferenceAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'flags=0000 u16_0=003 a0=(000,000,017)  index=00AB a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0012 u8_3=00 u32_0=0000
+		*items[0000] = (0006): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+		*items[0001] = (0008): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+		*items[0002] = (000B): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+		*items[0003] = (000E): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+		*items[0004] = (0011): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+		*items[0005] = (0014): ReferenceSolid '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+		*items[0006] = (0017): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+		*items[0007] = (001A): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+		*items[0008] = (001D): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+		*items[0009] = (0020): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+		*items[000A] = (0023): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+		*items[000B] = (0026): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+		*items[000C] = (0029): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+		*items[000D] = (002C): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+		*items[000E] = (002F): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+		*items[000F] = (0032): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+		*items[0010] = (0035): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+		*items[0011] = (0038): ReferenceSolid '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+		*items[0012] = (003B): ReferenceSolid '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+		*items[0013] = (003E): ReferenceSolid 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+		*items[0014] = (0041): ReferenceSolid 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+		*items[0015] = (0046): ReferenceSolid 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+		*items[0016] = (0049): ReferenceSolid 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+		*items[0017] = (004C): ReferenceSolid 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+		*items[0018] = (004F): ReferenceSolid 'RIGHT_TYPE-C.ipt:1'
+		*items[0019] = (0052): ReferenceSolid 'LEFT__X2_955C5934_X0_.ipt:1'
+		*items[001A] = (0055): ReferenceSolid 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+		*items[001B] = (0058): ReferenceSolid 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+		*items[001C] = (005B): ReferenceSolid '_X2_5BFC8F689694677F_X0_.ipt:1'
+		*items[001D] = (005E): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+		*items[001E] = (0064): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+		*items[001F] = (006A): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+		*items[0020] = (006E): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+		*items[0021] = (0071): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+		*items[0022] = (0074): ReferenceSolid 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+		*items[0023] = (0077): ReferenceSolid 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+		*items[0024] = (007A): ReferenceSolid 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+		*items[0025] = (007D): ReferenceSolid 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+		*items[0026] = (0080): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+		*items[0027] = (0083): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+		*items[0028] = (0086): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+		*items[0029] = (0089): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+		*items[002A] = (008C): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+		*items[002B] = (008F): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+		*items[002C] = (0094): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+		*items[002D] = (0097): ReferenceSolid 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+		*items[002E] = (009A): ReferenceSolid 'P_MAGNET.ipt:1'
+		*items[002F] = (009D): ReferenceSolid 'P_MAGNET.ipt:2'
+		*items[0030] = (00A0): ReferenceSolid '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+(0003): 189B3560 'NbDefault'  grIdx=0000
+	lst0[0000] = (00B0): DF9CA7B0 'NbDefault'   lst0=[] u16=000 val=""
+		ref_0 = (00B4): NBxEntry 'Engineer's Notebook'  index=00AC a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0001 u8_3=00 u32_0=0000 str0="NBxNotebook" a4=(000,000,000) u8_4=00
+(00B1): D9F96B81 lst0=() a1=(009E,0000,0000) b1=False a2=(0001,0000,0000) b2=False a3=(000F,0000) b3=False txt1="UCxModelStatesFolderEntry" txt2="UCxModelStatesFolderEntry" aX=(00 00 00 00 00)
+(00B2): 9E77CCC1  index=009E a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=000C u8_3=00 u32_0=0000 txt_1="PartInterfaceFolderEntry" b0=00
+(00B3): 18BAA333flags=0000 u16_0=004 a0=(000,000,015)  index=009E a2a=0000 u8_1a=01 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0010 u8_3=00 u32_0=0000
+	*items[0000] = (00B5): B4278FFF
+(00B5): B4278FFFflags=0000 u16_0=005 a0=(000,000,016)  index=0000 a2a=0000 u8_1a=00 a2=() u8_1b=01  a3=(000,000,000) b_1=False u8_2=00 grIdx=0011 u8_3=00 u32_0=0000 aX=(11 00 00 00 01 00 00 00)

@@ -1,0 +1,341 @@
+[2025]
+(0001): AcisEntityContainer 
+	wrappers[0000] = (0003): AsmEntityWrapper indexDC=0002 u8_0=00  wrapperIdx=0000
+		asm = (0066): ASM u32_0=031D schema=002C fmt="ASM BinaryFile4" selectedKey=0000 b1=True delta_state=-1 
+			history = (00BC): SatHistory s32_0=0  numbers=(2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94)  
+				delta_states[0002] = (00C3): 09780457 data_set=2 
+				delta_states[0003] = (00C4): 09780457 data_set=3 
+				delta_states[0004] = (00C5): 09780457 data_set=4 
+				delta_states[0005] = (00C6): 09780457 data_set=5 
+				delta_states[0006] = (00C7): 09780457 data_set=6 
+				delta_states[0007] = (00C8): 09780457 data_set=7 
+				delta_states[0008] = (00C9): 09780457 data_set=8 
+				delta_states[0009] = (00CA): 09780457 data_set=9 
+				delta_states[000A] = (00CB): 09780457 data_set=10 
+				delta_states[000B] = (00CC): 09780457 data_set=11 
+				delta_states[000C] = (00CD): 09780457 data_set=12 
+				delta_states[000D] = (00CE): 09780457 data_set=13 
+				delta_states[000E] = (00CF): 09780457 data_set=14 
+				delta_states[000F] = (00D0): 09780457 data_set=15 
+				delta_states[0010] = (00D1): 09780457 data_set=16 
+				delta_states[0011] = (00D2): 09780457 data_set=17 
+				delta_states[0012] = (00D3): 09780457 data_set=18 
+				delta_states[0013] = (00D4): 09780457 data_set=19 
+				delta_states[0014] = (00D5): 09780457 data_set=20 
+				delta_states[0015] = (00D6): 09780457 data_set=21 
+				delta_states[0016] = (00D7): 09780457 data_set=22 
+				delta_states[0017] = (00D8): 09780457 data_set=23 
+				delta_states[0018] = (00D9): 09780457 data_set=24 
+				delta_states[0019] = (00DA): 09780457 data_set=25 
+				delta_states[001A] = (00DB): 09780457 data_set=26 
+				delta_states[001B] = (00DC): 09780457 data_set=27 
+				delta_states[001C] = (00DD): 09780457 data_set=28 
+				delta_states[001D] = (00DE): 09780457 data_set=29 
+				delta_states[001E] = (00DF): 09780457 data_set=30 
+				delta_states[001F] = (00E0): 09780457 data_set=31 
+				delta_states[0020] = (00E1): 09780457 data_set=32 
+				delta_states[0021] = (00E2): 09780457 data_set=33 
+				delta_states[0022] = (00E3): 09780457 data_set=34 
+				delta_states[0023] = (00E4): 09780457 data_set=35 
+				delta_states[0024] = (00E5): 09780457 data_set=36 
+				delta_states[0025] = (00E6): 09780457 data_set=37 
+				delta_states[0026] = (00E7): 09780457 data_set=38 
+				delta_states[0027] = (00E8): 09780457 data_set=39 
+				delta_states[0028] = (00E9): 09780457 data_set=40 
+				delta_states[0029] = (00EA): 09780457 data_set=41 
+				delta_states[002A] = (00EB): 09780457 data_set=42 
+				delta_states[002B] = (00EC): 09780457 data_set=43 
+				delta_states[002C] = (00ED): 09780457 data_set=44 
+				delta_states[002D] = (00EE): 09780457 data_set=45 
+				delta_states[002E] = (00EF): 09780457 data_set=46 
+				delta_states[002F] = (00F0): 09780457 data_set=47 
+				delta_states[0030] = (00F1): 09780457 data_set=48 
+				delta_states[0031] = (00F2): 09780457 data_set=49 
+				delta_states[0032] = (00F3): 09780457 data_set=50 
+				delta_states[0033] = (00F4): 09780457 data_set=51 
+				delta_states[0034] = (00F5): 09780457 data_set=52 
+				delta_states[0035] = (00F6): 09780457 data_set=53 
+				delta_states[0036] = (00F7): 09780457 data_set=54 
+				delta_states[0037] = (00F8): 09780457 data_set=55 
+				delta_states[0038] = (00F9): 09780457 data_set=56 
+				delta_states[0039] = (00FA): 09780457 data_set=57 
+				delta_states[003A] = (00FB): 09780457 data_set=58 
+				delta_states[003B] = (00FC): 09780457 data_set=59 
+				delta_states[003C] = (00FD): 09780457 data_set=60 
+				delta_states[003D] = (00FE): 09780457 data_set=61 
+				delta_states[003E] = (00FF): 09780457 data_set=62 
+				delta_states[003F] = (0100): 09780457 data_set=63 
+				delta_states[0040] = (0101): 09780457 data_set=64 
+				delta_states[0041] = (0102): 09780457 data_set=65 
+				delta_states[0042] = (0103): 09780457 data_set=66 
+				delta_states[0043] = (0104): 09780457 data_set=67 
+				delta_states[0044] = (0105): 09780457 data_set=68 
+				delta_states[0045] = (0106): 09780457 data_set=69 
+				delta_states[0046] = (0107): 09780457 data_set=70 
+				delta_states[0047] = (0108): 09780457 data_set=71 
+				delta_states[0048] = (0109): 09780457 data_set=72 
+				delta_states[0049] = (010A): 09780457 data_set=73 
+				delta_states[004A] = (010B): 09780457 data_set=74 
+				delta_states[004B] = (010C): 09780457 data_set=75 
+				delta_states[004C] = (010D): 09780457 data_set=76 
+				delta_states[004D] = (010E): 09780457 data_set=77 
+				delta_states[004E] = (010F): 09780457 data_set=78 
+				delta_states[004F] = (0110): 09780457 data_set=79 
+				delta_states[0050] = (0111): 09780457 data_set=80 
+				delta_states[0051] = (0112): 09780457 data_set=81 
+				delta_states[0052] = (0113): 09780457 data_set=82 
+				delta_states[0053] = (0114): 09780457 data_set=83 
+				delta_states[0054] = (0115): 09780457 data_set=84 
+				delta_states[0055] = (0116): 09780457 data_set=85 
+				delta_states[0056] = (0117): 09780457 data_set=86 
+				delta_states[0057] = (0118): 09780457 data_set=87 
+				delta_states[0058] = (0119): 09780457 data_set=88 
+				delta_states[0059] = (011A): 09780457 data_set=89 
+				delta_states[005A] = (011B): 09780457 data_set=90 
+				delta_states[005B] = (011C): 09780457 data_set=91 
+				delta_states[005C] = (011D): 09780457 data_set=92 
+				delta_states[005D] = (011E): 09780457 data_set=93 
+				delta_states[005E] = (011F): 09780457 data_set=94 
+				ref_1 = (0120): 09780457 data_set=-1 
+	wrappers[0001] = (0004): AsmEntityWrapper indexDC=001B u8_0=00  wrapperIdx=0001
+		*asm = (0066): ASM
+	wrappers[0002] = (0005): AsmEntityWrapper indexDC=0020 u8_0=00  wrapperIdx=0002
+		*asm = (0066): ASM
+	wrappers[0003] = (0006): AsmEntityWrapper indexDC=0025 u8_0=00  wrapperIdx=0003
+		*asm = (0066): ASM
+	wrappers[0004] = (0007): AsmEntityWrapper indexDC=002A u8_0=00  wrapperIdx=0004
+		*asm = (0066): ASM
+	wrappers[0005] = (0008): AsmEntityWrapper indexDC=002F u8_0=00  wrapperIdx=0005
+		*asm = (0066): ASM
+	wrappers[0006] = (0009): AsmEntityWrapper indexDC=0034 u8_0=00  wrapperIdx=0006
+		*asm = (0066): ASM
+	wrappers[0007] = (000A): AsmEntityWrapper indexDC=0039 u8_0=00  wrapperIdx=0007
+		*asm = (0066): ASM
+	wrappers[0008] = (000B): AsmEntityWrapper indexDC=003E u8_0=00  wrapperIdx=0008
+		*asm = (0066): ASM
+	wrappers[0009] = (000C): AsmEntityWrapper indexDC=0043 u8_0=00  wrapperIdx=0009
+		*asm = (0066): ASM
+	wrappers[000A] = (000D): AsmEntityWrapper indexDC=0048 u8_0=00  wrapperIdx=000A
+		*asm = (0066): ASM
+	wrappers[000B] = (000E): AsmEntityWrapper indexDC=004D u8_0=00  wrapperIdx=000B
+		*asm = (0066): ASM
+	wrappers[000C] = (000F): AsmEntityWrapper indexDC=0052 u8_0=00  wrapperIdx=000C
+		*asm = (0066): ASM
+	wrappers[000D] = (0010): AsmEntityWrapper indexDC=0057 u8_0=00  wrapperIdx=000D
+		*asm = (0066): ASM
+	wrappers[000E] = (0011): AsmEntityWrapper indexDC=005C u8_0=00  wrapperIdx=000E
+		*asm = (0066): ASM
+	wrappers[000F] = (0012): AsmEntityWrapper indexDC=0061 u8_0=00  wrapperIdx=000F
+		*asm = (0066): ASM
+	wrappers[0010] = (0013): AsmEntityWrapper indexDC=0066 u8_0=00  wrapperIdx=0010
+		*asm = (0066): ASM
+	wrappers[0011] = (0014): AsmEntityWrapper indexDC=006B u8_0=00  wrapperIdx=0011
+		*asm = (0066): ASM
+	wrappers[0012] = (0015): AsmEntityWrapper indexDC=0070 u8_0=00  wrapperIdx=0012
+		*asm = (0066): ASM
+	wrappers[0013] = (0016): AsmEntityWrapper indexDC=0075 u8_0=00  wrapperIdx=0013
+		*asm = (0066): ASM
+	wrappers[0014] = (0017): AsmEntityWrapper indexDC=007A u8_0=00  wrapperIdx=0014
+		*asm = (0066): ASM
+	wrappers[0015] = (0018): AsmEntityWrapper indexDC=0081 u8_0=00  wrapperIdx=0015
+		*asm = (0066): ASM
+	wrappers[0016] = (0019): AsmEntityWrapper indexDC=0086 u8_0=00  wrapperIdx=0016
+		*asm = (0066): ASM
+	wrappers[0017] = (001A): AsmEntityWrapper indexDC=008B u8_0=00  wrapperIdx=0017
+		*asm = (0066): ASM
+	wrappers[0018] = (001B): AsmEntityWrapper indexDC=0090 u8_0=00  wrapperIdx=0018
+		*asm = (0066): ASM
+	wrappers[0019] = (001C): AsmEntityWrapper indexDC=0095 u8_0=00  wrapperIdx=0019
+		*asm = (0066): ASM
+	wrappers[001A] = (001D): AsmEntityWrapper indexDC=009A u8_0=00  wrapperIdx=001A
+		*asm = (0066): ASM
+	wrappers[001B] = (001E): AsmEntityWrapper indexDC=009F u8_0=00  wrapperIdx=001B
+		*asm = (0066): ASM
+	wrappers[001C] = (001F): AsmEntityWrapper indexDC=00A4 u8_0=00  wrapperIdx=001C
+		*asm = (0066): ASM
+	wrappers[001D] = (0020): AsmEntityWrapper indexDC=00A9 u8_0=00  wrapperIdx=001D
+		*asm = (0066): ASM
+	wrappers[001E] = (0021): AsmEntityWrapper indexDC=00B1 u8_0=00  wrapperIdx=001E
+		*asm = (0066): ASM
+	wrappers[001F] = (0022): AsmEntityWrapper indexDC=00BB u8_0=00  wrapperIdx=001F
+		*asm = (0066): ASM
+	wrappers[0020] = (0023): AsmEntityWrapper indexDC=00C1 u8_0=00  wrapperIdx=0020
+		*asm = (0066): ASM
+	wrappers[0021] = (0024): AsmEntityWrapper indexDC=00C6 u8_0=00  wrapperIdx=0021
+		*asm = (0066): ASM
+	wrappers[0022] = (0025): AsmEntityWrapper indexDC=00CB u8_0=00  wrapperIdx=0022
+		*asm = (0066): ASM
+	wrappers[0023] = (0026): AsmEntityWrapper indexDC=00D0 u8_0=00  wrapperIdx=0023
+		*asm = (0066): ASM
+	wrappers[0024] = (0027): AsmEntityWrapper indexDC=00D4 u8_0=00  wrapperIdx=0024
+		*asm = (0066): ASM
+	wrappers[0025] = (0028): AsmEntityWrapper indexDC=00D8 u8_0=00  wrapperIdx=0025
+		*asm = (0066): ASM
+	wrappers[0026] = (0029): AsmEntityWrapper indexDC=00DC u8_0=00  wrapperIdx=0026
+		*asm = (0066): ASM
+	wrappers[0027] = (002A): AsmEntityWrapper indexDC=00E1 u8_0=00  wrapperIdx=0027
+		*asm = (0066): ASM
+	wrappers[0028] = (002B): AsmEntityWrapper indexDC=00E6 u8_0=00  wrapperIdx=0028
+		*asm = (0066): ASM
+	wrappers[0029] = (002C): AsmEntityWrapper indexDC=00EB u8_0=00  wrapperIdx=0029
+		*asm = (0066): ASM
+	wrappers[002A] = (002D): AsmEntityWrapper indexDC=00F0 u8_0=00  wrapperIdx=002A
+		*asm = (0066): ASM
+	wrappers[002B] = (002E): AsmEntityWrapper indexDC=00FC u8_0=03  wrapperIdx=002B
+		*asm = (0066): ASM
+	wrappers[002C] = (002F): AsmEntityWrapper indexDC=00FF u8_0=00  wrapperIdx=002C
+		*asm = (0066): ASM
+	wrappers[002D] = (0030): AsmEntityWrapper indexDC=0104 u8_0=00  wrapperIdx=002D
+		*asm = (0066): ASM
+	wrappers[002E] = (0031): AsmEntityWrapper indexDC=0109 u8_0=00  wrapperIdx=002E
+		*asm = (0066): ASM
+	wrappers[002F] = (0032): AsmEntityWrapper indexDC=010E u8_0=00  wrapperIdx=002F
+		*asm = (0066): ASM
+	wrappers[0030] = (0033): AsmEntityWrapper indexDC=0112 u8_0=00  wrapperIdx=0030
+		*asm = (0066): ASM
+(0002): BrepComponent  length=0000 angle=0000
+	components[0016] = (0034): 6D0B7807dcCreatorIdx=0016 u16_0=205  f0=1 u16_1=300 a0=[000,000] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0067): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[001A] = (0035): 6D0B7807dcCreatorIdx=001A u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0068): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[001F] = (0036): 6D0B7807dcCreatorIdx=001F u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0069): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0024] = (0037): 6D0B7807dcCreatorIdx=0024 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (006A): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0029] = (0038): 6D0B7807dcCreatorIdx=0029 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (006B): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[002E] = (0039): 6D0B7807dcCreatorIdx=002E u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (006C): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0033] = (003A): 6D0B7807dcCreatorIdx=0033 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (006D): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0038] = (003B): 6D0B7807dcCreatorIdx=0038 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (006E): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[003D] = (003C): 6D0B7807dcCreatorIdx=003D u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (006F): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0042] = (003D): 6D0B7807dcCreatorIdx=0042 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0070): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0047] = (003E): 6D0B7807dcCreatorIdx=0047 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0071): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[004C] = (003F): 6D0B7807dcCreatorIdx=004C u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0072): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0051] = (0040): 6D0B7807dcCreatorIdx=0051 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0073): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0056] = (0041): 6D0B7807dcCreatorIdx=0056 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0074): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[005B] = (0042): 6D0B7807dcCreatorIdx=005B u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0075): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0060] = (0043): 6D0B7807dcCreatorIdx=0060 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0076): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0065] = (0044): 6D0B7807dcCreatorIdx=0065 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0077): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[006A] = (0045): 6D0B7807dcCreatorIdx=006A u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0078): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[006F] = (0046): 6D0B7807dcCreatorIdx=006F u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0079): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0074] = (0047): 6D0B7807dcCreatorIdx=0074 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (007A): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0079] = (0048): 6D0B7807dcCreatorIdx=0079 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (007B): 66085B35dcCreatorIdx=000F u16_0=10D 
+		components[004F] = (007C): ABD292FDdcCreatorIdx=004F u16_0=102  aX=(01 00 00 00 00 00 0B 00 02 00 00 00 9A 99 99 99 99 99 B9 3F 28 AE 98 14 BE C0 EC 3F 00 00 00 00 00 00 00 00 01 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+		components[0081] = (007D): ABD292FDdcCreatorIdx=0081 u16_0=102  aX=(01 00 00 00 00 00 03 00 02 00 00 00 A0 99 99 99 99 99 B9 3F 2A AE 98 14 BE C0 EC 3F 00 00 00 00 00 00 00 00 01 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+	components[0080] = (0049): 6D0B7807dcCreatorIdx=0080 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (007E): 66085B35dcCreatorIdx=000F u16_0=10D 
+		components[00BE] = (007F): 66085B35dcCreatorIdx=00BE u16_0=102 
+		components[0155] = (0080): ABD292FDdcCreatorIdx=0155 u16_0=102  aX=(01 00 00 00 00 00 18 00 02 00 00 00 34 33 33 33 33 33 C3 3F 00 00 00 00 00 00 14 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+		components[01A4] = (0081): 66085B35dcCreatorIdx=01A4 u16_0=102 
+		components[022E] = (0082): ABD292FDdcCreatorIdx=022E u16_0=102  aX=(01 00 00 00 00 00 11 00 02 00 00 00 00 00 00 00 00 00 00 00 97 99 99 99 99 99 C9 3F 00 00 00 00 00 00 00 00 01 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+	components[0085] = (004A): 6D0B7807dcCreatorIdx=0085 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0083): 66085B35dcCreatorIdx=000F u16_0=10D 
+		components[002B] = (0084): D797B7B9dcCreatorIdx=002B u16_0=103  a0=(0003,0001) txt1="" a1=(0.6,0,1.5708,0.35,0) txt2="" a2=Vector (1.5, 0.0, 0.0) a3=(0002,0000) a4=(100,000,100) a5=(00,00) txt3="" txt4="" aX=(00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+	components[008A] = (004B): 6D0B7807dcCreatorIdx=008A u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0085): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[008F] = (004C): 6D0B7807dcCreatorIdx=008F u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0086): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0094] = (004D): 6D0B7807dcCreatorIdx=0094 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0087): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0099] = (004E): 6D0B7807dcCreatorIdx=0099 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0088): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[009E] = (004F): 6D0B7807dcCreatorIdx=009E u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (0089): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00A3] = (0050): 6D0B7807dcCreatorIdx=00A3 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (008A): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00A8] = (0051): 6D0B7807dcCreatorIdx=00A8 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[0050] = (008B): 66085B35dcCreatorIdx=0050 u16_0=102 
+		components[00F9] = (008C): 66085B35dcCreatorIdx=00F9 u16_0=102 
+		components[0169] = (008D): D797B7B9dcCreatorIdx=0169 u16_0=103  a0=(0003,0002) txt1="" a1=(0.55,0.46,0,0.31,0) txt2="" a2=Vector (4.21, 0.0, 0.0) a3=(0002,0001) a4=(100,000,100) a5=(00,00) txt3="" txt4="" aX=(00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+		components[03AF] = (008E): 66085B35dcCreatorIdx=03AF u16_0=102 
+		components[04CC] = (008F): 66085B35dcCreatorIdx=04CC u16_0=102 
+		components[0606] = (0090): 66085B35dcCreatorIdx=0606 u16_0=102 
+		components[0D89] = (0091): 66085B35dcCreatorIdx=0D89 u16_0=102 
+		components[0ED1] = (0092): 66085B35dcCreatorIdx=0ED1 u16_0=102 
+		components[0EEE] = (0093): 66085B35dcCreatorIdx=0EEE u16_0=104 
+		components[123C] = (0094): ABD292FDdcCreatorIdx=123C u16_0=102  aX=(08 00 00 00 00 00 51 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5B 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 60 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 65 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6A 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6F 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 79 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+	components[00B0] = (0052): 6D0B7807dcCreatorIdx=00B0 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[0050] = (0095): 66085B35dcCreatorIdx=0050 u16_0=102 
+		components[00F9] = (0096): 66085B35dcCreatorIdx=00F9 u16_0=102 
+		components[0169] = (0097): D797B7B9dcCreatorIdx=0169 u16_0=103  a0=(0003,0002) txt1="" a1=(0.55,0.46,0,0.31,0) txt2="" a2=Vector (4.21, 0.0, 0.0) a3=(0002,0001) a4=(100,000,100) a5=(00,00) txt3="" txt4="" aX=(00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+		components[03AF] = (0098): 66085B35dcCreatorIdx=03AF u16_0=102 
+		components[04CC] = (0099): 66085B35dcCreatorIdx=04CC u16_0=102 
+		components[0606] = (009A): 66085B35dcCreatorIdx=0606 u16_0=102 
+		components[0D89] = (009B): 66085B35dcCreatorIdx=0D89 u16_0=102 
+		components[0ED1] = (009C): 66085B35dcCreatorIdx=0ED1 u16_0=102 
+		components[0EEE] = (009D): 66085B35dcCreatorIdx=0EEE u16_0=104 
+		components[123C] = (009E): ABD292FDdcCreatorIdx=123C u16_0=102  aX=(08 00 00 00 00 00 51 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5B 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 60 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 65 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6A 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6F 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 79 00 02 00 00 00 3D 0A D7 A3 70 3D CA 3F 2A 5C 8F C2 F5 28 CC 3F 39 9D 52 A2 46 DF A1 BF 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+	components[00BA] = (0053): 6D0B7807dcCreatorIdx=00BA u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[0063] = (009F): ABD292FDdcCreatorIdx=0063 u16_0=102  aX=(01 00 00 00 00 00 D4 00 02 00 00 00 9A 99 99 99 99 99 D9 3F 00 00 00 00 00 00 E0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+		components[2447] = (00A0): BFED36A9dcCreatorIdx=2447 u16_0=109  a1=Vector (-1.7000000000000006, 0.0, 0.0) a2=Vector (-1.0, 2.3574450883586557e-16, 0.0) a3=Vector (0.0, 0.0, 1.0) lst0=()
+			components[0063] = (00BD): 66085B35dcCreatorIdx=0063 u16_0=102 
+		components[2456] = (00A1): BFED36A9dcCreatorIdx=2456 u16_0=109  a1=Vector (-1.6653345369377348e-16, -2.4999999999999996, 0.0) a2=Vector (2.0816681711721685e-16, 1.0, 0.0) a3=Vector (-0.0, 0.0, 1.0) lst0=()
+			components[0063] = (00BE): 66085B35dcCreatorIdx=0063 u16_0=102 
+			components[2447] = (00BF): BFED36A9dcCreatorIdx=2447 u16_0=109  a1=Vector (-1.7000000000000006, 0.0, 0.0) a2=Vector (-1.0, 2.3574450883586557e-16, 0.0) a3=Vector (0.0, 0.0, 1.0) lst0=()
+				components[0063] = (0121): 66085B35dcCreatorIdx=0063 u16_0=102 
+		components[2584] = (00A2): ABD292FDdcCreatorIdx=2584 u16_0=102  aX=(02 00 00 00 00 00 70 00 02 00 00 00 9A 99 99 99 99 99 A9 3F 00 00 00 00 00 00 E0 3F 00 00 00 00 00 00 00 00 02 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 00 02 00 00 00 9A 99 99 99 99 99 A9 3F 00 00 00 00 00 00 E0 3F 00 00 00 00 00 00 00 00 02 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+		components[287D] = (00A3): ABD292FDdcCreatorIdx=287D u16_0=102  aX=(02 00 00 00 00 00 63 02 02 00 00 00 4A 0C 02 2B 87 16 D9 3F 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 93 02 02 00 00 00 4A 0C 02 2B 87 16 D9 3F 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+		components[293F] = (00A4): 6985F652dcCreatorIdx=293F u16_0=108  a0=Vector (0.0, 0.0, 1.0) a1=Vector (-3.3306690738754696e-16, 4.440892098500626e-16, 0.5) u32_0=0002 f0=1.5708 b0=False lst0=()
+			components[2584] = (00C0): 66085B35dcCreatorIdx=2584 u16_0=102 
+			components[287D] = (00C1): 66085B35dcCreatorIdx=287D u16_0=102 
+		components[3DA5] = (00A5): 66085B35dcCreatorIdx=3DA5 u16_0=104 
+		components[4C0E] = (00A6): D797B7B9dcCreatorIdx=4C0E u16_0=103  a0=(0003,0000) txt1="" a1=(0,0,0,0.5,0) txt2="" a2=Vector (0.5, 0.0, 0.0) a3=(0004,0001) a4=(100,000,100) a5=(00,00) txt3="" txt4="" aX=(00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+		components[4EB3] = (00A7): 66085B35dcCreatorIdx=4EB3 u16_0=101 
+		components[4F97] = (00A8): D797B7B9dcCreatorIdx=4F97 u16_0=103  a0=(0003,0000) txt1="" a1=(0,0,0,0.6,0) txt2="" a2=Vector (0.010000000000000002, 0.0, 0.0) a3=(0008,0000) a4=(100,000,100) a5=(00,00) txt3="" txt4="" aX=(00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00)
+	components[00C0] = (0054): 6D0B7807dcCreatorIdx=00C0 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00A9): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00C5] = (0055): 6D0B7807dcCreatorIdx=00C5 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00AA): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00CA] = (0056): 6D0B7807dcCreatorIdx=00CA u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00AB): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00CF] = (0057): 6D0B7807dcCreatorIdx=00CF u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00AC): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00D3] = (0058): 6D0B7807dcCreatorIdx=00D3 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00AD): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00D7] = (0059): 6D0B7807dcCreatorIdx=00D7 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00AE): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00DB] = (005A): 6D0B7807dcCreatorIdx=00DB u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00AF): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00E0] = (005B): 6D0B7807dcCreatorIdx=00E0 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00B0): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00E5] = (005C): 6D0B7807dcCreatorIdx=00E5 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00B1): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00EA] = (005D): 6D0B7807dcCreatorIdx=00EA u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00B2): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00EF] = (005E): 6D0B7807dcCreatorIdx=00EF u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00B3): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[00F4] = (005F): 6D0B7807dcCreatorIdx=00F4 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000D] = (00B4): 66085B35dcCreatorIdx=000D u16_0=10D 
+	components[00F8] = (0060): 66085B35dcCreatorIdx=00F8 u16_0=208 
+	components[00FE] = (0061): 6D0B7807dcCreatorIdx=00FE u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00B5): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0103] = (0062): 6D0B7807dcCreatorIdx=0103 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00B6): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0108] = (0063): 6D0B7807dcCreatorIdx=0108 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00B7): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[010D] = (0064): 6D0B7807dcCreatorIdx=010D u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00B8): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0111] = (0065): 6D0B7807dcCreatorIdx=0111 u16_0=205  f0=1 u16_1=000 a0=[] u32_2=0000 u16_2=000 b0=False a1=(0,0,1,0,-0,-0,1,0)
+		components[000F] = (00B9): 66085B35dcCreatorIdx=000F u16_0=10D 
+		components[003F] = (00BA): 66085B35dcCreatorIdx=003F u16_0=102 
+		components[004F] = (00BB): 6985F652dcCreatorIdx=004F u16_0=108  a0=Vector (0.0, 0.0, 1.0) a1=Vector (-2.80964160145123e-14, 5.014999998000011, -3.652648811277) u32_0=0003 f0=2.0944 b0=False lst0=()
+			components[003F] = (00C2): 66085B35dcCreatorIdx=003F u16_0=102 
+(0122): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+	nameTable = (0123): NameTable  lastIdx=0000 
+(0124): AcisEntityContainer 

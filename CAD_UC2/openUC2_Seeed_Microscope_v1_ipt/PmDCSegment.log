@@ -1,0 +1,2305 @@
+[2025]
+(0001): Document 'New Part'  u32_0=0040 uid_0={7F93C4BA-E4EC-4AD2-B6B5-349D8D92DF0D}  a0=(0000,0000,0000)        u32_1=80000111  u32_2=0001   segName="PmBRepSegment" f64_0=1 
+	next = (0002): FxAttrLabel a0=(0000,0000)    index=0002  uid={00000000-0000-0000-0000-000000000000}
+		*participants[0000] = (0008): BodiesFolder 'Solid Bodies'
+		*participants[0001] = (0009): BodiesFolder 'Surface Bodies'
+		*participants[0002] = (000A): BrowserFolder 'Origin'
+		*participants[0003] = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+		*participants[0004] = (000C): EndOfFeatures
+	component = (0003): PartComponent  a0=(100,000)    a1=(0000,0001) index=0115 u32_0=0078 lst1={{D09CCFCB-403B-0359-3117-519B51C4F3D2}:0001,{8EF06C89-11D1-043C-6000-7CB801F31BB0}:0003,{FF890279-4A2B-3DB4-72B9-82BC4B1A1122}:0001,{12115D87-4545-5E57-FD74-BAA2FC39CF26}:0031,{CE52DF42-11D0-D2D0-0008-CCBC0663DC09}:0006}    
+		objects[0000] = (000C): EndOfFeatures  flags=2200  index=0001 s32_0=-1
+			next = (0121): FxAttrLabel a0=(0000,0000)    index=FFFFFFFF  uid={00000000-0000-0000-0000-000000000000}
+		objects[0001] = (0007): SurfaceBody  flags=3004200  index=0002 
+			next = (011C): FxAttrLabel 'Solid1' a0=(0000,0000)    index=000B  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0004): NameTable
+		objects[0002] = (000A): BrowserFolder 'Origin'  flags=0200  index=0003
+			next = (011F): FxAttrLabel 'Origin' a0=(0000,0000)    index=000A  uid={00000000-0000-0000-0000-000000000000}
+				*participants[0000] = (000D): Plane 'YZ Plane'
+				*participants[0001] = (000E): Plane 'XZ Plane'
+				*participants[0002] = (000F): Plane 'XY Plane'
+				*participants[0003] = (0010): Line3D (-1,0,0)-(1,0,0)
+				*participants[0004] = (0011): Line3D (0,-1,0)-(0,1,0)
+				*participants[0005] = (0012): Line3D (0,0,-1)-(0,0,1)
+				*participants[0006] = (0013): Point3D - (0,0,0)
+		objects[0003] = (000D): Plane 'YZ Plane'  flags=20200  index=0004 flags2=428000   u32_1=0203 u32_2=0000 center=Vector (0.0, 0.0, 0.0) a1=Vector (-0.0, 1.0, 0.0) normal=Vector (0.0, -0.0, 1.0)
+			next = (0122): FxAttrLabel 'YZ Plane' a0=(0000,0000)    index=0003  uid={00000000-0000-0000-0000-000000000000}
+		objects[0004] = (000E): Plane 'XZ Plane'  flags=20200  index=0005 flags2=428000   u32_1=0000 center=Vector (0.0, 0.0, 0.0) a1=Vector (-1.0, 0.0, 0.0) normal=Vector (0.0, -0.0, 1.0)
+			next = (0123): FxAttrLabel 'XZ Plane' a0=(0000,0000)    index=0004  uid={00000000-0000-0000-0000-000000000000}
+		objects[0005] = (000F): Plane 'XY Plane'  flags=20200  index=0006 flags2=428000   u32_1=0000 center=Vector (0.0, 0.0, 0.0) a1=Vector (1.0, 0.0, -0.0) normal=Vector (-0.0, 1.0, 0.0)
+			next = (0124): FxAttrLabel 'XY Plane' a0=(0000,0000)    index=0005  uid={00000000-0000-0000-0000-000000000000}
+		objects[0006] = (0010): Line3D  flags=20200  index=0007 flags2=424000    pos=Vector (-1.0, 0.0, 0.0) dir=Vector (2.0, 0.0, 0.0) u8_0=00
+			next = (0125): FxAttrLabel 'X Axis' a0=(0000,0000)    index=0006  uid={00000000-0000-0000-0000-000000000000}
+		objects[0007] = (0011): Line3D  flags=20200  index=0008 flags2=424000    pos=Vector (0.0, -1.0, 0.0) dir=Vector (0.0, 2.0, 0.0) u8_0=00
+			next = (0126): FxAttrLabel 'Y Axis' a0=(0000,0000)    index=0007  uid={00000000-0000-0000-0000-000000000000}
+		objects[0008] = (0012): Line3D  flags=20200  index=0009 flags2=424000    pos=Vector (0.0, 0.0, -1.0) dir=Vector (0.0, 0.0, 2.0) u8_0=00
+			next = (0127): FxAttrLabel 'Z Axis' a0=(0000,0000)    index=0008  uid={00000000-0000-0000-0000-000000000000}
+		objects[0009] = (0013): Point3D  flags=20200  index=000A flags2=22000   pos=Vector (0.0, 0.0, 0.0)   
+			next = (0128): FxAttrLabel 'Center Point' a0=(0000,0000)    index=0009  uid={00000000-0000-0000-0000-000000000000}
+		objects[000A] = (0009): BodiesFolder 'Surface Bodies'  flags=0200  index=000B u16_0=001
+			next = (011E): FxAttrLabel 'Surface Bodies' a0=(0000,0000)    index=0002  uid={00000000-0000-0000-0000-000000000000}
+				*participants[0000] = (0100): CA02411F 'Srf1'
+		objects[000B] = (0008): BodiesFolder 'Solid Bodies'  flags=0200  index=000C u16_0=000
+			next = (011D): FxAttrLabel 'Solid Bodies' a0=(0000,0000)    index=0001  uid={00000000-0000-0000-0000-000000000000}
+				*participants[0000] = (0007): SurfaceBody 'Solid1'
+				*participants[0001] = (0021): SurfaceBody 'Solid2'
+				*participants[0002] = (0026): SurfaceBody 'Solid3'
+				*participants[0003] = (002B): SurfaceBody 'Solid4'
+				*participants[0004] = (0030): SurfaceBody 'Solid5'
+				*participants[0005] = (0035): SurfaceBody 'Solid6'
+				*participants[0006] = (003A): SurfaceBody 'Solid7'
+				*participants[0007] = (003F): SurfaceBody 'Solid8'
+				*participants[0008] = (0044): SurfaceBody 'Solid9'
+				*participants[0009] = (0049): SurfaceBody 'Solid10'
+				*participants[000A] = (004E): SurfaceBody 'Solid11'
+				*participants[000B] = (0053): SurfaceBody 'Solid12'
+				*participants[000C] = (0058): SurfaceBody 'Solid13'
+				*participants[000D] = (005D): SurfaceBody 'Solid14'
+				*participants[000E] = (0062): SurfaceBody 'Solid15'
+				*participants[000F] = (0067): SurfaceBody 'Solid16'
+				*participants[0010] = (006C): SurfaceBody 'Solid17'
+				*participants[0011] = (0071): SurfaceBody 'Solid18'
+				*participants[0012] = (0076): SurfaceBody 'Solid19'
+				*participants[0013] = (007B): SurfaceBody 'Solid20'
+				*participants[0014] = (0080): SurfaceBody 'Solid21'
+				*participants[0015] = (0087): SurfaceBody 'Solid22'
+				*participants[0016] = (008C): SurfaceBody 'Solid23'
+				*participants[0017] = (0091): SurfaceBody 'Solid24'
+				*participants[0018] = (0096): SurfaceBody 'Solid25'
+				*participants[0019] = (009B): SurfaceBody 'Solid26'
+				*participants[001A] = (00A0): SurfaceBody 'Solid27'
+				*participants[001B] = (00A5): SurfaceBody 'Solid28'
+				*participants[001C] = (00AA): SurfaceBody 'Solid29'
+				*participants[001D] = (00AF): SurfaceBody 'Solid30'
+				*participants[001E] = (00B7): SurfaceBody 'Solid31'
+				*participants[001F] = (00C1): SurfaceBody 'Solid32'
+				*participants[0020] = (00C7): SurfaceBody 'Solid33'
+				*participants[0021] = (00CC): SurfaceBody 'Solid34'
+				*participants[0022] = (00D1): SurfaceBody 'Solid35'
+				*participants[0023] = (00D6): SurfaceBody 'Solid36'
+				*participants[0024] = (00DA): SurfaceBody 'Solid37'
+				*participants[0025] = (00DE): SurfaceBody 'Solid38'
+				*participants[0026] = (00E2): SurfaceBody 'Solid39'
+				*participants[0027] = (00E7): SurfaceBody 'Solid40'
+				*participants[0028] = (00EC): SurfaceBody 'Solid41'
+				*participants[0029] = (00F1): SurfaceBody 'Solid42'
+				*participants[002A] = (00F6): SurfaceBody 'Solid43'
+				*participants[002B] = (00FB): SurfaceBody 'Solid44'
+				*participants[002C] = (0104): SurfaceBody 'Solid45'
+				*participants[002D] = (0109): SurfaceBody 'Solid46'
+				*participants[002E] = (010E): SurfaceBody 'Solid47'
+				*participants[002F] = (0113): SurfaceBody 'Solid48'
+				*participants[0030] = (0117): SurfaceBody 'Solid49'
+		objects[000C] = (0014): 90874D60 'DCx'  flags=0200  index=000D s32_0=-1 s32_1=-1  u32_0=0000   u16_0=200 u32_1=0001 u16_1=001
+			ref_1 = (0129): CB072B3B a0=(0000,0810)  a1=(0,0,0,0,0) u32_0=0000 u8_0=00 a2=(1.79769e+308,1.79769e+308,1.79769e+308,-1.79769e+308,-1.79769e+308,-1.79769e+308) uid1={E711D13B-0BD3-44BD-AE24-F99D38350457} uid2={E711D13B-0BD3-44BD-AE24-F99D38350457} uid3={E711D13B-0BD3-44BD-AE24-F99D38350457} uid4={E711D13B-0BD3-44BD-AE24-F99D38350457}
+		objects[000D] = (0015): Transformation  flags=1020200  index=000E transformation= transformation={a0=|+000|0+00|00+0|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, 0],[0, 0, 0, 10]]}
+		objects[000E] = (0016): Parameter 'd0'  flags=34200  index=000F   valueNominal=1 valueModel=1   tolerance=NOMINAL u16_0=-1
+			unit = (012A): Unit   visible=True 
+				numerators[0000] = (0292): UnitRef magnitude=1 factor=1 Unit="" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+			formula = (012B): ParameterValue  value=1 type=003
+				unit = (0293): Unit   visible=True 
+					numerators[0000] = (036B): UnitEmpty magnitude=1 factor=1 Unit="" UnitOffset=0 UnitFactor=1 UnitSupportet=True
+		objects[000F] = (0017): AD0D42B2  flags=20200  index=0010 flags2=0004 u32_0=0000
+		objects[0010] = (0018): 3F36349F  flags=0200  index=0011 s32_0=-1   
+			*parameter = (0016): Parameter 'd0'=1
+			*ref_1 = (0017): AD0D42B2
+			*transformation = (0015): Transformation
+		objects[0011] = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'  flags=0200  index=0012 s32_0=2908  u32_0=0000  u16_0=842 u16_1=1F0 u8_0=00 a0=(0000,0000,0000) txt0="Standard" u32_1=0000 
+			next = (0120): FxAttrLabel 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam' a0=(0000,0000)    index=0077  uid={00000000-0000-0000-0000-000000000000}
+				*participants[0000] = (001B): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+				*participants[0001] = (001F): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+				*participants[0002] = (0024): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+				*participants[0003] = (0029): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+				*participants[0004] = (002E): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+				*participants[0005] = (0033): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+				*participants[0006] = (0038): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+				*participants[0007] = (003D): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+				*participants[0008] = (0042): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+				*participants[0009] = (0047): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+				*participants[000A] = (004C): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+				*participants[000B] = (0051): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+				*participants[000C] = (0056): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+				*participants[000D] = (005B): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+				*participants[000E] = (0060): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+				*participants[000F] = (0065): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+				*participants[0010] = (006A): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+				*participants[0011] = (006F): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+				*participants[0012] = (0074): DerivedOccDataCollector '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+				*participants[0013] = (0079): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+				*participants[0014] = (007E): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+				*participants[0015] = (0085): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+				*participants[0016] = (008A): DerivedOccDataCollector 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+				*participants[0017] = (008F): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+				*participants[0018] = (0094): DerivedOccDataCollector 'RIGHT_TYPE-C.ipt:1'
+				*participants[0019] = (0099): DerivedOccDataCollector 'LEFT__X2_955C5934_X0_.ipt:1'
+				*participants[001A] = (009E): DerivedOccDataCollector 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+				*participants[001B] = (00A3): DerivedOccDataCollector 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+				*participants[001C] = (00A8): DerivedOccDataCollector '_X2_5BFC8F689694677F_X0_.ipt:1'
+				*participants[001D] = (00AD): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+				*participants[001E] = (00B5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+				*participants[001F] = (00BC): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+				*participants[0020] = (00C5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+				*participants[0021] = (00CA): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+				*participants[0022] = (00CF): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+				*participants[0023] = (00D4): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+				*participants[0024] = (00D8): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+				*participants[0025] = (00DC): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+				*participants[0026] = (00E0): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+				*participants[0027] = (00E5): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+				*participants[0028] = (00EA): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+				*participants[0029] = (00EF): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+				*participants[002A] = (00F4): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+				*participants[002B] = (00F9): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+				*participants[002C] = (0102): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+				*participants[002D] = (0107): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+				*participants[002E] = (010C): DerivedOccDataCollector 'P_MAGNET.ipt:1'
+				*participants[002F] = (0111): DerivedOccDataCollector 'P_MAGNET.ipt:2'
+				*participants[0030] = (0115): DerivedOccDataCollector '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+			*lst0[0000] = (001B): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+			*lst0[0001] = (001F): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+			*lst0[0002] = (0024): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+			*lst0[0003] = (0029): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+			*lst0[0004] = (002E): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+			*lst0[0005] = (0033): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+			*lst0[0006] = (0038): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+			*lst0[0007] = (003D): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+			*lst0[0008] = (0042): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+			*lst0[0009] = (0047): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+			*lst0[000A] = (004C): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+			*lst0[000B] = (0051): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+			*lst0[000C] = (0056): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+			*lst0[000D] = (005B): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+			*lst0[000E] = (0060): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+			*lst0[000F] = (0065): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+			*lst0[0010] = (006A): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+			*lst0[0011] = (006F): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+			*lst0[0012] = (0074): DerivedOccDataCollector '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+			*lst0[0013] = (0079): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+			*lst0[0014] = (007E): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+			*lst0[0015] = (0085): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+			*lst0[0016] = (008A): DerivedOccDataCollector 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+			*lst0[0017] = (008F): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+			*lst0[0018] = (0094): DerivedOccDataCollector 'RIGHT_TYPE-C.ipt:1'
+			*lst0[0019] = (0099): DerivedOccDataCollector 'LEFT__X2_955C5934_X0_.ipt:1'
+			*lst0[001A] = (009E): DerivedOccDataCollector 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+			*lst0[001B] = (00A3): DerivedOccDataCollector 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+			*lst0[001C] = (00A8): DerivedOccDataCollector '_X2_5BFC8F689694677F_X0_.ipt:1'
+			*lst0[001D] = (00AD): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+			*lst0[001E] = (00B5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+			*lst0[001F] = (00BC): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+			*lst0[0020] = (00C5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+			*lst0[0021] = (00CA): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+			*lst0[0022] = (00CF): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+			*lst0[0023] = (00D4): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+			*lst0[0024] = (00D8): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+			*lst0[0025] = (00DC): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+			*lst0[0026] = (00E0): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+			*lst0[0027] = (00E5): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+			*lst0[0028] = (00EA): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+			*lst0[0029] = (00EF): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+			*lst0[002A] = (00F4): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+			*lst0[002B] = (00F9): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+			*lst0[002C] = (0102): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+			*lst0[002D] = (0107): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+			*lst0[002E] = (010C): DerivedOccDataCollector 'P_MAGNET.ipt:1'
+			*lst0[002F] = (0111): DerivedOccDataCollector 'P_MAGNET.ipt:2'
+			*lst0[0030] = (0115): DerivedOccDataCollector '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+			*ref_1 = (001A): 27ECB60E
+			*ref_2 = (0019): DerivedAssemblyComponentDefinition
+		objects[0012] = (0019): DerivedAssemblyComponentDefinition  flags=0200  index=0013 aX=(FF FF FF FF 5C 0B 00 00 06 00 00 00 00 00 00 00 00 00 00 00 67 66 66 66 FE 69 F8 40 00 00 00 00 00 00 F0 3F 00 00 00 00 00 00 24 40 00 00 00 00 00 00 24 40 00 00 00 00 00 00 24 40 00 00 00 00 00 00 24 40 02 00 00 30 00 00 00 00 06 00 00 30 00 00 00 00 00 00 00 00 00 00 24 40 00 00 00 00 01 00 00 00 7B 14 AE 47 E1 7A 84 3F 00 00 00 00 00 00 00 00 0C 00)
+		objects[0013] = (001A): 27ECB60E  flags=1000200  index=0014 s32_0=-1       u32_0=0000 aX=(00 00 00 00)
+			*ref_1 = (0018): 3F36349F
+			*ref_2 = (0014): 90874D60 'DCx'
+			*ref_3 = (0015): Transformation
+			*ref_5 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+			ref_6 = (012C): 1DCBFBA7   u8_0=00 u16_0=000  a1=[[[0295,1],[0296,1]]]
+				*ref_1 = (0294): 5BE20B76
+				a1[0, 0] = (0295): 0A52ED98  a0=(002,000,000) transformation= transformation={a0=|+000|0+00|00+0|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, 0],[0, 0, 0, 10]]} lst0={} u8_0=00 
+					*ref_1 = (0296): 1DCBFBA7 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				a1[0, 1] = (0296): 1DCBFBA7 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'   u8_0=00 u16_0=000  a1=[[[036C,1],[036D,1]],[[036E,1],[036F,1]],[[01AB,1],[02E0,1]],[[0370,1],[0371,1]],[[01C9,1],[02F2,1]],[[01D0,1],[02F6,1]],[[01D7,1],[02FA,1]],[[01DE,1],[02FE,1]],[[0372,1],[0373,1]],[[01EC,1],[0306,1]],[[01F3,1],[030A,1]],[[0374,1],[0375,1]],[[0233,1],[0333,1]],[[0239,1],[0337,1]],[[023F,1],[033B,1]],[[0376,1],[0377,1]],[[027F,1],[0360,1]],[[0286,1],[0364,1]],[[028C,1],[0368,1]]]
+					*owner = (001A): 27ECB60E
+					*ref_1 = (0295): 0A52ED98
+					a1[0, 0] = (036C): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|+000|0+0x|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, -17.35],[0, 0, 1, -67],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (036D): 1DCBFBA7 '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM_314'
+					a1[0, 1] = (036D): 1DCBFBA7 '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM_314'   u8_0=00 u16_0=000  a1=[[[012E,1],[0298,1]],[[0134,1],[029C,1]],[[013B,1],[02A0,1]],[[0142,1],[02A4,1]],[[0149,1],[02A8,1]],[[0150,1],[02AC,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (036C): 0A52ED98
+						a1[0, 0] = (012E): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|-000|0+0x|00-x|000+| m=[[-1, 0, 0, 0],[0, 1, 0, -12.6],[0, 0, -1, -3.19327],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (0298): 1DCBFBA7
+						a1[0, 1] = (0298): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0130,1],[029A,1]]]
+							*ref_0 = (036D): 1DCBFBA7 '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM_314'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (012E): 0A52ED98
+							a1[0, 0] = (0130): 5CE72F63 '102,102,102'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (029A): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (0298): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (001D): SurfaceBody
+							*a1[0, 1] = (029A): 80102AC1
+						a1[1, 0] = (0134): 0A52ED98  a0=(002,002,000) transformation= transformation={a0=|+000|00+x|0-0x|000+| m=[[1, 0, 0, 0],[0, 0, 1, -15.85],[0, -1, 0, -26.8265],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (029C): 1DCBFBA7
+						a1[1, 1] = (029C): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0136,1],[029E,1]]]
+							*ref_0 = (036D): 1DCBFBA7 '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM_314'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0134): 0A52ED98
+							a1[0, 0] = (0136): 5CE72F63 'Default'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (029E): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (029C): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (0022): SurfaceBody
+							*a1[0, 1] = (029E): 80102AC1
+						a1[2, 0] = (013B): 0A52ED98  a0=(002,003,000) transformation= transformation={a0=|+000|0+0x|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, -17.5],[0, 0, 1, -77.5771],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02A0): 1DCBFBA7
+						a1[2, 1] = (02A0): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[013D,1],[02A2,1]]]
+							*ref_0 = (036D): 1DCBFBA7 '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM_314'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (013B): 0A52ED98
+							a1[0, 0] = (013D): 5CE72F63 '207,215,232'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02A2): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02A0): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (0027): SurfaceBody
+							*a1[0, 1] = (02A2): 80102AC1
+						a1[3, 0] = (0142): 0A52ED98  a0=(002,004,000) transformation= transformation={a0=|+00x|0+00|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, -79],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02A4): 1DCBFBA7
+						a1[3, 1] = (02A4): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0144,1],[02A6,1]]]
+							*ref_0 = (036D): 1DCBFBA7 '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM_314'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0142): 0A52ED98
+							a1[0, 0] = (0144): 5CE72F63 '207,215,232'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02A6): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02A4): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (002C): SurfaceBody
+							*a1[0, 1] = (02A6): 80102AC1
+						a1[4, 0] = (0149): 0A52ED98  a0=(002,005,000) transformation= transformation={a0=|+000|0+0x|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, -17.35],[0, 0, 1, -67],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02A8): 1DCBFBA7
+						a1[4, 1] = (02A8): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[014B,1],[02AA,1]]]
+							*ref_0 = (036D): 1DCBFBA7 '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM_314'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0149): 0A52ED98
+							a1[0, 0] = (014B): 5CE72F63 '183,207,195'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02AA): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02A8): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (0031): SurfaceBody
+							*a1[0, 1] = (02AA): 80102AC1
+						a1[5, 0] = (0150): 0A52ED98  a0=(002,006,000) transformation= transformation={a0=|+00x|0+00|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, 0.5],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02AC): 1DCBFBA7
+						a1[5, 1] = (02AC): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0152,1],[02AE,1]]]
+							*ref_0 = (036D): 1DCBFBA7 '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM_314'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0150): 0A52ED98
+							a1[0, 0] = (0152): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02AE): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02AC): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (0036): SurfaceBody
+							*a1[0, 1] = (02AE): 80102AC1
+					a1[1, 0] = (036E): 0A52ED98  a0=(002,002,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 3],[0, 0, -1, -51.315],[0, 1, 0, -88.5529],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (036F): 1DCBFBA7 '00_SEEEDUINO_XIAO_MODEL_ASM_329'
+					a1[1, 1] = (036F): 1DCBFBA7 '00_SEEEDUINO_XIAO_MODEL_ASM_329'   u8_0=00 u16_0=000  a1=[[[0157,1],[02B0,1]],[[038C,1],[0378,1]],[[038D,1],[0379,1]],[[0181,1],[02C8,1]],[[0188,1],[02CC,1]],[[018F,1],[02D0,1]],[[0196,1],[02D4,1]],[[019D,1],[02D8,1]],[[01A4,1],[02DC,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (036E): 0A52ED98
+						a1[0, 0] = (0157): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|0+0x|-00x|00+x|000+| m=[[0, 1, 0, 78.5222],[-1, 0, 0, 129.534],[0, 0, 1, -101.543],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02B0): 1DCBFBA7
+						a1[0, 1] = (02B0): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0159,1],[02B2,1]]]
+							*ref_0 = (036F): 1DCBFBA7 '00_SEEEDUINO_XIAO_MODEL_ASM_329'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0157): 0A52ED98
+							a1[0, 0] = (0159): 5CE72F63 'Default'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02B2): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02B0): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (003B): SurfaceBody
+							*a1[0, 1] = (02B2): 80102AC1
+						a1[1, 0] = (038C): 0A52ED98  a0=(002,002,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 3],[0, 0, -1, -51.315],[0, 1, 0, -89.5529],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (0378): 1DCBFBA7
+						a1[1, 1] = (0378): 1DCBFBA7   u8_0=00 u16_0=000  a1=[[[015E,1],[02B4,1]],[[0165,1],[02B8,1]],[[016C,1],[02BC,1]]]
+							*owner = (001A): 27ECB60E
+							*ref_1 = (038C): 0A52ED98
+							a1[0, 0] = (015E): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 3],[0, 0, -1, -51.315],[0, 1, 0, -89.5529],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (02B4): 1DCBFBA7
+							a1[0, 1] = (02B4): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0160,1],[02B6,1]]]
+								*ref_0 = (0378): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (015E): 0A52ED98
+								a1[0, 0] = (0160): 5CE72F63 '51,51,51'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (02B6): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (02B4): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (0040): SurfaceBody
+								*a1[0, 1] = (02B6): 80102AC1
+							a1[1, 0] = (0165): 0A52ED98  a0=(002,002,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 3],[0, 0, -1, -51.315],[0, 1, 0, -89.5529],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (02B8): 1DCBFBA7
+							a1[1, 1] = (02B8): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0167,1],[02BA,1]]]
+								*ref_0 = (0378): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (0165): 0A52ED98
+								a1[0, 0] = (0167): 5CE72F63 '51,51,51'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (02BA): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (02B8): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (0045): SurfaceBody
+								*a1[0, 1] = (02BA): 80102AC1
+							a1[2, 0] = (016C): 0A52ED98  a0=(002,003,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 3],[0, 0, -1, -51.315],[0, 1, 0, -89.5529],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (02BC): 1DCBFBA7
+							a1[2, 1] = (02BC): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[016E,1],[02BE,1]]]
+								*ref_0 = (0378): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (016C): 0A52ED98
+								a1[0, 0] = (016E): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (02BE): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (02BC): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (004A): SurfaceBody
+								*a1[0, 1] = (02BE): 80102AC1
+						a1[2, 0] = (038D): 0A52ED98  a0=(002,003,000) transformation= transformation={a0=|00+x|0+0x|-00x|000+| m=[[0, 0, 1, 31.7],[0, 1, 0, -2.075],[-1, 0, 0, -86.2929],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (0379): 1DCBFBA7
+						a1[2, 1] = (0379): 1DCBFBA7   u8_0=00 u16_0=000  a1=[[[0173,1],[02C0,1]],[[017A,1],[02C4,1]]]
+							*owner = (001A): 27ECB60E
+							*ref_1 = (038D): 0A52ED98
+							a1[0, 0] = (0173): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|00+x|0+0x|-00x|000+| m=[[0, 0, 1, 31.7],[0, 1, 0, -2.075],[-1, 0, 0, -86.2929],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (02C0): 1DCBFBA7
+							a1[0, 1] = (02C0): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0175,1],[02C2,1]]]
+								*ref_0 = (0379): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (0173): 0A52ED98
+								a1[0, 0] = (0175): 5CE72F63 '51,51,51'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (02C2): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (02C0): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (004F): SurfaceBody
+								*a1[0, 1] = (02C2): 80102AC1
+							a1[1, 0] = (017A): 0A52ED98  a0=(002,002,000) transformation= transformation={a0=|00+x|0+0x|-00x|000+| m=[[0, 0, 1, 31.7],[0, 1, 0, -2.075],[-1, 0, 0, -86.2929],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (02C4): 1DCBFBA7
+							a1[1, 1] = (02C4): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[017C,1],[02C6,1]]]
+								*ref_0 = (0379): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (017A): 0A52ED98
+								a1[0, 0] = (017C): 5CE72F63 '51,51,51'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (02C6): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (02C4): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (0054): SurfaceBody
+								*a1[0, 1] = (02C6): 80102AC1
+						a1[3, 0] = (0181): 0A52ED98  a0=(002,004,000) transformation= transformation={a0=|0-00|-00x|00-x|000+| m=[[0, -1, 0, 0],[-1, 0, 0, -12.4],[0, 0, -1, -100.993],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02C8): 1DCBFBA7
+						a1[3, 1] = (02C8): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0183,1],[02CA,1]]]
+							*ref_0 = (036F): 1DCBFBA7 '00_SEEEDUINO_XIAO_MODEL_ASM_329'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0181): 0A52ED98
+							a1[0, 0] = (0183): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02CA): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02C8): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (0059): SurfaceBody
+							*a1[0, 1] = (02CA): 80102AC1
+						a1[4, 0] = (0188): 0A52ED98  a0=(002,005,000) transformation= transformation={a0=|+000|0+0x|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, -1.1636],[0, 0, 1, 5],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02CC): 1DCBFBA7
+						a1[4, 1] = (02CC): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[018A,1],[02CE,1]]]
+							*ref_0 = (036F): 1DCBFBA7 '00_SEEEDUINO_XIAO_MODEL_ASM_329'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0188): 0A52ED98
+							a1[0, 0] = (018A): 5CE72F63 '255,255,0'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02CE): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02CC): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (005E): SurfaceBody
+							*a1[0, 1] = (02CE): 80102AC1
+						a1[5, 0] = (018F): 0A52ED98  a0=(002,006,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 3],[0, 0, -1, -51.315],[0, 1, 0, -88.5529],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02D0): 1DCBFBA7
+						a1[5, 1] = (02D0): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0191,1],[02D2,1]]]
+							*ref_0 = (036F): 1DCBFBA7 '00_SEEEDUINO_XIAO_MODEL_ASM_329'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (018F): 0A52ED98
+							a1[0, 0] = (0191): 5CE72F63 '51,51,51'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02D2): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02D0): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (0063): SurfaceBody
+							*a1[0, 1] = (02D2): 80102AC1
+						a1[6, 0] = (0196): 0A52ED98  a0=(002,007,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 3],[0, 0, -1, -51.315],[0, 1, 0, -88.5529],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02D4): 1DCBFBA7
+						a1[6, 1] = (02D4): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0198,1],[02D6,1]]]
+							*ref_0 = (036F): 1DCBFBA7 '00_SEEEDUINO_XIAO_MODEL_ASM_329'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0196): 0A52ED98
+							a1[0, 0] = (0198): 5CE72F63 'Default'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02D6): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02D4): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (0068): SurfaceBody
+							*a1[0, 1] = (02D6): 80102AC1
+						a1[7, 0] = (019D): 0A52ED98  a0=(002,008,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 3],[0, 0, -1, -51.315],[0, 1, 0, -88.5529],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02D8): 1DCBFBA7
+						a1[7, 1] = (02D8): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[019F,1],[02DA,1]]]
+							*ref_0 = (036F): 1DCBFBA7 '00_SEEEDUINO_XIAO_MODEL_ASM_329'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (019D): 0A52ED98
+							a1[0, 0] = (019F): 5CE72F63 'Default'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02DA): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02D8): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (006D): SurfaceBody
+							*a1[0, 1] = (02DA): 80102AC1
+						a1[8, 0] = (01A4): 0A52ED98  a0=(002,009,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 3],[0, 0, -1, -51.315],[0, 1, 0, -88.5529],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02DC): 1DCBFBA7
+						a1[8, 1] = (02DC): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[01A6,1],[02DE,1]]]
+							*ref_0 = (036F): 1DCBFBA7 '00_SEEEDUINO_XIAO_MODEL_ASM_329'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (01A4): 0A52ED98
+							a1[0, 0] = (01A6): 5CE72F63 '51,51,51'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02DE): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02DC): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (0072): SurfaceBody
+							*a1[0, 1] = (02DE): 80102AC1
+					a1[2, 0] = (01AB): 0A52ED98  a0=(002,003,000) transformation= transformation={a0=|0+0x|+00x|00-x|000+| m=[[0, 1, 0, 0],[1, 0, 0, -2.85],[0, 0, -1, -100.993],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (02E0): 1DCBFBA7 '_X2_656370ED7247_X0_-35X35X10MM_330'
+					a1[2, 1] = (02E0): 1DCBFBA7 '_X2_656370ED7247_X0_-35X35X10MM_330'   u8_0=01 u16_0=00A  a1=[[[01AD,1],[02E2,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (01AB): 0A52ED98
+						a1[0, 0] = (01AD): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (02E2): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (02E0): 1DCBFBA7 '_X2_656370ED7247_X0_-35X35X10MM_330'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (0077): SurfaceBody
+						*a1[0, 1] = (02E2): 80102AC1
+					a1[3, 0] = (0370): 0A52ED98  a0=(002,004,000) transformation= transformation={a0=|-00x|0-0x|00+x|000+| m=[[-1, 0, 0, -25],[0, -1, 0, 23.65],[0, 0, 1, -56.5],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (0371): 1DCBFBA7 'FRONT__X2_4E9A514B529B_X0__MODE_ASM_335'
+					a1[3, 1] = (0371): 1DCBFBA7 'FRONT__X2_4E9A514B529B_X0__MODE_ASM_335'   u8_0=00 u16_0=000  a1=[[[01B2,1],[02E4,1]],[[038E,1],[037A,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (0370): 0A52ED98
+						a1[0, 0] = (01B2): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|00+x|+00x|0+0x|000+| m=[[0, 0, 1, -23],[1, 0, 0, 18.65],[0, 1, 0, -36.9265],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (02E4): 1DCBFBA7
+						a1[0, 1] = (02E4): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[01B4,1],[02E6,1]]]
+							*ref_0 = (0371): 1DCBFBA7 'FRONT__X2_4E9A514B529B_X0__MODE_ASM_335'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (01B2): 0A52ED98
+							a1[0, 0] = (01B4): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (02E6): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (02E4): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (007C): SurfaceBody
+							*a1[0, 1] = (02E6): 80102AC1
+						a1[1, 0] = (038E): 0A52ED98  a0=(002,002,000) transformation= transformation={a0=|00xx|xx0x|xx0x|000+| m=[[0, 0, 1, -21],[0.707107, -0.707107, 0, 52.3],[0.707107, 0.707107, 0, -84.7071],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (037A): 1DCBFBA7
+						a1[1, 1] = (037A): 1DCBFBA7   u8_0=00 u16_0=000  a1=[[[01B9,1],[02E8,1]],[[01C2,1],[02EE,1]]]
+							*owner = (001A): 27ECB60E
+							*ref_1 = (038E): 0A52ED98
+							a1[0, 0] = (01B9): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|0x0x|x0xx|x0xx|000+| m=[[0, 1, 0, -1],[-0.707107, 0, -0.707107, 50.8858],[-0.707107, 0, 0.707107, -83.2929],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (02E8): 1DCBFBA7
+							a1[0, 1] = (02E8): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[01BB,1],[02EA,1]],[[037B,1],[037C,1]]]
+								*ref_0 = (037A): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (01B9): 0A52ED98
+								a1[0, 0] = (01BB): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (02EA): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (02E8): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (0081): SurfaceBody
+								*a1[0, 1] = (02EA): 80102AC1
+								a1[1, 0] = (037B): 470BB79E  u16_0=009
+									*ref_4 = (037C): 1DCBFBA7
+								a1[1, 1] = (037C): 1DCBFBA7   u8_0=01 u16_0=001  a1=[[[0390,1],[0391,1]],[[0392,1],[0393,1]]]
+									*owner = (001A): 27ECB60E
+									*ref_1 = (037B): 470BB79E
+									a1[0, 0] = (0390): 253BE3EB  u32_0=001E  u8_0=00
+										*ref_1 = (0391): 80102AC1 'Arbeitsebene1'
+										*ref_2 = (0083): Plane 'Arbeitsebene1'
+									a1[0, 1] = (0391): 80102AC1 'Arbeitsebene1'   u8_0=01 u16_0=001 
+										*owner = (001A): 27ECB60E
+										*ref_2 = (0390): 253BE3EB
+									a1[1, 0] = (0392): 253BE3EB  u32_0=006D  u8_0=00
+										*ref_1 = (0393): 80102AC1 'Arbeitsebene2'
+										*ref_2 = (0084): Plane 'Arbeitsebene2'
+									a1[1, 1] = (0393): 80102AC1 'Arbeitsebene2'   u8_0=01 u16_0=001 
+										*owner = (001A): 27ECB60E
+										*ref_2 = (0392): 253BE3EB
+							a1[1, 0] = (01C2): 0A52ED98  a0=(002,002,000) transformation= transformation={a0=|00xx|xx0x|xx0x|000+| m=[[0, 0, 1, -21],[0.707107, -0.707107, 0, 52.3],[0.707107, 0.707107, 0, -84.7071],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (02EE): 1DCBFBA7
+							a1[1, 1] = (02EE): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[01C4,1],[02F0,1]]]
+								*ref_0 = (037A): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (01C2): 0A52ED98
+								a1[0, 0] = (01C4): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (02F0): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (02EE): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (0088): SurfaceBody
+								*a1[0, 1] = (02F0): 80102AC1
+					a1[4, 0] = (01C9): 0A52ED98  a0=(002,005,000) transformation= transformation={a0=|+00x|0+0x|00+x|000+| m=[[1, 0, 0, 28],[0, 1, 0, 23.65],[0, 0, 1, -56.5],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (02F2): 1DCBFBA7 'BACK__X2_4E9A514B529B_X0__336'
+					a1[4, 1] = (02F2): 1DCBFBA7 'BACK__X2_4E9A514B529B_X0__336'   u8_0=01 u16_0=00A  a1=[[[01CB,1],[02F4,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (01C9): 0A52ED98
+						a1[0, 0] = (01CB): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (02F4): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (02F2): 1DCBFBA7 'BACK__X2_4E9A514B529B_X0__336'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (008D): SurfaceBody
+						*a1[0, 1] = (02F4): 80102AC1
+					a1[5, 0] = (01D0): 0A52ED98  a0=(002,006,000) transformation= transformation={a0=|+00x|0+0x|00+x|000+| m=[[1, 0, 0, -21.5],[0, 1, 0, 72.15],[0, 0, 1, 1],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (02F6): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__337'
+					a1[5, 1] = (02F6): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__337'   u8_0=01 u16_0=00A  a1=[[[01D2,1],[02F8,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (01D0): 0A52ED98
+						a1[0, 0] = (01D2): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (02F8): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (02F6): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__337'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (0092): SurfaceBody
+						*a1[0, 1] = (02F8): 80102AC1
+					a1[6, 0] = (01D7): 0A52ED98  a0=(002,008,000) transformation= transformation={a0=|+00x|0+0x|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, -28.35],[0, 0, 1, -56.5],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (02FA): 1DCBFBA7 'RIGHT_TYPE-C_339'
+					a1[6, 1] = (02FA): 1DCBFBA7 'RIGHT_TYPE-C_339'   u8_0=01 u16_0=00A  a1=[[[01D9,1],[02FC,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (01D7): 0A52ED98
+						a1[0, 0] = (01D9): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (02FC): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (02FA): 1DCBFBA7 'RIGHT_TYPE-C_339'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (0097): SurfaceBody
+						*a1[0, 1] = (02FC): 80102AC1
+					a1[7, 0] = (01DE): 0A52ED98  a0=(002,009,000) transformation= transformation={a0=|+00x|0+0x|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, 78.65],[0, 0, 1, -56.5],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (02FE): 1DCBFBA7 'LEFT__X2_955C5934_X0__340'
+					a1[7, 1] = (02FE): 1DCBFBA7 'LEFT__X2_955C5934_X0__340'   u8_0=01 u16_0=00A  a1=[[[01E0,1],[0300,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (01DE): 0A52ED98
+						a1[0, 0] = (01E0): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (0300): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (02FE): 1DCBFBA7 'LEFT__X2_955C5934_X0__340'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (009C): SurfaceBody
+						*a1[0, 1] = (0300): 80102AC1
+					a1[8, 0] = (0372): 0A52ED98  a0=(002,00A,000) transformation= transformation={a0=|+00x|0+0x|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, 23.65],[0, 0, 1, 4],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (0373): 1DCBFBA7 'TOP__X2_4E9A514B529B_X0__MODEL_ASM_342'
+					a1[8, 1] = (0373): 1DCBFBA7 'TOP__X2_4E9A514B529B_X0__MODEL_ASM_342'   u8_0=00 u16_0=000  a1=[[[01E5,1],[0302,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (0372): 0A52ED98
+						a1[0, 0] = (01E5): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|+00x|0+0x|00+x|000+| m=[[1, 0, 0, -464.223],[0, 1, 0, -346.616],[0, 0, 1, 1],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (0302): 1DCBFBA7
+						a1[0, 1] = (0302): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[01E7,1],[0304,1]]]
+							*ref_0 = (0373): 1DCBFBA7 'TOP__X2_4E9A514B529B_X0__MODEL_ASM_342'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (01E5): 0A52ED98
+							a1[0, 0] = (01E7): 5CE72F63 '51,51,51'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (0304): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (0302): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (00A1): SurfaceBody
+							*a1[0, 1] = (0304): 80102AC1
+					a1[9, 0] = (01EC): 0A52ED98  a0=(002,00B,000) transformation= transformation={a0=|+00x|0-0x|00-x|000+| m=[[1, 0, 0, 0],[0, -1, 0, 47.3],[0, 0, -1, -113],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (0306): 1DCBFBA7 'BOTTOM__X2_4E9A514B529B_X0__343'
+					a1[9, 1] = (0306): 1DCBFBA7 'BOTTOM__X2_4E9A514B529B_X0__343'   u8_0=01 u16_0=00A  a1=[[[01EE,1],[0308,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (01EC): 0A52ED98
+						a1[0, 0] = (01EE): 5CE72F63 '51,51,51'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (0308): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (0306): 1DCBFBA7 'BOTTOM__X2_4E9A514B529B_X0__343'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (00A6): SurfaceBody
+						*a1[0, 1] = (0308): 80102AC1
+					a1[10, 0] = (01F3): 0A52ED98  a0=(002,00C,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 0],[0, 0, -1, -20.35],[0, 1, 0, -38.5],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (030A): 1DCBFBA7 '_X2_5BFC8F689694677F_X0__344'
+					a1[10, 1] = (030A): 1DCBFBA7 '_X2_5BFC8F689694677F_X0__344'   u8_0=01 u16_0=00A  a1=[[[01F5,1],[030C,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (01F3): 0A52ED98
+						a1[0, 0] = (01F5): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (030C): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (030A): 1DCBFBA7 '_X2_5BFC8F689694677F_X0__344'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (00AB): SurfaceBody
+						*a1[0, 1] = (030C): 80102AC1
+					a1[11, 0] = (0374): 0A52ED98  a0=(002,00D,000) transformation= transformation={a0=|+00x|00-x|0+0x|000+| m=[[1, 0, 0, 0],[0, 0, -1, 49.65],[0, 1, 0, 4],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (0375): 1DCBFBA7 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM_351'
+					a1[11, 1] = (0375): 1DCBFBA7 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM_351'   u8_0=00 u16_0=000  a1=[[[01FA,1],[030E,1]],[[0204,1],[0315,1]],[[020D,1],[031C,1]],[[021E,1],[0327,1]],[[0225,1],[032B,1]],[[022C,1],[032F,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (0374): 0A52ED98
+						a1[0, 0] = (01FA): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|0-0x|-00x|00-x|000+| m=[[0, -1, 0, 0.0245283],[-1, 0, 0, 49.65],[0, 0, -1, 54.1],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (030E): 1DCBFBA7
+						a1[0, 1] = (030E): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[01FC,1],[0310,1]],[[037D,1],[037E,1]]]
+							*ref_0 = (0375): 1DCBFBA7 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM_351'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (01FA): 0A52ED98
+							a1[0, 0] = (01FC): 5CE72F63 'IPHT_Grün'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (0310): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (030E): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (00B0): SurfaceBody
+							*a1[0, 1] = (0310): 80102AC1
+							a1[1, 0] = (037D): 470BB79E  u16_0=009
+								*ref_4 = (037E): 1DCBFBA7
+							a1[1, 1] = (037E): 1DCBFBA7   u8_0=00 u16_0=000  a1=[[[0394,1],[0395,1]],[[0396,1],[0397,1]],[[0398,1],[0399,1]]]
+								*owner = (001A): 27ECB60E
+								*ref_1 = (037D): 470BB79E
+								a1[0, 0] = (0394): 253BE3EB  u32_0=1C72  u8_0=00
+									*ref_1 = (0395): 80102AC1 'Work Plane8'
+									*ref_2 = (00B2): Plane 'Work Plane8'
+								a1[0, 1] = (0395): 80102AC1 'Work Plane8'   u8_0=01 u16_0=001 
+									*owner = (001A): 27ECB60E
+									*ref_2 = (0394): 253BE3EB
+								a1[1, 0] = (0396): 253BE3EB  u32_0=1C80  u8_0=00
+									*ref_1 = (0397): 80102AC1 'Work Plane9'
+									*ref_2 = (00B3): Plane 'Work Plane9'
+								a1[1, 1] = (0397): 80102AC1 'Work Plane9'   u8_0=01 u16_0=001 
+									*owner = (001A): 27ECB60E
+									*ref_2 = (0396): 253BE3EB
+								a1[2, 0] = (0398): 5246A008  u32_0=1C82  u8_0=00
+									*ref_1 = (0399): 80102AC1 'Work Axis20'
+									*ref_2 = (00B4): Line3D (0.00245283,4.965,2.905)-(1.00245,4.965,2.905)
+								a1[2, 1] = (0399): 80102AC1 'Work Axis20'   u8_0=01 u16_0=001 
+									*owner = (001A): 27ECB60E
+									*ref_2 = (0398): 5246A008
+						a1[1, 0] = (0204): 0A52ED98  a0=(002,002,000) transformation= transformation={a0=|0+0x|-00x|00+x|000+| m=[[0, 1, 0, 0],[-1, 0, 0, 49.65],[0, 0, 1, 4],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (0315): 1DCBFBA7
+						a1[1, 1] = (0315): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0206,1],[0317,1]],[[037F,1],[0380,1]]]
+							*ref_0 = (0375): 1DCBFBA7 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM_351'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0204): 0A52ED98
+							a1[0, 0] = (0206): 5CE72F63 'IPHT_Grün'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (0317): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (0315): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (00B0): SurfaceBody
+							*a1[0, 1] = (0317): 80102AC1
+							a1[1, 0] = (037F): 470BB79E  u16_0=009
+								*ref_4 = (0380): 1DCBFBA7
+							a1[1, 1] = (0380): 1DCBFBA7   u8_0=00 u16_0=000  a1=[[[039A,1],[039B,1]],[[039C,1],[039D,1]],[[039E,1],[039F,1]]]
+								*owner = (001A): 27ECB60E
+								*ref_1 = (037F): 470BB79E
+								a1[0, 0] = (039A): 253BE3EB  u32_0=1C72  u8_0=00
+									*ref_1 = (039B): 80102AC1 'Work Plane8'
+									*ref_2 = (00B9): Plane 'Work Plane8_1'
+								a1[0, 1] = (039B): 80102AC1 'Work Plane8'   u8_0=01 u16_0=001 
+									*owner = (001A): 27ECB60E
+									*ref_2 = (039A): 253BE3EB
+								a1[1, 0] = (039C): 253BE3EB  u32_0=1C80  u8_0=00
+									*ref_1 = (039D): 80102AC1 'Work Plane9'
+									*ref_2 = (00BA): Plane 'Work Plane9_1'
+								a1[1, 1] = (039D): 80102AC1 'Work Plane9'   u8_0=01 u16_0=001 
+									*owner = (001A): 27ECB60E
+									*ref_2 = (039C): 253BE3EB
+								a1[2, 0] = (039E): 5246A008  u32_0=1C82  u8_0=00
+									*ref_1 = (039F): 80102AC1 'Work Axis20'
+									*ref_2 = (00BB): Line3D (3.37189e-14,4.965,2.905)-(-1,4.965,2.905)
+								a1[2, 1] = (039F): 80102AC1 'Work Axis20'   u8_0=01 u16_0=001 
+									*owner = (001A): 27ECB60E
+									*ref_2 = (039E): 5246A008
+						a1[2, 0] = (020D): 0A52ED98  a0=(002,003,000) transformation= transformation={a0=|-00x|0-0x|00+x|000+| m=[[-1, 0, 0, 0.0245283],[0, -1, 0, 49.65],[0, 0, 1, 54.1],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (031C): 1DCBFBA7
+						a1[2, 1] = (031C): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0218,1],[0324,1]],[[0381,1],[0382,1]],[[0383,1],[0384,1]]]
+							*ref_0 = (0375): 1DCBFBA7 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM_351'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (020D): 0A52ED98
+							a1[0, 0] = (0218): 5CE72F63 'White'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (0324): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (031C): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (00C2): SurfaceBody
+							*a1[0, 1] = (0324): 80102AC1
+							a1[1, 0] = (0381): 470BB79E  u16_0=009
+								*ref_4 = (0382): 1DCBFBA7
+							a1[1, 1] = (0382): 1DCBFBA7   u8_0=01 u16_0=001  a1=[[[03A0,1],[03A1,1]]]
+								*owner = (001A): 27ECB60E
+								*ref_1 = (0381): 470BB79E
+								a1[0, 0] = (03A0): 5246A008  u32_0=293D  u8_0=00
+									*ref_1 = (03A1): 80102AC1 'Work Axis4'
+									*ref_2 = (00C4): Line3D (0.00245283,4.965,5.91)-(0.00245283,4.965,6.91)
+								a1[0, 1] = (03A1): 80102AC1 'Work Axis4'   u8_0=01 u16_0=001 
+									*owner = (001A): 27ECB60E
+									*ref_2 = (03A0): 5246A008
+							a1[2, 0] = (0383): 588B9053  u16_0=00B
+								*ref_1 = (0384): 1DCBFBA7
+							a1[2, 1] = (0384): 1DCBFBA7   u8_0=00 u16_0=000  a1=[[[03A2,1],[03A3,1]]]
+								*owner = (001A): 27ECB60E
+								*ref_1 = (0383): 588B9053
+								a1[0, 0] = (03A2): 588B9053  u16_0=00E
+									*ref_1 = (03A3): 1DCBFBA7
+								a1[0, 1] = (03A3): 1DCBFBA7   u8_0=00 u16_0=000  a1=[[[03A6,1],[03A7,1]],[[03A8,1],[03A9,1]],[[03AA,1],[03AB,1]]]
+									*owner = (001A): 27ECB60E
+									*ref_1 = (03A2): 588B9053
+									a1[0, 0] = (03A6): D92A619C  u32_0=0013  u8_0=00
+										*ref_1 = (03A7): 80102AC1 'd_i'
+										*parameter = (00BD): Parameter 'd_i'=40mm
+									a1[0, 1] = (03A7): 80102AC1 'd_i'   u8_0=01 u16_0=001 
+										*owner = (001A): 27ECB60E
+										*ref_2 = (03A6): D92A619C
+									a1[1, 0] = (03A8): D92A619C  u32_0=0039  u8_0=00
+										*ref_1 = (03A9): 80102AC1 'd_o'
+										*parameter = (00BE): Parameter 'd_o'=40mm
+									a1[1, 1] = (03A9): 80102AC1 'd_o'   u8_0=01 u16_0=001 
+										*owner = (001A): 27ECB60E
+										*ref_2 = (03A8): D92A619C
+									a1[2, 0] = (03AA): D92A619C  u32_0=008A  u8_0=00
+										*ref_1 = (03AB): 80102AC1 'd_part'
+										*parameter = (00BF): Parameter 'd_part'=50mm
+									a1[2, 1] = (03AB): 80102AC1 'd_part'   u8_0=01 u16_0=001 
+										*owner = (001A): 27ECB60E
+										*ref_2 = (03AA): D92A619C
+						a1[3, 0] = (021E): 0A52ED98  a0=(002,004,000) transformation= transformation={a0=|+00x|0+0x|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, 49.65],[0, 0, 1, 18],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (0327): 1DCBFBA7
+						a1[3, 1] = (0327): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0220,1],[0329,1]]]
+							*ref_0 = (0375): 1DCBFBA7 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM_351'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (021E): 0A52ED98
+							a1[0, 0] = (0220): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (0329): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (0327): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (00C8): SurfaceBody
+							*a1[0, 1] = (0329): 80102AC1
+						a1[4, 0] = (0225): 0A52ED98  a0=(002,005,000) transformation= transformation={a0=|-000|0+0x|00-x|000+| m=[[-1, 0, 0, 0],[0, 1, 0, 49.65],[0, 0, -1, 24.5],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (032B): 1DCBFBA7
+						a1[4, 1] = (032B): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0227,1],[032D,1]]]
+							*ref_0 = (0375): 1DCBFBA7 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM_351'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0225): 0A52ED98
+							a1[0, 0] = (0227): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (032D): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (032B): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (00CD): SurfaceBody
+							*a1[0, 1] = (032D): 80102AC1
+						a1[5, 0] = (022C): 0A52ED98  a0=(002,006,000) transformation= transformation={a0=|+00x|0+0x|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, 49.65],[0, 0, 1, 19],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (032F): 1DCBFBA7
+						a1[5, 1] = (032F): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[022E,1],[0331,1]]]
+							*ref_0 = (0375): 1DCBFBA7 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM_351'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (022C): 0A52ED98
+							a1[0, 0] = (022E): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (0331): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (032F): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (00D2): SurfaceBody
+							*a1[0, 1] = (0331): 80102AC1
+					a1[12, 0] = (0233): 0A52ED98  a0=(002,00E,000) transformation= transformation={a0=|+00x|0-0x|00-x|000+| m=[[1, 0, 0, -21.5],[0, -1, 0, -24.85],[0, 0, -1, -114],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (0333): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__352'
+					a1[12, 1] = (0333): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__352'   u8_0=01 u16_0=00A  a1=[[[0235,1],[0335,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (0233): 0A52ED98
+						a1[0, 0] = (0235): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (0335): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (0333): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__352'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (0092): SurfaceBody
+						*a1[0, 1] = (0335): 80102AC1
+					a1[13, 0] = (0239): 0A52ED98  a0=(002,00F,000) transformation= transformation={a0=|-00x|0-0x|00+x|000+| m=[[-1, 0, 0, 21.5],[0, -1, 0, -24.85],[0, 0, 1, 1],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (0337): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__353'
+					a1[13, 1] = (0337): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__353'   u8_0=01 u16_0=00A  a1=[[[023B,1],[0339,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (0239): 0A52ED98
+						a1[0, 0] = (023B): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (0339): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (0337): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__353'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (0092): SurfaceBody
+						*a1[0, 1] = (0339): 80102AC1
+					a1[14, 0] = (023F): 0A52ED98  a0=(002,010,000) transformation= transformation={a0=|-00x|0+0x|00-x|000+| m=[[-1, 0, 0, 21.5],[0, 1, 0, 72.15],[0, 0, -1, -114],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (033B): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__354'
+					a1[14, 1] = (033B): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__354'   u8_0=01 u16_0=00A  a1=[[[0241,1],[033D,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (023F): 0A52ED98
+						a1[0, 0] = (0241): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (033D): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (033B): 1DCBFBA7 'R5__X2_89D294DD652F67B6_X0__354'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (0092): SurfaceBody
+						*a1[0, 1] = (033D): 80102AC1
+					a1[15, 0] = (0376): 0A52ED98  a0=(002,011,000) transformation= transformation={a0=|+00x|0+00|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, -40.5265],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (0377): 1DCBFBA7 'L_X2_578B652F67B6_X0__MODEL_ASM_364'
+					a1[15, 1] = (0377): 1DCBFBA7 'L_X2_578B652F67B6_X0__MODEL_ASM_364'   u8_0=00 u16_0=000  a1=[[[038F,1],[0388,1]],[[0278,1],[035C,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (0376): 0A52ED98
+						a1[0, 0] = (038F): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|xx0x|xx0x|00+x|000+| m=[[0.99987, 0.0161181, 0, 0],[-0.0161181, 0.99987, 0, 50],[0, 0, 1, -31.9765],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (0388): 1DCBFBA7
+						a1[0, 1] = (0388): 1DCBFBA7   u8_0=00 u16_0=000  a1=[[[0245,1],[033F,1]],[[024C,1],[0343,1]],[[0253,1],[0347,1]],[[025A,1],[034B,1]],[[0261,1],[034F,1]],[[0268,1],[0353,1]],[[0271,1],[0358,1]]]
+							*owner = (001A): 27ECB60E
+							*ref_1 = (038F): 0A52ED98
+							a1[0, 0] = (0245): 0A52ED98  a0=(002,001,000) transformation= transformation={a0=|xx0x|xx0x|00+x|000+| m=[[0.99987, 0.0161181, 0, 0],[-0.0161181, 0.99987, 0, 50],[0, 0, 1, -31.9765],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (033F): 1DCBFBA7
+							a1[0, 1] = (033F): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0247,1],[0341,1]]]
+								*ref_0 = (0388): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (0245): 0A52ED98
+								a1[0, 0] = (0247): 5CE72F63 '41,36,34'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (0341): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (033F): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (00E3): SurfaceBody
+								*a1[0, 1] = (0341): 80102AC1
+							a1[1, 0] = (024C): 0A52ED98  a0=(002,002,000) transformation= transformation={a0=|xx0x|xx0x|00+x|000+| m=[[0.99987, 0.0161181, 0, 0],[-0.0161181, 0.99987, 0, 50],[0, 0, 1, -31.9765],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (0343): 1DCBFBA7
+							a1[1, 1] = (0343): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[024E,1],[0345,1]]]
+								*ref_0 = (0388): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (024C): 0A52ED98
+								a1[0, 0] = (024E): 5CE72F63 '76,76,76'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (0345): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (0343): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (00E8): SurfaceBody
+								*a1[0, 1] = (0345): 80102AC1
+							a1[2, 0] = (0253): 0A52ED98  a0=(002,003,000) transformation= transformation={a0=|xx0x|xx0x|00+x|000+| m=[[0.99987, 0.0161181, 0, 0],[-0.0161181, 0.99987, 0, 50],[0, 0, 1, -31.9765],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (0347): 1DCBFBA7
+							a1[2, 1] = (0347): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0255,1],[0349,1]]]
+								*ref_0 = (0388): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (0253): 0A52ED98
+								a1[0, 0] = (0255): 5CE72F63 '204,204,204'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (0349): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (0347): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (00ED): SurfaceBody
+								*a1[0, 1] = (0349): 80102AC1
+							a1[3, 0] = (025A): 0A52ED98  a0=(002,004,000) transformation= transformation={a0=|xx0x|xx0x|00+x|000+| m=[[0.99987, 0.0161181, 0, 0],[-0.0161181, 0.99987, 0, 50],[0, 0, 1, -31.9765],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (034B): 1DCBFBA7
+							a1[3, 1] = (034B): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[025C,1],[034D,1]]]
+								*ref_0 = (0388): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (025A): 0A52ED98
+								a1[0, 0] = (025C): 5CE72F63 '204,204,204'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (034D): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (034B): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (00F2): SurfaceBody
+								*a1[0, 1] = (034D): 80102AC1
+							a1[4, 0] = (0261): 0A52ED98  a0=(002,005,000) transformation= transformation={a0=|xx0x|xx0x|00+x|000+| m=[[0.99987, 0.0161181, 0, 0],[-0.0161181, 0.99987, 0, 50],[0, 0, 1, -31.9765],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (034F): 1DCBFBA7
+							a1[4, 1] = (034F): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0263,1],[0351,1]]]
+								*ref_0 = (0388): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (0261): 0A52ED98
+								a1[0, 0] = (0263): 5CE72F63 '76,76,76'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (0351): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (034F): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (00F7): SurfaceBody
+								*a1[0, 1] = (0351): 80102AC1
+							a1[5, 0] = (0268): 0A52ED98  a0=(002,006,000) transformation= transformation={a0=|xx0x|xx0x|00+x|000+| m=[[0.99987, 0.0161181, 0, 0],[-0.0161181, 0.99987, 0, 50],[0, 0, 1, -31.9765],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (0353): 1DCBFBA7
+							a1[5, 1] = (0353): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[026A,1],[0355,1]],[[0389,1],[038A,1]]]
+								*ref_0 = (0388): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (0268): 0A52ED98
+								a1[0, 0] = (026A): 5CE72F63 'Default'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (0355): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (0353): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (00FC): SurfaceBody
+								*a1[0, 1] = (0355): 80102AC1
+								a1[1, 0] = (0389): 588B9053  u16_0=008
+									*ref_1 = (038A): 1DCBFBA7
+								a1[1, 1] = (038A): 1DCBFBA7   u8_0=01 u16_0=001  a1=[[[03A4,1],[03A5,1]]]
+									*owner = (001A): 27ECB60E
+									*ref_1 = (0389): 588B9053
+									a1[0, 0] = (03A4): DC096D88 aX=(00 00 00 00 29 01 A5 03 00 80 00 00 00 00 11 00 00 00 FE 00 00 80 00 06 00 00 30 01 00 00 00 08 00 00 00 08 00 00 00 10 00 00 00 FC 00 00 00)
+									a1[0, 1] = (03A5): 80102AC1 'Flä1'   u8_0=01 u16_0=001 
+										*owner = (001A): 27ECB60E
+										*ref_2 = (03A4): DC096D88
+							a1[6, 0] = (0271): 0A52ED98  a0=(002,007,000) transformation= transformation={a0=|xx0x|xx0x|00+x|000+| m=[[0.99987, 0.0161181, 0, 0],[-0.0161181, 0.99987, 0, 50],[0, 0, 1, -31.9765],[0, 0, 0, 10]]} lst0={} u8_0=00 
+								*ref_1 = (0358): 1DCBFBA7
+							a1[6, 1] = (0358): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[0273,1],[035A,1]]]
+								*ref_0 = (0388): 1DCBFBA7
+								*owner = (001A): 27ECB60E
+								*ref_1 = (0271): 0A52ED98
+								a1[0, 0] = (0273): 5CE72F63 '76,76,76'    u16_0=000  u8_0=00 u8_1=00
+									ref_1 = (035A): 80102AC1   u8_0=00 u16_0=00A 
+										*ref_0 = (0358): 1DCBFBA7
+										*owner = (001A): 27ECB60E
+									*ref_4 = (0105): SurfaceBody
+								*a1[0, 1] = (035A): 80102AC1
+						a1[1, 0] = (0278): 0A52ED98  a0=(002,002,000) transformation= transformation={a0=|+00x|0+00|00+x|000+| m=[[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, -40.5265],[0, 0, 0, 10]]} lst0={} u8_0=00 
+							*ref_1 = (035C): 1DCBFBA7
+						a1[1, 1] = (035C): 1DCBFBA7   u8_0=01 u16_0=00A  a1=[[[027A,1],[035E,1]]]
+							*ref_0 = (0377): 1DCBFBA7 'L_X2_578B652F67B6_X0__MODEL_ASM_364'
+							*owner = (001A): 27ECB60E
+							*ref_1 = (0278): 0A52ED98
+							a1[0, 0] = (027A): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+								ref_1 = (035E): 80102AC1   u8_0=00 u16_0=00A 
+									*ref_0 = (035C): 1DCBFBA7
+									*owner = (001A): 27ECB60E
+								*ref_4 = (010A): SurfaceBody
+							*a1[0, 1] = (035E): 80102AC1
+					a1[16, 0] = (027F): 0A52ED98  a0=(002,012,000) transformation= transformation={a0=|+00x|0+0x|00+x|000+| m=[[1, 0, 0, -18.15],[0, 1, 0, 52.5],[0, 0, 1, 19.5],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (0360): 1DCBFBA7 'P_MAGNET_365'
+					a1[16, 1] = (0360): 1DCBFBA7 'P_MAGNET_365'   u8_0=01 u16_0=00A  a1=[[[0281,1],[0362,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (027F): 0A52ED98
+						a1[0, 0] = (0281): 5CE72F63 '163,163,163'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (0362): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (0360): 1DCBFBA7 'P_MAGNET_365'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (010F): SurfaceBody
+						*a1[0, 1] = (0362): 80102AC1
+					a1[17, 0] = (0286): 0A52ED98  a0=(002,013,000) transformation= transformation={a0=|-00x|0-0x|00+x|000+| m=[[-1, 0, 0, 18.15],[0, -1, 0, 46.8],[0, 0, 1, 19.5],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (0364): 1DCBFBA7 'P_MAGNET_366'
+					a1[17, 1] = (0364): 1DCBFBA7 'P_MAGNET_366'   u8_0=01 u16_0=00A  a1=[[[0288,1],[0366,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (0286): 0A52ED98
+						a1[0, 0] = (0288): 5CE72F63 '163,163,163'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (0366): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (0364): 1DCBFBA7 'P_MAGNET_366'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (010F): SurfaceBody
+						*a1[0, 1] = (0366): 80102AC1
+					a1[18, 0] = (028C): 0A52ED98  a0=(002,014,000) transformation= transformation={a0=|+00x|0+0x|00+x|000+| m=[[1, 0, 0, 88.8042],[0, 1, 0, -68.5685],[0, 0, 1, -22.9383],[0, 0, 0, 10]]} lst0={} u8_0=00 
+						*ref_1 = (0368): 1DCBFBA7 '322040145，Xiao-显微镜_物镜压盖:1'
+					a1[18, 1] = (0368): 1DCBFBA7 '322040145，Xiao-显微镜_物镜压盖:1'   u8_0=01 u16_0=00A  a1=[[[028E,1],[036A,1]]]
+						*owner = (001A): 27ECB60E
+						*ref_1 = (028C): 0A52ED98
+						a1[0, 0] = (028E): 5CE72F63 '255,153,0'    u16_0=000  u8_0=00 u8_1=00
+							ref_1 = (036A): 80102AC1   u8_0=00 u16_0=00A 
+								*ref_0 = (0368): 1DCBFBA7 '322040145，Xiao-显微镜_物镜压盖:1'
+								*owner = (001A): 27ECB60E
+							*ref_4 = (0118): SurfaceBody
+						*a1[0, 1] = (036A): 80102AC1
+		objects[0014] = (001B): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'  flags=0200  index=0015 s32_0=-1  u32_0=0000 
+			next = (012D): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1' a0=(0000,0000)    index=000C  uid={00000000-0000-0000-0000-000000000000}
+				next = (0297): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (001B): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (001C): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+			*lst0[0000] = (001C): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+			*ref_1 = (012E): 0A52ED98
+		objects[0015] = (001C): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'  flags=6200  index=0016 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (012F): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1' a0=(0000,0000)    index=000B  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0299): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (001C): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+					*ref_2 = (001B): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+			*lst0[0000] = (0007): SurfaceBody 'Solid1'
+			*ref_1 = (0130): 5CE72F63 '102,102,102'
+		objects[0016] = (001D): SurfaceBody  flags=1004200  index=0017 
+			*ref_0 = (0131): AsmEntityWrapper
+		objects[0017] = (001E): NMx_FFColor_Entity '102,102,102'  flags=8200  index=0018 s32_0=0  u16_0=001
+			creator = (0132): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=016 u16_0=8000
+			*fx = (001C): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+		objects[0018] = (001F): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'  flags=0200  index=0019 s32_0=-1  u32_0=0000 
+			next = (0133): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1' a0=(0000,0000)    index=000E  uid={00000000-0000-0000-0000-000000000000}
+				next = (029B): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (001F): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0020): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+			*lst0[0000] = (0020): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+			*ref_1 = (0134): 0A52ED98
+		objects[0019] = (0020): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'  flags=6200  index=001A s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0135): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1' a0=(0000,0000)    index=000D  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (029D): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0020): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+					*ref_2 = (001F): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+			*lst0[0000] = (0021): SurfaceBody 'Solid2'
+			*ref_1 = (0136): 5CE72F63 'Default'
+		objects[001A] = (0021): SurfaceBody 'Solid2'  flags=3004200  index=001B 
+			next = (0137): FxAttrLabel 'Solid2' a0=(0000,0000)    index=000D  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0005): FaceMergeData
+		objects[001B] = (0022): SurfaceBody  flags=1004200  index=001C 
+			*ref_0 = (0138): AsmEntityWrapper
+		objects[001C] = (0023): NMx_FFColor_Entity 'Default'  flags=8200  index=001D s32_0=0  u16_0=001
+			creator = (0139): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=01A u16_0=8000
+			*fx = (0020): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+		objects[001D] = (0024): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'  flags=0200  index=001E s32_0=-1  u32_0=0000 
+			next = (013A): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1' a0=(0000,0000)    index=0010  uid={00000000-0000-0000-0000-000000000000}
+				next = (029F): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0024): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0025): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+			*lst0[0000] = (0025): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+			*ref_1 = (013B): 0A52ED98
+		objects[001E] = (0025): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'  flags=6200  index=001F s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (013C): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1' a0=(0000,0000)    index=000F  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02A1): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0025): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+					*ref_2 = (0024): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+			*lst0[0000] = (0026): SurfaceBody 'Solid3'
+			*ref_1 = (013D): 5CE72F63 '207,215,232'
+		objects[001F] = (0026): SurfaceBody 'Solid3'  flags=3004200  index=0020 
+			next = (013E): FxAttrLabel 'Solid3' a0=(0000,0000)    index=000F  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0006): ModelerTxnMgr
+		objects[0020] = (0027): SurfaceBody  flags=1004200  index=0021 
+			*ref_0 = (013F): AsmEntityWrapper
+		objects[0021] = (0028): NMx_FFColor_Entity '207,215,232'  flags=8200  index=0022 s32_0=0  u16_0=001
+			creator = (0140): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=01F u16_0=8000
+			*fx = (0025): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+		objects[0022] = (0029): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'  flags=0200  index=0023 s32_0=-1  u32_0=0000 
+			next = (0141): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1' a0=(0000,0000)    index=0012  uid={00000000-0000-0000-0000-000000000000}
+				next = (02A3): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0029): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (002A): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+			*lst0[0000] = (002A): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+			*ref_1 = (0142): 0A52ED98
+		objects[0023] = (002A): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'  flags=6200  index=0024 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0143): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1' a0=(0000,0000)    index=0011  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02A5): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (002A): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+					*ref_2 = (0029): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+			*lst0[0000] = (002B): SurfaceBody 'Solid4'
+			*ref_1 = (0144): 5CE72F63 '207,215,232'
+		objects[0024] = (002B): SurfaceBody 'Solid4'  flags=3004200  index=0025 
+			next = (0145): FxAttrLabel 'Solid4' a0=(0000,0000)    index=0011  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0007): SurfaceBody 'Solid1'
+		objects[0025] = (002C): SurfaceBody  flags=1004200  index=0026 
+			*ref_0 = (0146): AsmEntityWrapper
+		objects[0026] = (002D): NMx_FFColor_Entity '207,215,232'  flags=8200  index=0027 s32_0=0  u16_0=001
+			creator = (0147): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=024 u16_0=8000
+			*fx = (002A): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+		objects[0027] = (002E): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'  flags=0200  index=0028 s32_0=-1  u32_0=0000 
+			next = (0148): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1' a0=(0000,0000)    index=0014  uid={00000000-0000-0000-0000-000000000000}
+				next = (02A7): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (002E): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (002F): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+			*lst0[0000] = (002F): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+			*ref_1 = (0149): 0A52ED98
+		objects[0028] = (002F): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'  flags=6200  index=0029 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (014A): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1' a0=(0000,0000)    index=0013  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02A9): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (002F): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+					*ref_2 = (002E): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+			*lst0[0000] = (0030): SurfaceBody 'Solid5'
+			*ref_1 = (014B): 5CE72F63 '183,207,195'
+		objects[0029] = (0030): SurfaceBody 'Solid5'  flags=3004200  index=002A 
+			next = (014C): FxAttrLabel 'Solid5' a0=(0000,0000)    index=0013  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0008): BodiesFolder 'Solid Bodies'
+		objects[002A] = (0031): SurfaceBody  flags=1004200  index=002B 
+			*ref_0 = (014D): AsmEntityWrapper
+		objects[002B] = (0032): NMx_FFColor_Entity '183,207,195'  flags=8200  index=002C s32_0=0  u16_0=001
+			creator = (014E): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=029 u16_0=8000
+			*fx = (002F): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+		objects[002C] = (0033): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'  flags=0200  index=002D s32_0=-1  u32_0=0000 
+			next = (014F): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1' a0=(0000,0000)    index=0016  uid={00000000-0000-0000-0000-000000000000}
+				next = (02AB): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0033): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0034): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+			*lst0[0000] = (0034): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+			*ref_1 = (0150): 0A52ED98
+		objects[002D] = (0034): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'  flags=6200  index=002E s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0151): FxAttrLabel '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1' a0=(0000,0000)    index=0015  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02AD): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0034): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+					*ref_2 = (0033): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+			*lst0[0000] = (0035): SurfaceBody 'Solid6'
+			*ref_1 = (0152): 5CE72F63 '255,153,0'
+		objects[002E] = (0035): SurfaceBody 'Solid6'  flags=3004200  index=002F 
+			next = (0153): FxAttrLabel 'Solid6' a0=(0000,0000)    index=0015  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0009): BodiesFolder 'Surface Bodies'
+		objects[002F] = (0036): SurfaceBody  flags=1004200  index=0030 
+			*ref_0 = (0154): AsmEntityWrapper
+		objects[0030] = (0037): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0031 s32_0=0  u16_0=001
+			creator = (0155): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=02E u16_0=8000
+			*fx = (0034): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+		objects[0031] = (0038): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'  flags=0200  index=0032 s32_0=-1  u32_0=0000 
+			next = (0156): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1' a0=(0000,0000)    index=0018  uid={00000000-0000-0000-0000-000000000000}
+				next = (02AF): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0038): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0039): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+			*lst0[0000] = (0039): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+			*ref_1 = (0157): 0A52ED98
+		objects[0032] = (0039): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'  flags=6200  index=0033 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0158): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1' a0=(0000,0000)    index=0017  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02B1): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0039): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+					*ref_2 = (0038): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+			*lst0[0000] = (003A): SurfaceBody 'Solid7'
+			*ref_1 = (0159): 5CE72F63 'Default'
+		objects[0033] = (003A): SurfaceBody 'Solid7'  flags=3004200  index=0034 
+			next = (015A): FxAttrLabel 'Solid7' a0=(0000,0000)    index=0017  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (000A): BrowserFolder 'Origin'
+		objects[0034] = (003B): SurfaceBody  flags=1004200  index=0035 
+			*ref_0 = (015B): AsmEntityWrapper
+		objects[0035] = (003C): NMx_FFColor_Entity 'Default'  flags=8200  index=0036 s32_0=0  u16_0=001
+			creator = (015C): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=033 u16_0=8000
+			*fx = (0039): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::_X2_59297EBF63A553E3_X0_.ipt:1'
+		objects[0036] = (003D): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'  flags=0200  index=0037 s32_0=-1  u32_0=0000 
+			next = (015D): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1' a0=(0000,0000)    index=001A  uid={00000000-0000-0000-0000-000000000000}
+				next = (02B3): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (003D): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (003E): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+			*lst0[0000] = (003E): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+			*ref_1 = (015E): 0A52ED98
+		objects[0037] = (003E): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'  flags=6200  index=0038 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (015F): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1' a0=(0000,0000)    index=0019  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02B5): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (003E): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+					*ref_2 = (003D): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+			*lst0[0000] = (003F): SurfaceBody 'Solid8'
+			*ref_1 = (0160): 5CE72F63 '51,51,51'
+		objects[0038] = (003F): SurfaceBody 'Solid8'  flags=3004200  index=0039 
+			next = (0161): FxAttrLabel 'Solid8' a0=(0000,0000)    index=0019  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+		objects[0039] = (0040): SurfaceBody  flags=1004200  index=003A 
+			*ref_0 = (0162): AsmEntityWrapper
+		objects[003A] = (0041): NMx_FFColor_Entity '51,51,51'  flags=8200  index=003B s32_0=0  u16_0=001
+			creator = (0163): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=038 u16_0=8000
+			*fx = (003E): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_1.ipt:1'
+		objects[003B] = (0042): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'  flags=0200  index=003C s32_0=-1  u32_0=0000 
+			next = (0164): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1' a0=(0000,0000)    index=001C  uid={00000000-0000-0000-0000-000000000000}
+				next = (02B7): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0042): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0043): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+			*lst0[0000] = (0043): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+			*ref_1 = (0165): 0A52ED98
+		objects[003C] = (0043): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'  flags=6200  index=003D s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0166): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1' a0=(0000,0000)    index=001B  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02B9): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0043): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+					*ref_2 = (0042): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+			*lst0[0000] = (0044): SurfaceBody 'Solid9'
+			*ref_1 = (0167): 5CE72F63 '51,51,51'
+		objects[003D] = (0044): SurfaceBody 'Solid9'  flags=3004200  index=003E 
+			next = (0168): FxAttrLabel 'Solid9' a0=(0000,0000)    index=001B  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (000C): EndOfFeatures
+		objects[003E] = (0045): SurfaceBody  flags=1004200  index=003F 
+			*ref_0 = (0169): AsmEntityWrapper
+		objects[003F] = (0046): NMx_FFColor_Entity '51,51,51'  flags=8200  index=0040 s32_0=0  u16_0=001
+			creator = (016A): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=03D u16_0=8000
+			*fx = (0043): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::VOLUMENK_X_D6RPER1-16922.ipt:1'
+		objects[0040] = (0047): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'  flags=0200  index=0041 s32_0=-1  u32_0=0000 
+			next = (016B): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1' a0=(0000,0000)    index=001E  uid={00000000-0000-0000-0000-000000000000}
+				next = (02BB): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0047): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0048): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+			*lst0[0000] = (0048): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+			*ref_1 = (016C): 0A52ED98
+		objects[0041] = (0048): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'  flags=6200  index=0042 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (016D): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1' a0=(0000,0000)    index=001D  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02BD): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0048): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+					*ref_2 = (0047): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+			*lst0[0000] = (0049): SurfaceBody 'Solid10'
+			*ref_1 = (016E): 5CE72F63 '255,153,0'
+		objects[0042] = (0049): SurfaceBody 'Solid10'  flags=3004200  index=0043 
+			next = (016F): FxAttrLabel 'Solid10' a0=(0000,0000)    index=001D  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (000D): Plane 'YZ Plane'
+		objects[0043] = (004A): SurfaceBody  flags=1004200  index=0044 
+			*ref_0 = (0170): AsmEntityWrapper
+		objects[0044] = (004B): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0045 s32_0=0  u16_0=001
+			creator = (0171): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=042 u16_0=8000
+			*fx = (0048): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_ASM.iam:1::XIAO-ESP32S3_EXP_BOARD_2.ipt:1'
+		objects[0045] = (004C): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'  flags=0200  index=0046 s32_0=-1  u32_0=0000 
+			next = (0172): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1' a0=(0000,0000)    index=0020  uid={00000000-0000-0000-0000-000000000000}
+				next = (02BF): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (004C): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (004D): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+			*lst0[0000] = (004D): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+			*ref_1 = (0173): 0A52ED98
+		objects[0046] = (004D): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'  flags=6200  index=0047 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0174): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1' a0=(0000,0000)    index=001F  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02C1): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (004D): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+					*ref_2 = (004C): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+			*lst0[0000] = (004E): SurfaceBody 'Solid11'
+			*ref_1 = (0175): 5CE72F63 '51,51,51'
+		objects[0047] = (004E): SurfaceBody 'Solid11'  flags=3004200  index=0048 
+			next = (0176): FxAttrLabel 'Solid11' a0=(0000,0000)    index=001F  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (000E): Plane 'XZ Plane'
+		objects[0048] = (004F): SurfaceBody  flags=1004200  index=0049 
+			*ref_0 = (0177): AsmEntityWrapper
+		objects[0049] = (0050): NMx_FFColor_Entity '51,51,51'  flags=8200  index=004A s32_0=0  u16_0=001
+			creator = (0178): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=047 u16_0=8000
+			*fx = (004D): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::CAMERA_1.ipt:1'
+		objects[004A] = (0051): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'  flags=0200  index=004B s32_0=-1  u32_0=0000 
+			next = (0179): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1' a0=(0000,0000)    index=0022  uid={00000000-0000-0000-0000-000000000000}
+				next = (02C3): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0051): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0052): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+			*lst0[0000] = (0052): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+			*ref_1 = (017A): 0A52ED98
+		objects[004B] = (0052): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'  flags=6200  index=004C s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (017B): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1' a0=(0000,0000)    index=0021  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02C5): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0052): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+					*ref_2 = (0051): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+			*lst0[0000] = (0053): SurfaceBody 'Solid12'
+			*ref_1 = (017C): 5CE72F63 '51,51,51'
+		objects[004C] = (0053): SurfaceBody 'Solid12'  flags=3004200  index=004D 
+			next = (017D): FxAttrLabel 'Solid12' a0=(0000,0000)    index=0021  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (000F): Plane 'XY Plane'
+		objects[004D] = (0054): SurfaceBody  flags=1004200  index=004E 
+			*ref_0 = (017E): AsmEntityWrapper
+		objects[004E] = (0055): NMx_FFColor_Entity '51,51,51'  flags=8200  index=004F s32_0=0  u16_0=001
+			creator = (017F): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=04C u16_0=8000
+			*fx = (0052): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA_ASM.iam:1::VOLUMENK_X_D6RPER1-16925.ipt:1'
+		objects[004F] = (0056): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'  flags=0200  index=0050 s32_0=-1  u32_0=0000 
+			next = (0180): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1' a0=(0000,0000)    index=0024  uid={00000000-0000-0000-0000-000000000000}
+				next = (02C7): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0056): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0057): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+			*lst0[0000] = (0057): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+			*ref_1 = (0181): 0A52ED98
+		objects[0050] = (0057): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'  flags=6200  index=0051 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0182): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1' a0=(0000,0000)    index=0023  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02C9): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0057): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+					*ref_2 = (0056): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+			*lst0[0000] = (0058): SurfaceBody 'Solid13'
+			*ref_1 = (0183): 5CE72F63 '255,153,0'
+		objects[0051] = (0058): SurfaceBody 'Solid13'  flags=3004200  index=0052 
+			next = (0184): FxAttrLabel 'Solid13' a0=(0000,0000)    index=0023  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0010): Line3D (-1,0,0)-(1,0,0)
+		objects[0052] = (0059): SurfaceBody  flags=1004200  index=0053 
+			*ref_0 = (0185): AsmEntityWrapper
+		objects[0053] = (005A): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0054 s32_0=0  u16_0=001
+			creator = (0186): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=051 u16_0=8000
+			*fx = (0057): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-BOTTOM.ipt:1'
+		objects[0054] = (005B): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'  flags=0200  index=0055 s32_0=-1  u32_0=0000 
+			next = (0187): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1' a0=(0000,0000)    index=0026  uid={00000000-0000-0000-0000-000000000000}
+				next = (02CB): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (005B): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (005C): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+			*lst0[0000] = (005C): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+			*ref_1 = (0188): 0A52ED98
+		objects[0055] = (005C): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'  flags=6200  index=0056 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0189): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1' a0=(0000,0000)    index=0025  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02CD): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (005C): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+					*ref_2 = (005B): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+			*lst0[0000] = (005D): SurfaceBody 'Solid14'
+			*ref_1 = (018A): 5CE72F63 '255,255,0'
+		objects[0056] = (005D): SurfaceBody 'Solid14'  flags=3004200  index=0057 
+			next = (018B): FxAttrLabel 'Solid14' a0=(0000,0000)    index=0025  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0011): Line3D (0,-1,0)-(0,1,0)
+		objects[0057] = (005E): SurfaceBody  flags=1004200  index=0058 
+			*ref_0 = (018C): AsmEntityWrapper
+		objects[0058] = (005F): NMx_FFColor_Entity '255,255,0'  flags=8200  index=0059 s32_0=0  u16_0=001
+			creator = (018D): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=056 u16_0=8000
+			*fx = (005C): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::CAMERA-BOX-TOP.ipt:1'
+		objects[0059] = (0060): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'  flags=0200  index=005A s32_0=-1  u32_0=0000 
+			next = (018E): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1' a0=(0000,0000)    index=0028  uid={00000000-0000-0000-0000-000000000000}
+				next = (02CF): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0060): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0061): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+			*lst0[0000] = (0061): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+			*ref_1 = (018F): 0A52ED98
+		objects[005A] = (0061): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'  flags=6200  index=005B s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0190): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1' a0=(0000,0000)    index=0027  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02D1): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0061): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+					*ref_2 = (0060): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+			*lst0[0000] = (0062): SurfaceBody 'Solid15'
+			*ref_1 = (0191): 5CE72F63 '51,51,51'
+		objects[005B] = (0062): SurfaceBody 'Solid15'  flags=3004200  index=005C 
+			next = (0192): FxAttrLabel 'Solid15' a0=(0000,0000)    index=0027  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0012): Line3D (0,0,-1)-(0,0,1)
+		objects[005C] = (0063): SurfaceBody  flags=1004200  index=005D 
+			*ref_0 = (0193): AsmEntityWrapper
+		objects[005D] = (0064): NMx_FFColor_Entity '51,51,51'  flags=8200  index=005E s32_0=0  u16_0=001
+			creator = (0194): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=05B u16_0=8000
+			*fx = (0061): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_1.ipt:1'
+		objects[005E] = (0065): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'  flags=0200  index=005F s32_0=-1  u32_0=0000 
+			next = (0195): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1' a0=(0000,0000)    index=002A  uid={00000000-0000-0000-0000-000000000000}
+				next = (02D3): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0065): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0066): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+			*lst0[0000] = (0066): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+			*ref_1 = (0196): 0A52ED98
+		objects[005F] = (0066): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'  flags=6200  index=0060 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0197): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1' a0=(0000,0000)    index=0029  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02D5): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0066): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+					*ref_2 = (0065): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+			*lst0[0000] = (0067): SurfaceBody 'Solid16'
+			*ref_1 = (0198): 5CE72F63 'Default'
+		objects[0060] = (0067): SurfaceBody 'Solid16'  flags=3004200  index=0061 
+			next = (0199): FxAttrLabel 'Solid16' a0=(0000,0000)    index=0029  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0013): Point3D - (0,0,0)
+		objects[0061] = (0068): SurfaceBody  flags=1004200  index=0062 
+			*ref_0 = (019A): AsmEntityWrapper
+		objects[0062] = (0069): NMx_FFColor_Entity 'Default'  flags=8200  index=0063 s32_0=0  u16_0=001
+			creator = (019B): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=060 u16_0=8000
+			*fx = (0066): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_2.ipt:1'
+		objects[0063] = (006A): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'  flags=0200  index=0064 s32_0=-1  u32_0=0000 
+			next = (019C): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1' a0=(0000,0000)    index=002C  uid={00000000-0000-0000-0000-000000000000}
+				next = (02D7): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (006A): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (006B): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+			*lst0[0000] = (006B): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+			*ref_1 = (019D): 0A52ED98
+		objects[0064] = (006B): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'  flags=6200  index=0065 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (019E): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1' a0=(0000,0000)    index=002B  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02D9): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (006B): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+					*ref_2 = (006A): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+			*lst0[0000] = (006C): SurfaceBody 'Solid17'
+			*ref_1 = (019F): 5CE72F63 'Default'
+		objects[0065] = (006C): SurfaceBody 'Solid17'  flags=3004200  index=0066 
+			next = (01A0): FxAttrLabel 'Solid17' a0=(0000,0000)    index=002B  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0014): 90874D60 'DCx'
+		objects[0066] = (006D): SurfaceBody  flags=1004200  index=0067 
+			*ref_0 = (01A1): AsmEntityWrapper
+		objects[0067] = (006E): NMx_FFColor_Entity 'Default'  flags=8200  index=0068 s32_0=0  u16_0=001
+			creator = (01A2): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=065 u16_0=8000
+			*fx = (006B): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::00_SEEEDUINO_XIAO_MODEL_3.ipt:1'
+		objects[0068] = (006F): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'  flags=0200  index=0069 s32_0=-1  u32_0=0000 
+			next = (01A3): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1' a0=(0000,0000)    index=002E  uid={00000000-0000-0000-0000-000000000000}
+				next = (02DB): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (006F): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0070): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+			*lst0[0000] = (0070): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+			*ref_1 = (01A4): 0A52ED98
+		objects[0069] = (0070): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'  flags=6200  index=006A s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01A5): FxAttrLabel '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1' a0=(0000,0000)    index=002D  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02DD): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0070): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+					*ref_2 = (006F): DerivedOccDataCollector '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+			*lst0[0000] = (0071): SurfaceBody 'Solid18'
+			*ref_1 = (01A6): 5CE72F63 '51,51,51'
+		objects[006A] = (0071): SurfaceBody 'Solid18'  flags=3004200  index=006B 
+			next = (01A7): FxAttrLabel 'Solid18' a0=(0000,0000)    index=002D  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0015): Transformation
+		objects[006B] = (0072): SurfaceBody  flags=1004200  index=006C 
+			*ref_0 = (01A8): AsmEntityWrapper
+		objects[006C] = (0073): NMx_FFColor_Entity '51,51,51'  flags=8200  index=006D s32_0=0  u16_0=001
+			creator = (01A9): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=06A u16_0=8000
+			*fx = (0070): DerivedOccFeature '00_SEEEDUINO_XIAO_MODEL_ASM.iam:1::VOLUMENK_X_D6RPER1-16931.ipt:1'
+		objects[006D] = (0074): DerivedOccDataCollector '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'  flags=0200  index=006E s32_0=-1  u32_0=0000 
+			next = (01AA): FxAttrLabel '_X2_656370ED7247_X0_-35X35X10MM.ipt:1' a0=(0000,0000)    index=0030  uid={00000000-0000-0000-0000-000000000000}
+				next = (02DF): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0074): DerivedOccDataCollector '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0075): DerivedOccFeature '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+			*lst0[0000] = (0075): DerivedOccFeature '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+			*ref_1 = (01AB): 0A52ED98
+		objects[006E] = (0075): DerivedOccFeature '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'  flags=6200  index=006F s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01AC): FxAttrLabel '_X2_656370ED7247_X0_-35X35X10MM.ipt:1' a0=(0000,0000)    index=002F  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02E1): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0075): DerivedOccFeature '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+					*ref_2 = (0074): DerivedOccDataCollector '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+			*lst0[0000] = (0076): SurfaceBody 'Solid19'
+			*ref_1 = (01AD): 5CE72F63 '255,153,0'
+		objects[006F] = (0076): SurfaceBody 'Solid19'  flags=3004200  index=0070 
+			next = (01AE): FxAttrLabel 'Solid19' a0=(0000,0000)    index=002F  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0016): Parameter 'd0'=1
+		objects[0070] = (0077): SurfaceBody  flags=1004200  index=0071 
+			*ref_0 = (01AF): AsmEntityWrapper
+		objects[0071] = (0078): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0072 s32_0=0  u16_0=001
+			creator = (01B0): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=06F u16_0=8000
+			*fx = (0075): DerivedOccFeature '_X2_656370ED7247_X0_-35X35X10MM.ipt:1'
+		objects[0072] = (0079): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'  flags=0200  index=0073 s32_0=-1  u32_0=0000 
+			next = (01B1): FxAttrLabel 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1' a0=(0000,0000)    index=0032  uid={00000000-0000-0000-0000-000000000000}
+				next = (02E3): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0079): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (007A): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+			*lst0[0000] = (007A): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+			*ref_1 = (01B2): 0A52ED98
+		objects[0073] = (007A): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'  flags=6200  index=0074 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01B3): FxAttrLabel 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1' a0=(0000,0000)    index=0031  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02E5): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (007A): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+					*ref_2 = (0079): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+			*lst0[0000] = (007B): SurfaceBody 'Solid20'
+			*ref_1 = (01B4): 5CE72F63 '255,153,0'
+		objects[0074] = (007B): SurfaceBody 'Solid20'  flags=3004200  index=0075 
+			next = (01B5): FxAttrLabel 'Solid20' a0=(0000,0000)    index=0031  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0017): AD0D42B2
+		objects[0075] = (007C): SurfaceBody  flags=1004200  index=0076 
+			*ref_0 = (01B6): AsmEntityWrapper
+		objects[0076] = (007D): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0077 s32_0=0  u16_0=001
+			creator = (01B7): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=074 u16_0=8000
+			*fx = (007A): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_96504F4D5757_X0_.ipt:1'
+		objects[0077] = (007E): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'  flags=0200  index=0078 s32_0=-1  u32_0=0000 
+			next = (01B8): FxAttrLabel 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1' a0=(0000,0000)    index=0036  uid={00000000-0000-0000-0000-000000000000}
+				next = (02E7): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (007E): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (007F): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+				*participants[0001] = (0083): Plane 'Arbeitsebene1'
+				*participants[0002] = (0084): Plane 'Arbeitsebene2'
+			*lst0[0000] = (007F): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+			*lst0[0001] = (0083): Plane 'Arbeitsebene1'
+			*lst0[0002] = (0084): Plane 'Arbeitsebene2'
+			*ref_1 = (01B9): 0A52ED98
+		objects[0078] = (007F): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'  flags=6200  index=0079 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01BA): FxAttrLabel 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1' a0=(0000,0000)    index=0033  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02E9): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (007F): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+					*ref_2 = (007E): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+			*lst0[0000] = (0080): SurfaceBody 'Solid21'
+			*ref_1 = (01BB): 5CE72F63 '255,153,0'
+		objects[0079] = (0080): SurfaceBody 'Solid21'  flags=3004200  index=007A 
+			next = (01BC): FxAttrLabel 'Solid21' a0=(0000,0000)    index=0033  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0018): 3F36349F
+		objects[007A] = (0081): SurfaceBody  flags=1004200  index=007B 
+			*ref_0 = (01BD): AsmEntityWrapper
+		objects[007B] = (0082): NMx_FFColor_Entity '255,153,0'  flags=8200  index=007C s32_0=0  u16_0=001
+			creator = (01BE): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=079 u16_0=8000
+			*fx = (007F): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+		objects[007C] = (0083): Plane 'Arbeitsebene1'  flags=24200  index=007D flags2=808800   u32_1=0000 center=Vector (1.7000000000000008, 4.3814718625951485, -9.036396103068233) a1=Vector (-1.0000000000000002, -0.0, 0.0) normal=Vector (0.0, -1.1102230246251565e-16, 1.0)
+			next = (01BF): FxAttrLabel 'Arbeitsebene1' a0=(0000,0000)    index=0034  uid={00000000-0000-0000-0000-000000000000}
+				next = (02EB): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0083): Plane 'Arbeitsebene1'
+					*ref_2 = (007E): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+		objects[007D] = (0084): Plane 'Arbeitsebene2'  flags=24200  index=007E flags2=808800   u32_1=0000 center=Vector (-1.0999999999999999, 5.795685424968244, -7.622182540695137) a1=Vector (1.0000000000000002, 0.0, 0.0) normal=Vector (0.0, -1.0, 1.1102230246251565e-16)
+			next = (01C0): FxAttrLabel 'Arbeitsebene2' a0=(0000,0000)    index=0035  uid={00000000-0000-0000-0000-000000000000}
+				next = (02EC): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0084): Plane 'Arbeitsebene2'
+					*ref_2 = (007E): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_955C5B50_X0_-1_0MM.ipt:1'
+		objects[007E] = (0085): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'  flags=0200  index=007F s32_0=-1  u32_0=0000 
+			next = (01C1): FxAttrLabel 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1' a0=(0000,0000)    index=0038  uid={00000000-0000-0000-0000-000000000000}
+				next = (02ED): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0085): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0086): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+			*lst0[0000] = (0086): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+			*ref_1 = (01C2): 0A52ED98
+		objects[007F] = (0086): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'  flags=6200  index=0080 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01C3): FxAttrLabel 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1' a0=(0000,0000)    index=0037  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02EF): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0086): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+					*ref_2 = (0085): DerivedOccDataCollector 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+			*lst0[0000] = (0087): SurfaceBody 'Solid22'
+			*ref_1 = (01C4): 5CE72F63 '255,153,0'
+		objects[0080] = (0087): SurfaceBody 'Solid22'  flags=3004200  index=0081 
+			next = (01C5): FxAttrLabel 'Solid22' a0=(0000,0000)    index=0037  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0019): DerivedAssemblyComponentDefinition
+		objects[0081] = (0088): SurfaceBody  flags=1004200  index=0082 
+			*ref_0 = (01C6): AsmEntityWrapper
+		objects[0082] = (0089): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0083 s32_0=0  u16_0=001
+			creator = (01C7): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=080 u16_0=8000
+			*fx = (0086): DerivedOccFeature 'FRONT__X2_4E9A514B529B_X0__MODE_ASM.iam:1::_X2_53CD5149955C6321677F_X0__MO_ASM.iam:1::_X2_53CD5149955C6321677F_X0___1_recamera.ipt:1'
+		objects[0083] = (008A): DerivedOccDataCollector 'BACK__X2_4E9A514B529B_X0_.ipt:1'  flags=0200  index=0084 s32_0=-1  u32_0=0000 
+			next = (01C8): FxAttrLabel 'BACK__X2_4E9A514B529B_X0_.ipt:1' a0=(0000,0000)    index=003A  uid={00000000-0000-0000-0000-000000000000}
+				next = (02F1): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (008A): DerivedOccDataCollector 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (008B): DerivedOccFeature 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+			*lst0[0000] = (008B): DerivedOccFeature 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+			*ref_1 = (01C9): 0A52ED98
+		objects[0084] = (008B): DerivedOccFeature 'BACK__X2_4E9A514B529B_X0_.ipt:1'  flags=6200  index=0085 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01CA): FxAttrLabel 'BACK__X2_4E9A514B529B_X0_.ipt:1' a0=(0000,0000)    index=0039  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02F3): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (008B): DerivedOccFeature 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+					*ref_2 = (008A): DerivedOccDataCollector 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+			*lst0[0000] = (008C): SurfaceBody 'Solid23'
+			*ref_1 = (01CB): 5CE72F63 '255,153,0'
+		objects[0085] = (008C): SurfaceBody 'Solid23'  flags=3004200  index=0086 
+			next = (01CC): FxAttrLabel 'Solid23' a0=(0000,0000)    index=0039  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (001A): 27ECB60E
+		objects[0086] = (008D): SurfaceBody  flags=1004200  index=0087 
+			*ref_0 = (01CD): AsmEntityWrapper
+		objects[0087] = (008E): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0088 s32_0=0  u16_0=001
+			creator = (01CE): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=085 u16_0=8000
+			*fx = (008B): DerivedOccFeature 'BACK__X2_4E9A514B529B_X0_.ipt:1'
+		objects[0088] = (008F): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:1'  flags=0200  index=0089 s32_0=-1  u32_0=0000 
+			next = (01CF): FxAttrLabel 'R5__X2_89D294DD652F67B6_X0_.ipt:1' a0=(0000,0000)    index=003C  uid={00000000-0000-0000-0000-000000000000}
+				next = (02F5): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (008F): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0090): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+			*lst0[0000] = (0090): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+			*ref_1 = (01D0): 0A52ED98
+		objects[0089] = (0090): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:1'  flags=6200  index=008A s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01D1): FxAttrLabel 'R5__X2_89D294DD652F67B6_X0_.ipt:1' a0=(0000,0000)    index=003B  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02F7): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0090): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+					*ref_2 = (008F): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+			*lst0[0000] = (0091): SurfaceBody 'Solid24'
+			*ref_1 = (01D2): 5CE72F63 '255,153,0'
+		objects[008A] = (0091): SurfaceBody 'Solid24'  flags=3004200  index=008B 
+			next = (01D3): FxAttrLabel 'Solid24' a0=(0000,0000)    index=003B  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (001B): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+		objects[008B] = (0092): SurfaceBody  flags=1004200  index=008C 
+			*ref_0 = (01D4): AsmEntityWrapper
+		objects[008C] = (0093): NMx_FFColor_Entity '255,153,0'  flags=8200  index=008D s32_0=0  u16_0=001
+			creator = (01D5): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=08A u16_0=8000
+			*fx = (0090): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:1'
+		objects[008D] = (0094): DerivedOccDataCollector 'RIGHT_TYPE-C.ipt:1'  flags=0200  index=008E s32_0=-1  u32_0=0000 
+			next = (01D6): FxAttrLabel 'RIGHT_TYPE-C.ipt:1' a0=(0000,0000)    index=003E  uid={00000000-0000-0000-0000-000000000000}
+				next = (02F9): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0094): DerivedOccDataCollector 'RIGHT_TYPE-C.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0095): DerivedOccFeature 'RIGHT_TYPE-C.ipt:1'
+			*lst0[0000] = (0095): DerivedOccFeature 'RIGHT_TYPE-C.ipt:1'
+			*ref_1 = (01D7): 0A52ED98
+		objects[008E] = (0095): DerivedOccFeature 'RIGHT_TYPE-C.ipt:1'  flags=6200  index=008F s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01D8): FxAttrLabel 'RIGHT_TYPE-C.ipt:1' a0=(0000,0000)    index=003D  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02FB): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0095): DerivedOccFeature 'RIGHT_TYPE-C.ipt:1'
+					*ref_2 = (0094): DerivedOccDataCollector 'RIGHT_TYPE-C.ipt:1'
+			*lst0[0000] = (0096): SurfaceBody 'Solid25'
+			*ref_1 = (01D9): 5CE72F63 '255,153,0'
+		objects[008F] = (0096): SurfaceBody 'Solid25'  flags=3004200  index=0090 
+			next = (01DA): FxAttrLabel 'Solid25' a0=(0000,0000)    index=003D  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (001C): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9.ipt:1'
+		objects[0090] = (0097): SurfaceBody  flags=1004200  index=0091 
+			*ref_0 = (01DB): AsmEntityWrapper
+		objects[0091] = (0098): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0092 s32_0=0  u16_0=001
+			creator = (01DC): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=08F u16_0=8000
+			*fx = (0095): DerivedOccFeature 'RIGHT_TYPE-C.ipt:1'
+		objects[0092] = (0099): DerivedOccDataCollector 'LEFT__X2_955C5934_X0_.ipt:1'  flags=0200  index=0093 s32_0=-1  u32_0=0000 
+			next = (01DD): FxAttrLabel 'LEFT__X2_955C5934_X0_.ipt:1' a0=(0000,0000)    index=0040  uid={00000000-0000-0000-0000-000000000000}
+				next = (02FD): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0099): DerivedOccDataCollector 'LEFT__X2_955C5934_X0_.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (009A): DerivedOccFeature 'LEFT__X2_955C5934_X0_.ipt:1'
+			*lst0[0000] = (009A): DerivedOccFeature 'LEFT__X2_955C5934_X0_.ipt:1'
+			*ref_1 = (01DE): 0A52ED98
+		objects[0093] = (009A): DerivedOccFeature 'LEFT__X2_955C5934_X0_.ipt:1'  flags=6200  index=0094 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01DF): FxAttrLabel 'LEFT__X2_955C5934_X0_.ipt:1' a0=(0000,0000)    index=003F  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (02FF): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (009A): DerivedOccFeature 'LEFT__X2_955C5934_X0_.ipt:1'
+					*ref_2 = (0099): DerivedOccDataCollector 'LEFT__X2_955C5934_X0_.ipt:1'
+			*lst0[0000] = (009B): SurfaceBody 'Solid26'
+			*ref_1 = (01E0): 5CE72F63 '255,153,0'
+		objects[0094] = (009B): SurfaceBody 'Solid26'  flags=3004200  index=0095 
+			next = (01E1): FxAttrLabel 'Solid26' a0=(0000,0000)    index=003F  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (001D): SurfaceBody
+		objects[0095] = (009C): SurfaceBody  flags=1004200  index=0096 
+			*ref_0 = (01E2): AsmEntityWrapper
+		objects[0096] = (009D): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0097 s32_0=0  u16_0=001
+			creator = (01E3): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=094 u16_0=8000
+			*fx = (009A): DerivedOccFeature 'LEFT__X2_955C5934_X0_.ipt:1'
+		objects[0097] = (009E): DerivedOccDataCollector 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'  flags=0200  index=0098 s32_0=-1  u32_0=0000 
+			next = (01E4): FxAttrLabel 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1' a0=(0000,0000)    index=0042  uid={00000000-0000-0000-0000-000000000000}
+				next = (0301): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (009E): DerivedOccDataCollector 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (009F): DerivedOccFeature 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+			*lst0[0000] = (009F): DerivedOccFeature 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+			*ref_1 = (01E5): 0A52ED98
+		objects[0098] = (009F): DerivedOccFeature 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'  flags=6200  index=0099 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01E6): FxAttrLabel 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1' a0=(0000,0000)    index=0041  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0303): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (009F): DerivedOccFeature 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+					*ref_2 = (009E): DerivedOccDataCollector 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+			*lst0[0000] = (00A0): SurfaceBody 'Solid27'
+			*ref_1 = (01E7): 5CE72F63 '51,51,51'
+		objects[0099] = (00A0): SurfaceBody 'Solid27'  flags=3004200  index=009A 
+			next = (01E8): FxAttrLabel 'Solid27' a0=(0000,0000)    index=0041  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (001E): NMx_FFColor_Entity '102,102,102'
+		objects[009A] = (00A1): SurfaceBody  flags=1004200  index=009B 
+			*ref_0 = (01E9): AsmEntityWrapper
+		objects[009B] = (00A2): NMx_FFColor_Entity '51,51,51'  flags=8200  index=009C s32_0=0  u16_0=001
+			creator = (01EA): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=099 u16_0=8000
+			*fx = (009F): DerivedOccFeature 'TOP__X2_4E9A514B529B_X0__MODEL_ASM.iam:1::BAUTEIL53_DWG.ipt:1'
+		objects[009C] = (00A3): DerivedOccDataCollector 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'  flags=0200  index=009D s32_0=-1  u32_0=0000 
+			next = (01EB): FxAttrLabel 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1' a0=(0000,0000)    index=0044  uid={00000000-0000-0000-0000-000000000000}
+				next = (0305): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00A3): DerivedOccDataCollector 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00A4): DerivedOccFeature 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+			*lst0[0000] = (00A4): DerivedOccFeature 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+			*ref_1 = (01EC): 0A52ED98
+		objects[009D] = (00A4): DerivedOccFeature 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'  flags=6200  index=009E s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01ED): FxAttrLabel 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1' a0=(0000,0000)    index=0043  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0307): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00A4): DerivedOccFeature 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+					*ref_2 = (00A3): DerivedOccDataCollector 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+			*lst0[0000] = (00A5): SurfaceBody 'Solid28'
+			*ref_1 = (01EE): 5CE72F63 '51,51,51'
+		objects[009E] = (00A5): SurfaceBody 'Solid28'  flags=3004200  index=009F 
+			next = (01EF): FxAttrLabel 'Solid28' a0=(0000,0000)    index=0043  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (001F): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+		objects[009F] = (00A6): SurfaceBody  flags=1004200  index=00A0 
+			*ref_0 = (01F0): AsmEntityWrapper
+		objects[00A0] = (00A7): NMx_FFColor_Entity '51,51,51'  flags=8200  index=00A1 s32_0=0  u16_0=001
+			creator = (01F1): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=09E u16_0=8000
+			*fx = (00A4): DerivedOccFeature 'BOTTOM__X2_4E9A514B529B_X0_.ipt:1'
+		objects[00A1] = (00A8): DerivedOccDataCollector '_X2_5BFC8F689694677F_X0_.ipt:1'  flags=0200  index=00A2 s32_0=-1  u32_0=0000 
+			next = (01F2): FxAttrLabel '_X2_5BFC8F689694677F_X0_.ipt:1' a0=(0000,0000)    index=0046  uid={00000000-0000-0000-0000-000000000000}
+				next = (0309): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00A8): DerivedOccDataCollector '_X2_5BFC8F689694677F_X0_.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00A9): DerivedOccFeature '_X2_5BFC8F689694677F_X0_.ipt:1'
+			*lst0[0000] = (00A9): DerivedOccFeature '_X2_5BFC8F689694677F_X0_.ipt:1'
+			*ref_1 = (01F3): 0A52ED98
+		objects[00A2] = (00A9): DerivedOccFeature '_X2_5BFC8F689694677F_X0_.ipt:1'  flags=6200  index=00A3 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01F4): FxAttrLabel '_X2_5BFC8F689694677F_X0_.ipt:1' a0=(0000,0000)    index=0045  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (030B): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00A9): DerivedOccFeature '_X2_5BFC8F689694677F_X0_.ipt:1'
+					*ref_2 = (00A8): DerivedOccDataCollector '_X2_5BFC8F689694677F_X0_.ipt:1'
+			*lst0[0000] = (00AA): SurfaceBody 'Solid29'
+			*ref_1 = (01F5): 5CE72F63 '255,153,0'
+		objects[00A3] = (00AA): SurfaceBody 'Solid29'  flags=3004200  index=00A4 
+			next = (01F6): FxAttrLabel 'Solid29' a0=(0000,0000)    index=0045  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0020): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MGN9C.ipt:1'
+		objects[00A4] = (00AB): SurfaceBody  flags=1004200  index=00A5 
+			*ref_0 = (01F7): AsmEntityWrapper
+		objects[00A5] = (00AC): NMx_FFColor_Entity '255,153,0'  flags=8200  index=00A6 s32_0=0  u16_0=001
+			creator = (01F8): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0A3 u16_0=8000
+			*fx = (00A9): DerivedOccFeature '_X2_5BFC8F689694677F_X0_.ipt:1'
+		objects[00A6] = (00AD): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'  flags=0200  index=00A7 s32_0=-1  u32_0=0000 
+			next = (01F9): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1' a0=(0000,0000)    index=004B  uid={00000000-0000-0000-0000-000000000000}
+				next = (030D): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00AD): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00AE): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+				*participants[0001] = (00B2): Plane 'Work Plane8'
+				*participants[0002] = (00B3): Plane 'Work Plane9'
+				*participants[0003] = (00B4): Line3D (0.00245283,4.965,2.905)-(1.00245,4.965,2.905)
+			*lst0[0000] = (00AE): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+			*lst0[0001] = (00B2): Plane 'Work Plane8'
+			*lst0[0002] = (00B3): Plane 'Work Plane9'
+			*lst0[0003] = (00B4): Line3D (0.00245283,4.965,2.905)-(1.00245,4.965,2.905)
+			*ref_1 = (01FA): 0A52ED98
+		objects[00A7] = (00AE): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'  flags=6200  index=00A8 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (01FB): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1' a0=(0000,0000)    index=0047  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (030F): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00AE): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+					*ref_2 = (00AD): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+			*lst0[0000] = (00AF): SurfaceBody 'Solid30'
+			*ref_1 = (01FC): 5CE72F63 'IPHT_Grün'
+		objects[00A8] = (00AF): SurfaceBody 'Solid30'  flags=3004200  index=00A9 
+			next = (01FD): FxAttrLabel 'Solid30' a0=(0000,0000)    index=0047  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0021): SurfaceBody 'Solid2'
+		objects[00A9] = (00B0): SurfaceBody  flags=1004200  index=00AA 
+			*ref_0 = (01FE): AsmEntityWrapper
+		objects[00AA] = (00B1): NMx_FFColor_Entity 'IPHT_Grün'  flags=8200  index=00AB s32_0=0  u16_0=001
+			creator = (01FF): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0A8 u16_0=8000
+			*fx = (00AE): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+		objects[00AB] = (00B2): Plane 'Work Plane8'  flags=24200  index=00AC flags2=808800   u32_1=0000 center=Vector (2.4924528301887166, 4.964999999999991, 4.610000000000001) a1=Vector (0.0, 0.0, -1.0) normal=Vector (-1.0, 0.0, 0.0)
+			next = (0200): FxAttrLabel 'Work Plane8' a0=(0000,0000)    index=0048  uid={00000000-0000-0000-0000-000000000000}
+				next = (0311): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00B2): Plane 'Work Plane8'
+					*ref_2 = (00AD): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+		objects[00AC] = (00B3): Plane 'Work Plane9'  flags=24200  index=00AD flags2=808800   u32_1=0000 center=Vector (0.002452830188715719, 4.964999999999991, 2.905000000000001) a1=Vector (0.0, -1.0, 0.0) normal=Vector (-1.0, 0.0, 0.0)
+			next = (0201): FxAttrLabel 'Work Plane9' a0=(0000,0000)    index=0049  uid={00000000-0000-0000-0000-000000000000}
+				next = (0312): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00B3): Plane 'Work Plane9'
+					*ref_2 = (00AD): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+		objects[00AD] = (00B4): Line3D  flags=24200  index=00AE flags2=804800    pos=Vector (0.002452830188715719, 4.964999999999991, 2.905000000000001) dir=Vector (1.0, 0.0, 0.0) u8_0=00
+			next = (0202): FxAttrLabel 'Work Axis20' a0=(0000,0000)    index=004A  uid={00000000-0000-0000-0000-000000000000}
+				next = (0313): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00B4): Line3D (0.00245283,4.965,2.905)-(1.00245,4.965,2.905)
+					*ref_2 = (00AD): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:1'
+		objects[00AE] = (00B5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'  flags=0200  index=00AF s32_0=-1  u32_0=0000 
+			next = (0203): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2' a0=(0000,0000)    index=0050  uid={00000000-0000-0000-0000-000000000000}
+				next = (0314): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00B5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00B6): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+				*participants[0001] = (00B9): Plane 'Work Plane8_1'
+				*participants[0002] = (00BA): Plane 'Work Plane9_1'
+				*participants[0003] = (00BB): Line3D (3.37189e-14,4.965,2.905)-(-1,4.965,2.905)
+			*lst0[0000] = (00B6): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+			*lst0[0001] = (00B9): Plane 'Work Plane8_1'
+			*lst0[0002] = (00BA): Plane 'Work Plane9_1'
+			*lst0[0003] = (00BB): Line3D (3.37189e-14,4.965,2.905)-(-1,4.965,2.905)
+			*ref_1 = (0204): 0A52ED98
+		objects[00AF] = (00B6): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'  flags=6200  index=00B0 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0205): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2' a0=(0000,0000)    index=004C  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0316): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00B6): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+					*ref_2 = (00B5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+			*lst0[0000] = (00B7): SurfaceBody 'Solid31'
+			*ref_1 = (0206): 5CE72F63 'IPHT_Grün'
+		objects[00B0] = (00B7): SurfaceBody 'Solid31'  flags=3004200  index=00B1 
+			next = (0207): FxAttrLabel 'Solid31' a0=(0000,0000)    index=004C  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0022): SurfaceBody
+		objects[00B1] = (00B8): NMx_FFColor_Entity 'IPHT_Grün'  flags=8200  index=00B2 s32_0=0  u16_0=001
+			creator = (0208): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0B0 u16_0=8000
+			*fx = (00B6): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+		objects[00B2] = (00B9): Plane 'Work Plane8_1'  flags=24200  index=00B3 flags2=808800   u32_1=0000 center=Vector (-2.489999999999967, 4.965, 1.2000000000000002) a1=Vector (0.0, 0.0, 1.0) normal=Vector (1.0, 0.0, 0.0)
+			next = (0209): FxAttrLabel 'Work Plane8_1' a0=(0000,0000)    index=004D  uid={00000000-0000-0000-0000-000000000000}
+				next = (0318): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00B9): Plane 'Work Plane8_1'
+					*ref_2 = (00B5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+		objects[00B3] = (00BA): Plane 'Work Plane9_1'  flags=24200  index=00B4 flags2=808800   u32_1=0000 center=Vector (3.371886103665e-14, 4.965, 2.905) a1=Vector (0.0, -1.0, 0.0) normal=Vector (1.0, 0.0, 0.0)
+			next = (020A): FxAttrLabel 'Work Plane9_1' a0=(0000,0000)    index=004E  uid={00000000-0000-0000-0000-000000000000}
+				next = (0319): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00BA): Plane 'Work Plane9_1'
+					*ref_2 = (00B5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+		objects[00B4] = (00BB): Line3D  flags=24200  index=00B5 flags2=804800    pos=Vector (3.371886103665e-14, 4.965, 2.905) dir=Vector (-1.0, 0.0, 0.0) u8_0=00
+			next = (020B): FxAttrLabel 'Work Axis20_1' a0=(0000,0000)    index=004F  uid={00000000-0000-0000-0000-000000000000}
+				next = (031A): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00BB): Line3D (3.37189e-14,4.965,2.905)-(-1,4.965,2.905)
+					*ref_2 = (00B5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_CUBE_1X1_IM.ipt:2'
+		objects[00B5] = (00BC): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'  flags=0200  index=00B6 s32_0=-1  u32_0=0000 
+			next = (020C): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1' a0=(0000,0000)    index=0053  uid={00000000-0000-0000-0000-000000000000}
+				next = (031B): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00BC): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00C0): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+				*participants[0001] = (00C4): Line3D (0.00245283,4.965,5.91)-(0.00245283,4.965,6.91)
+			*lst0[0000] = (00C0): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+			*lst0[0001] = (00C4): Line3D (0.00245283,4.965,5.91)-(0.00245283,4.965,6.91)
+			*ref_1 = (020D): 0A52ED98
+		objects[00B6] = (00BD): Parameter 'd_i'  flags=103C200  index=00B7   valueNominal=4 valueModel=4   tolerance=NOMINAL u16_0=-1
+			next = (020E): FxAttrParameterComment a0=(0000,0000)   
+			unit = (020F): Unit   visible=True 
+				numerators[0000] = (031D): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+			formula = (0210): ParameterValue  value=4 type=000
+				unit = (031E): Unit   visible=True 
+					numerators[0000] = (0385): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[00B7] = (00BE): Parameter 'd_o'  flags=103C200  index=00B8   valueNominal=4 valueModel=4   tolerance=NOMINAL u16_0=-1
+			next = (0211): FxAttrParameterComment a0=(0000,0000)   
+			unit = (0212): Unit   visible=True 
+				numerators[0000] = (031F): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+			formula = (0213): ParameterValue  value=4 type=000
+				unit = (0320): Unit   visible=True 
+					numerators[0000] = (0386): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[00B8] = (00BF): Parameter 'd_part'  flags=103C200  index=00B9   valueNominal=5 valueModel=5   tolerance=NOMINAL u16_0=-1
+			next = (0214): FxAttrParameterComment a0=(0000,0000)   
+			unit = (0215): Unit   visible=True 
+				numerators[0000] = (0321): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+			formula = (0216): ParameterValue  value=5 type=000
+				unit = (0322): Unit   visible=True 
+					numerators[0000] = (0387): UnitMeter magnitude=0.001 factor=1 Unit="m" UnitOffset=0 UnitFactor=100 UnitSupportet=True
+		objects[00B9] = (00C0): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'  flags=6200  index=00BA s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0217): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1' a0=(0000,0000)    index=0051  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0323): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00C0): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+					*ref_2 = (00BC): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+			*lst0[0000] = (00C1): SurfaceBody 'Solid32'
+			*ref_1 = (0218): 5CE72F63 'White'
+		objects[00BA] = (00C1): SurfaceBody 'Solid32'  flags=3004200  index=00BB 
+			next = (0219): FxAttrLabel 'Solid32' a0=(0000,0000)    index=0051  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0023): NMx_FFColor_Entity 'Default'
+		objects[00BB] = (00C2): SurfaceBody  flags=1004200  index=00BC 
+			*ref_0 = (021A): AsmEntityWrapper
+		objects[00BC] = (00C3): NMx_FFColor_Entity 'White'  flags=8200  index=00BD s32_0=0  u16_0=001
+			creator = (021B): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0BA u16_0=8000
+			*fx = (00C0): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+		objects[00BD] = (00C4): Line3D  flags=24200  index=00BE flags2=904800    pos=Vector (0.002452830188717052, 4.964999999999989, 5.910000000000001) dir=Vector (0.0, 0.0, 1.0) u8_0=00
+			next = (021C): FxAttrLabel 'Work Axis4' a0=(0000,0000)    index=0052  uid={00000000-0000-0000-0000-000000000000}
+				next = (0325): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00C4): Line3D (0.00245283,4.965,5.91)-(0.00245283,4.965,6.91)
+					*ref_2 = (00BC): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::10_BASE_PUZZLE_V3.ipt:1'
+		objects[00BE] = (00C5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'  flags=0200  index=00BF s32_0=-1  u32_0=0000 
+			next = (021D): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1' a0=(0000,0000)    index=0055  uid={00000000-0000-0000-0000-000000000000}
+				next = (0326): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00C5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00C6): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+			*lst0[0000] = (00C6): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+			*ref_1 = (021E): 0A52ED98
+		objects[00BF] = (00C6): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'  flags=6200  index=00C0 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (021F): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1' a0=(0000,0000)    index=0054  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0328): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00C6): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+					*ref_2 = (00C5): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+			*lst0[0000] = (00C7): SurfaceBody 'Solid33'
+			*ref_1 = (0220): 5CE72F63 '255,153,0'
+		objects[00C0] = (00C7): SurfaceBody 'Solid33'  flags=3004200  index=00C1 
+			next = (0221): FxAttrLabel 'Solid33' a0=(0000,0000)    index=0054  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0024): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+		objects[00C1] = (00C8): SurfaceBody  flags=1004200  index=00C2 
+			*ref_0 = (0222): AsmEntityWrapper
+		objects[00C2] = (00C9): NMx_FFColor_Entity '255,153,0'  flags=8200  index=00C3 s32_0=0  u16_0=001
+			creator = (0223): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0C0 u16_0=8000
+			*fx = (00C6): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0___X2_6258_X.ipt:1'
+		objects[00C3] = (00CA): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'  flags=0200  index=00C4 s32_0=-1  u32_0=0000 
+			next = (0224): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1' a0=(0000,0000)    index=0057  uid={00000000-0000-0000-0000-000000000000}
+				next = (032A): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00CA): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00CB): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+			*lst0[0000] = (00CB): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+			*ref_1 = (0225): 0A52ED98
+		objects[00C4] = (00CB): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'  flags=6200  index=00C5 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0226): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1' a0=(0000,0000)    index=0056  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (032C): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00CB): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+					*ref_2 = (00CA): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+			*lst0[0000] = (00CC): SurfaceBody 'Solid34'
+			*ref_1 = (0227): 5CE72F63 '255,153,0'
+		objects[00C5] = (00CC): SurfaceBody 'Solid34'  flags=3004200  index=00C6 
+			next = (0228): FxAttrLabel 'Solid34' a0=(0000,0000)    index=0056  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0025): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::CARRIAGE.ipt:1'
+		objects[00C6] = (00CD): SurfaceBody  flags=1004200  index=00C7 
+			*ref_0 = (0229): AsmEntityWrapper
+		objects[00C7] = (00CE): NMx_FFColor_Entity '255,153,0'  flags=8200  index=00C8 s32_0=0  u16_0=001
+			creator = (022A): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0C5 u16_0=8000
+			*fx = (00CB): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-_X2_538B76.ipt:1'
+		objects[00C8] = (00CF): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'  flags=0200  index=00C9 s32_0=-1  u32_0=0000 
+			next = (022B): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1' a0=(0000,0000)    index=0059  uid={00000000-0000-0000-0000-000000000000}
+				next = (032E): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00CF): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00D0): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+			*lst0[0000] = (00D0): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+			*ref_1 = (022C): 0A52ED98
+		objects[00C9] = (00D0): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'  flags=6200  index=00CA s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (022D): FxAttrLabel 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1' a0=(0000,0000)    index=0058  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0330): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00D0): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+					*ref_2 = (00CF): DerivedOccDataCollector 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+			*lst0[0000] = (00D1): SurfaceBody 'Solid35'
+			*ref_1 = (022E): 5CE72F63 '255,153,0'
+		objects[00CA] = (00D1): SurfaceBody 'Solid35'  flags=3004200  index=00CB 
+			next = (022F): FxAttrLabel 'Solid35' a0=(0000,0000)    index=0058  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0026): SurfaceBody 'Solid3'
+		objects[00CB] = (00D2): SurfaceBody  flags=1004200  index=00CC 
+			*ref_0 = (0230): AsmEntityWrapper
+		objects[00CC] = (00D3): NMx_FFColor_Entity '255,153,0'  flags=8200  index=00CD s32_0=0  u16_0=001
+			creator = (0231): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0CA u16_0=8000
+			*fx = (00D0): DerivedOccFeature 'ASSEMBLY_CUBE_EMPTY_IM_V3_ASM.iam:1::_X2_8F7D73BB7247_X0_-7X26X1_0MM.ipt:1'
+		objects[00CD] = (00D4): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:2'  flags=0200  index=00CE s32_0=-1  u32_0=0000 
+			next = (0232): FxAttrLabel 'R5__X2_89D294DD652F67B6_X0_.ipt:2' a0=(0000,0000)    index=005B  uid={00000000-0000-0000-0000-000000000000}
+				next = (0332): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00D4): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00D5): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+			*lst0[0000] = (00D5): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+			*ref_1 = (0233): 0A52ED98
+		objects[00CE] = (00D5): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:2'  flags=6200  index=00CF s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0234): FxAttrLabel 'R5__X2_89D294DD652F67B6_X0_.ipt:2' a0=(0000,0000)    index=005A  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0334): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00D5): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+					*ref_2 = (00D4): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+			*lst0[0000] = (00D6): SurfaceBody 'Solid36'
+			*ref_1 = (0235): 5CE72F63 '255,153,0'
+		objects[00CF] = (00D6): SurfaceBody 'Solid36'  flags=3004200  index=00D0 
+			next = (0236): FxAttrLabel 'Solid36' a0=(0000,0000)    index=005A  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0027): SurfaceBody
+		objects[00D0] = (00D7): NMx_FFColor_Entity '255,153,0'  flags=8200  index=00D1 s32_0=0  u16_0=001
+			creator = (0237): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0CF u16_0=8000
+			*fx = (00D5): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:2'
+		objects[00D1] = (00D8): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:3'  flags=0200  index=00D2 s32_0=-1  u32_0=0000 
+			next = (0238): FxAttrLabel 'R5__X2_89D294DD652F67B6_X0_.ipt:3' a0=(0000,0000)    index=005D  uid={00000000-0000-0000-0000-000000000000}
+				next = (0336): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00D8): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00D9): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+			*lst0[0000] = (00D9): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+			*ref_1 = (0239): 0A52ED98
+		objects[00D2] = (00D9): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:3'  flags=6200  index=00D3 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (023A): FxAttrLabel 'R5__X2_89D294DD652F67B6_X0_.ipt:3' a0=(0000,0000)    index=005C  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0338): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00D9): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+					*ref_2 = (00D8): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+			*lst0[0000] = (00DA): SurfaceBody 'Solid37'
+			*ref_1 = (023B): 5CE72F63 '255,153,0'
+		objects[00D3] = (00DA): SurfaceBody 'Solid37'  flags=3004200  index=00D4 
+			next = (023C): FxAttrLabel 'Solid37' a0=(0000,0000)    index=005C  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0028): NMx_FFColor_Entity '207,215,232'
+		objects[00D4] = (00DB): NMx_FFColor_Entity '255,153,0'  flags=8200  index=00D5 s32_0=0  u16_0=001
+			creator = (023D): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0D3 u16_0=8000
+			*fx = (00D9): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:3'
+		objects[00D5] = (00DC): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:4'  flags=0200  index=00D6 s32_0=-1  u32_0=0000 
+			next = (023E): FxAttrLabel 'R5__X2_89D294DD652F67B6_X0_.ipt:4' a0=(0000,0000)    index=005F  uid={00000000-0000-0000-0000-000000000000}
+				next = (033A): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00DC): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00DD): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+			*lst0[0000] = (00DD): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+			*ref_1 = (023F): 0A52ED98
+		objects[00D6] = (00DD): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:4'  flags=6200  index=00D7 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0240): FxAttrLabel 'R5__X2_89D294DD652F67B6_X0_.ipt:4' a0=(0000,0000)    index=005E  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (033C): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00DD): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+					*ref_2 = (00DC): DerivedOccDataCollector 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+			*lst0[0000] = (00DE): SurfaceBody 'Solid38'
+			*ref_1 = (0241): 5CE72F63 '255,153,0'
+		objects[00D7] = (00DE): SurfaceBody 'Solid38'  flags=3004200  index=00D8 
+			next = (0242): FxAttrLabel 'Solid38' a0=(0000,0000)    index=005E  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0029): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+		objects[00D8] = (00DF): NMx_FFColor_Entity '255,153,0'  flags=8200  index=00D9 s32_0=0  u16_0=001
+			creator = (0243): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0D7 u16_0=8000
+			*fx = (00DD): DerivedOccFeature 'R5__X2_89D294DD652F67B6_X0_.ipt:4'
+		objects[00D9] = (00E0): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'  flags=0200  index=00DA s32_0=-1  u32_0=0000 
+			next = (0244): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1' a0=(0000,0000)    index=0061  uid={00000000-0000-0000-0000-000000000000}
+				next = (033E): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00E0): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00E1): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+			*lst0[0000] = (00E1): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+			*ref_1 = (0245): 0A52ED98
+		objects[00DA] = (00E1): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'  flags=6200  index=00DB s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0246): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1' a0=(0000,0000)    index=0060  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0340): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00E1): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+					*ref_2 = (00E0): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+			*lst0[0000] = (00E2): SurfaceBody 'Solid39'
+			*ref_1 = (0247): 5CE72F63 '41,36,34'
+		objects[00DB] = (00E2): SurfaceBody 'Solid39'  flags=3004200  index=00DC 
+			next = (0248): FxAttrLabel 'Solid39' a0=(0000,0000)    index=0060  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (002A): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::NEMA11.ipt:1'
+		objects[00DC] = (00E3): SurfaceBody  flags=1004200  index=00DD 
+			*ref_0 = (0249): AsmEntityWrapper
+		objects[00DD] = (00E4): NMx_FFColor_Entity '41,36,34'  flags=8200  index=00DE s32_0=0  u16_0=001
+			creator = (024A): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0DB u16_0=8000
+			*fx = (00E1): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER4.ipt:1'
+		objects[00DE] = (00E5): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'  flags=0200  index=00DF s32_0=-1  u32_0=0000 
+			next = (024B): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1' a0=(0000,0000)    index=0063  uid={00000000-0000-0000-0000-000000000000}
+				next = (0342): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00E5): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00E6): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+			*lst0[0000] = (00E6): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+			*ref_1 = (024C): 0A52ED98
+		objects[00DF] = (00E6): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'  flags=6200  index=00E0 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (024D): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1' a0=(0000,0000)    index=0062  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0344): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00E6): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+					*ref_2 = (00E5): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+			*lst0[0000] = (00E7): SurfaceBody 'Solid40'
+			*ref_1 = (024E): 5CE72F63 '76,76,76'
+		objects[00E0] = (00E7): SurfaceBody 'Solid40'  flags=3004200  index=00E1 
+			next = (024F): FxAttrLabel 'Solid40' a0=(0000,0000)    index=0062  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (002B): SurfaceBody 'Solid4'
+		objects[00E1] = (00E8): SurfaceBody  flags=1004200  index=00E2 
+			*ref_0 = (0250): AsmEntityWrapper
+		objects[00E2] = (00E9): NMx_FFColor_Entity '76,76,76'  flags=8200  index=00E3 s32_0=0  u16_0=001
+			creator = (0251): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0E0 u16_0=8000
+			*fx = (00E6): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER5.ipt:1'
+		objects[00E3] = (00EA): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'  flags=0200  index=00E4 s32_0=-1  u32_0=0000 
+			next = (0252): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1' a0=(0000,0000)    index=0065  uid={00000000-0000-0000-0000-000000000000}
+				next = (0346): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00EA): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00EB): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+			*lst0[0000] = (00EB): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+			*ref_1 = (0253): 0A52ED98
+		objects[00E4] = (00EB): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'  flags=6200  index=00E5 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0254): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1' a0=(0000,0000)    index=0064  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0348): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00EB): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+					*ref_2 = (00EA): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+			*lst0[0000] = (00EC): SurfaceBody 'Solid41'
+			*ref_1 = (0255): 5CE72F63 '204,204,204'
+		objects[00E5] = (00EC): SurfaceBody 'Solid41'  flags=3004200  index=00E6 
+			next = (0256): FxAttrLabel 'Solid41' a0=(0000,0000)    index=0064  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (002C): SurfaceBody
+		objects[00E6] = (00ED): SurfaceBody  flags=1004200  index=00E7 
+			*ref_0 = (0257): AsmEntityWrapper
+		objects[00E7] = (00EE): NMx_FFColor_Entity '204,204,204'  flags=8200  index=00E8 s32_0=0  u16_0=001
+			creator = (0258): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0E5 u16_0=8000
+			*fx = (00EB): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER3.ipt:1'
+		objects[00E8] = (00EF): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'  flags=0200  index=00E9 s32_0=-1  u32_0=0000 
+			next = (0259): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1' a0=(0000,0000)    index=0067  uid={00000000-0000-0000-0000-000000000000}
+				next = (034A): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00EF): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00F0): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+			*lst0[0000] = (00F0): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+			*ref_1 = (025A): 0A52ED98
+		objects[00E9] = (00F0): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'  flags=6200  index=00EA s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (025B): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1' a0=(0000,0000)    index=0066  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (034C): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00F0): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+					*ref_2 = (00EF): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+			*lst0[0000] = (00F1): SurfaceBody 'Solid42'
+			*ref_1 = (025C): 5CE72F63 '204,204,204'
+		objects[00EA] = (00F1): SurfaceBody 'Solid42'  flags=3004200  index=00EB 
+			next = (025D): FxAttrLabel 'Solid42' a0=(0000,0000)    index=0066  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (002D): NMx_FFColor_Entity '207,215,232'
+		objects[00EB] = (00F2): SurfaceBody  flags=1004200  index=00EC 
+			*ref_0 = (025E): AsmEntityWrapper
+		objects[00EC] = (00F3): NMx_FFColor_Entity '204,204,204'  flags=8200  index=00ED s32_0=0  u16_0=001
+			creator = (025F): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0EA u16_0=8000
+			*fx = (00F0): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER7.ipt:1'
+		objects[00ED] = (00F4): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'  flags=0200  index=00EE s32_0=-1  u32_0=0000 
+			next = (0260): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1' a0=(0000,0000)    index=0069  uid={00000000-0000-0000-0000-000000000000}
+				next = (034E): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00F4): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00F5): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+			*lst0[0000] = (00F5): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+			*ref_1 = (0261): 0A52ED98
+		objects[00EE] = (00F5): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'  flags=6200  index=00EF s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0262): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1' a0=(0000,0000)    index=0068  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0350): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00F5): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+					*ref_2 = (00F4): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+			*lst0[0000] = (00F6): SurfaceBody 'Solid43'
+			*ref_1 = (0263): 5CE72F63 '76,76,76'
+		objects[00EF] = (00F6): SurfaceBody 'Solid43'  flags=3004200  index=00F0 
+			next = (0264): FxAttrLabel 'Solid43' a0=(0000,0000)    index=0068  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (002E): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::ACTUATOR_MOVABLE_25MM.ipt:1'
+		objects[00F0] = (00F7): SurfaceBody  flags=1004200  index=00F1 
+			*ref_0 = (0265): AsmEntityWrapper
+		objects[00F1] = (00F8): NMx_FFColor_Entity '76,76,76'  flags=8200  index=00F2 s32_0=0  u16_0=001
+			creator = (0266): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0EF u16_0=8000
+			*fx = (00F5): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER2.ipt:1'
+		objects[00F2] = (00F9): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'  flags=0200  index=00F3 s32_0=-1  u32_0=0000 
+			next = (0267): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1' a0=(0000,0000)    index=006C  uid={00000000-0000-0000-0000-000000000000}
+				next = (0352): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00F9): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (00FA): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+				*participants[0001] = (00FE): FxNonParametricBase 'Flä1::Derived'
+			*lst0[0000] = (00FA): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+			*lst0[0001] = (00FE): FxNonParametricBase 'Flä1::Derived'
+			*ref_1 = (0268): 0A52ED98
+		objects[00F3] = (00FA): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'  flags=6200  index=00F4 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0269): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1' a0=(0000,0000)    index=006A  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0354): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (00FA): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+					*ref_2 = (00F9): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+			*lst0[0000] = (00FB): SurfaceBody 'Solid44'
+			*ref_1 = (026A): 5CE72F63 'Default'
+		objects[00F4] = (00FB): SurfaceBody 'Solid44'  flags=3004200  index=00F5 
+			next = (026B): FxAttrLabel 'Solid44' a0=(0000,0000)    index=006A  uid={00000000-0000-0000-0000-000000000000}
+		objects[00F5] = (00FC): SurfaceBody  flags=1004200  index=00F6 
+		objects[00F6] = (00FD): NMx_FFColor_Entity 'Default'  flags=8200  index=00F7 s32_0=0  u16_0=001
+			creator = (026C): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0F4 u16_0=8000
+			*fx = (00FA): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+		objects[00F7] = (00FE): FxNonParametricBase 'Flä1::Derived'  flags=6200  index=00F8 s32_0=2908 outlineItem=0001  u32_1=0000
+			next = (026D): FxAttrExtrusionSurface 'Flä1::Derived' a0=(0000,0000)    u32_0=0001
+				next = (0356): FxAttrLabel 'Flä1::Derived' a0=(0000,0000)    index=006B  uid={FF890279-4A2B-3DB4-72B9-82BC4B1A1122}
+					*owner = (00FE): FxNonParametricBase 'Flä1::Derived'
+					next = (038B): FxAttr_FD590AA5 a0=(0000,0000)    
+						*owner = (00FE): FxNonParametricBase 'Flä1::Derived'
+						*ref_2 = (00F9): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER9.ipt:1'
+			*properties[0000] = (00FF): CA02411F
+			*properties[0001] = (0100): CA02411F 'Srf1'
+			*properties[0002] = (0101): 1DB92DE1
+		objects[00F8] = (00FF): CA02411F  flags=19004200  index=00F9 s32_0=0 
+			lst0[0000] = (026E): AsmEntityWrapper index=00FC u8_0=03  u32_1=0027
+				*asm = (011B): ASM
+		objects[00F9] = (0100): CA02411F 'Srf1'  flags=1B004200  index=00FA s32_0=0 lst1=(47)
+			next = (026F): FxAttrLabel 'Srf1' a0=(0000,0000)    index=006B  uid={00000000-0000-0000-0000-000000000000}
+		objects[00FA] = (0101): 1DB92DE1 aX=(00 00 00 00 6F 03 00 00 00 00 00 02 00 00 00 00 00 00 03 00 00 80 FB 00 00 00 FF FF FF FF 5C 0B 00 00 0B 00 00 80)
+		objects[00FB] = (0102): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'  flags=0200  index=00FD s32_0=-1  u32_0=0000 
+			next = (0270): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1' a0=(0000,0000)    index=006E  uid={00000000-0000-0000-0000-000000000000}
+				next = (0357): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0102): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0103): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+			*lst0[0000] = (0103): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+			*ref_1 = (0271): 0A52ED98
+		objects[00FC] = (0103): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'  flags=6200  index=00FE s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0272): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1' a0=(0000,0000)    index=006D  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0359): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0103): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+					*ref_2 = (0102): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+			*lst0[0000] = (0104): SurfaceBody 'Solid45'
+			*ref_1 = (0273): 5CE72F63 '76,76,76'
+		objects[00FD] = (0104): SurfaceBody 'Solid45'  flags=3004200  index=00FF 
+			next = (0274): FxAttrLabel 'Solid45' a0=(0000,0000)    index=006D  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0030): SurfaceBody 'Solid5'
+		objects[00FE] = (0105): SurfaceBody  flags=1004200  index=0100 
+			*ref_0 = (0275): AsmEntityWrapper
+		objects[00FF] = (0106): NMx_FFColor_Entity '76,76,76'  flags=8200  index=0101 s32_0=0  u16_0=001
+			creator = (0276): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=0FE u16_0=8000
+			*fx = (0103): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::00_MICROSCOPE_OBJECTIVE_10X_ASM.iam:1::VOLUMENK_X_D6RPER6.ipt:1'
+		objects[0100] = (0107): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'  flags=0200  index=0102 s32_0=-1  u32_0=0000 
+			next = (0277): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1' a0=(0000,0000)    index=0070  uid={00000000-0000-0000-0000-000000000000}
+				next = (035B): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0107): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0108): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+			*lst0[0000] = (0108): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+			*ref_1 = (0278): 0A52ED98
+		objects[0101] = (0108): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'  flags=6200  index=0103 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0279): FxAttrLabel 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1' a0=(0000,0000)    index=006F  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (035D): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0108): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+					*ref_2 = (0107): DerivedOccDataCollector 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+			*lst0[0000] = (0109): SurfaceBody 'Solid46'
+			*ref_1 = (027A): 5CE72F63 '255,153,0'
+		objects[0102] = (0109): SurfaceBody 'Solid46'  flags=3004200  index=0104 
+			next = (027B): FxAttrLabel 'Solid46' a0=(0000,0000)    index=006F  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0031): SurfaceBody
+		objects[0103] = (010A): SurfaceBody  flags=1004200  index=0105 
+			*ref_0 = (027C): AsmEntityWrapper
+		objects[0104] = (010B): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0106 s32_0=0  u16_0=001
+			creator = (027D): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=103 u16_0=8000
+			*fx = (0108): DerivedOccFeature 'L_X2_578B652F67B6_X0__MODEL_ASM.iam:1::L_X2_578B652F67B6_X0__MODEL_1.ipt:1'
+		objects[0105] = (010C): DerivedOccDataCollector 'P_MAGNET.ipt:1'  flags=0200  index=0107 s32_0=-1  u32_0=0000 
+			next = (027E): FxAttrLabel 'P_MAGNET.ipt:1' a0=(0000,0000)    index=0072  uid={00000000-0000-0000-0000-000000000000}
+				next = (035F): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (010C): DerivedOccDataCollector 'P_MAGNET.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (010D): DerivedOccFeature 'P_MAGNET.ipt:1'
+			*lst0[0000] = (010D): DerivedOccFeature 'P_MAGNET.ipt:1'
+			*ref_1 = (027F): 0A52ED98
+		objects[0106] = (010D): DerivedOccFeature 'P_MAGNET.ipt:1'  flags=6200  index=0108 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0280): FxAttrLabel 'P_MAGNET.ipt:1' a0=(0000,0000)    index=0071  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0361): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (010D): DerivedOccFeature 'P_MAGNET.ipt:1'
+					*ref_2 = (010C): DerivedOccDataCollector 'P_MAGNET.ipt:1'
+			*lst0[0000] = (010E): SurfaceBody 'Solid47'
+			*ref_1 = (0281): 5CE72F63 '163,163,163'
+		objects[0107] = (010E): SurfaceBody 'Solid47'  flags=3004200  index=0109 
+			next = (0282): FxAttrLabel 'Solid47' a0=(0000,0000)    index=0071  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0032): NMx_FFColor_Entity '183,207,195'
+		objects[0108] = (010F): SurfaceBody  flags=1004200  index=010A 
+			*ref_0 = (0283): AsmEntityWrapper
+		objects[0109] = (0110): NMx_FFColor_Entity '163,163,163'  flags=8200  index=010B s32_0=0  u16_0=001
+			creator = (0284): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=108 u16_0=8000
+			*fx = (010D): DerivedOccFeature 'P_MAGNET.ipt:1'
+		objects[010A] = (0111): DerivedOccDataCollector 'P_MAGNET.ipt:2'  flags=0200  index=010C s32_0=-1  u32_0=0000 
+			next = (0285): FxAttrLabel 'P_MAGNET.ipt:2' a0=(0000,0000)    index=0074  uid={00000000-0000-0000-0000-000000000000}
+				next = (0363): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0111): DerivedOccDataCollector 'P_MAGNET.ipt:2'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0112): DerivedOccFeature 'P_MAGNET.ipt:2'
+			*lst0[0000] = (0112): DerivedOccFeature 'P_MAGNET.ipt:2'
+			*ref_1 = (0286): 0A52ED98
+		objects[010B] = (0112): DerivedOccFeature 'P_MAGNET.ipt:2'  flags=6200  index=010D s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (0287): FxAttrLabel 'P_MAGNET.ipt:2' a0=(0000,0000)    index=0073  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0365): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0112): DerivedOccFeature 'P_MAGNET.ipt:2'
+					*ref_2 = (0111): DerivedOccDataCollector 'P_MAGNET.ipt:2'
+			*lst0[0000] = (0113): SurfaceBody 'Solid48'
+			*ref_1 = (0288): 5CE72F63 '163,163,163'
+		objects[010C] = (0113): SurfaceBody 'Solid48'  flags=3004200  index=010E 
+			next = (0289): FxAttrLabel 'Solid48' a0=(0000,0000)    index=0073  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0033): DerivedOccDataCollector '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+		objects[010D] = (0114): NMx_FFColor_Entity '163,163,163'  flags=8200  index=010F s32_0=0  u16_0=001
+			creator = (028A): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=10D u16_0=8000
+			*fx = (0112): DerivedOccFeature 'P_MAGNET.ipt:2'
+		objects[010E] = (0115): DerivedOccDataCollector '322040145，Xiao-显微镜_物镜压盖.ipt:1'  flags=0200  index=0110 s32_0=-1  u32_0=0000 
+			next = (028B): FxAttrLabel '322040145，Xiao-显微镜_物镜压盖.ipt:1' a0=(0000,0000)    index=0076  uid={00000000-0000-0000-0000-000000000000}
+				next = (0367): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0115): DerivedOccDataCollector '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+					*ref_2 = (000B): DerivedAssembly 'ASSEMBLY_CUBE_Z-STAGE_NEMA11__1_ASM.iam'
+				*participants[0000] = (0116): DerivedOccFeature '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+			*lst0[0000] = (0116): DerivedOccFeature '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+			*ref_1 = (028C): 0A52ED98
+		objects[010F] = (0116): DerivedOccFeature '322040145，Xiao-显微镜_物镜压盖.ipt:1'  flags=6200  index=0111 s32_0=2908 u32_0=0000  u32_1=0000  u32_2=0000 
+			next = (028D): FxAttrLabel '322040145，Xiao-显微镜_物镜压盖.ipt:1' a0=(0000,0000)    index=0075  uid={2F785911-11D4-2DAF-C000-1885E89C6B4F}
+				next = (0369): FxAttr_FD590AA5 a0=(0000,0000)    
+					*owner = (0116): DerivedOccFeature '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+					*ref_2 = (0115): DerivedOccDataCollector '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+			*lst0[0000] = (0117): SurfaceBody 'Solid49'
+			*ref_1 = (028E): 5CE72F63 '255,153,0'
+		objects[0110] = (0117): SurfaceBody 'Solid49'  flags=3004200  index=0112 
+			next = (028F): FxAttrLabel 'Solid49' a0=(0000,0000)    index=0075  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0034): DerivedOccFeature '00_LINEAR_STAGE_MANUAL_50MM_CHI_ASM.iam:1::_X2_624B8F6E_X0_-_X2_03C6_X0_20.ipt:1'
+		objects[0111] = (0118): SurfaceBody  flags=1004200  index=0113 
+			*ref_0 = (0290): AsmEntityWrapper
+		objects[0112] = (0119): NMx_FFColor_Entity '255,153,0'  flags=8200  index=0114 s32_0=0  u16_0=001
+			creator = (0291): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=111 u16_0=8000
+			*fx = (0116): DerivedOccFeature '322040145，Xiao-显微镜_物镜压盖.ipt:1'
+		*parameters[d0] = (0016): Parameter 'd0'=1
+		*parameters[d_i] = (00BD): Parameter 'd_i'=40mm
+		*parameters[d_o] = (00BE): Parameter 'd_o'=40mm
+		*parameters[d_part] = (00BF): Parameter 'd_part'=50mm
+	nameTable = (0004): NameTable  lastIdx=0000 
+	*ref_3 = (0003): PartComponent
+	faceMerges = (0005): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+		nameTable = (011A): NameTable  lastIdx=0000 
+	mdlTxnMgr = (0006): ModelerTxnMgr  flags=0000   u32_0=0002 u32_1=0003 lst_1=[80000003 0016 [(0002,01,0002),(0003,00,0000)],80000003 001A [(0002,01,0004),(0003,00,0002)],80000003 001F [(0002,01,0005),(0003,00,0004)],80000003 0024 [(0002,01,0007),(0003,00,0006)],80000003 0029 [(0002,01,0009),(0003,00,0008)],80000003 002E [(0002,01,000B),(0003,00,000A)],80000003 0033 [(0002,01,000D),(0003,00,000C)],80000003 0038 [(0002,01,000E),(0003,00,000E)],80000003 003D [(0002,01,0010),(0003,00,0010)],80000003 0042 [(0002,01,0012),(0003,00,0012)],80000003 0047 [(0002,01,0014),(0003,00,0014)],80000003 004C [(0002,01,0016),(0003,00,0016)],80000003 0051 [(0002,01,0018),(0003,00,0018)],80000003 0056 [(0002,01,001A),(0003,00,001A)],80000003 005B [(0002,01,001C),(0003,00,001C)],80000003 0060 [(0002,01,001E),(0003,00,001E)],80000003 0065 [(0002,01,001F),(0003,00,0020)],80000003 006A [(0002,01,0020),(0003,00,0022)],80000003 006F [(0002,01,0022),(0003,00,0024)],80000003 0074 [(0002,01,0024),(0003,00,0026)],80000003 0079 [(0002,01,0026),(0003,00,0028)],80000003 0080 [(0002,01,0028),(0003,00,002A)],80000003 0085 [(0002,01,002A),(0003,00,002C)],80000003 008A [(0002,01,002C),(0003,00,002E)],80000003 008F [(0002,01,002E),(0003,00,0030)],80000003 0094 [(0002,01,0030),(0003,00,0032)],80000003 0099 [(0002,01,0032),(0003,00,0034)],80000003 009E [(0002,01,0034),(0003,00,0036)],80000003 00A3 [(0002,01,0036),(0003,00,0038)],80000003 00A8 [(0002,01,0038),(0003,00,003A)],80000003 00B0 [(0002,01,003A),(0003,00,003C)],80000003 00BA [(0002,01,003C),(0003,00,003E)],80000003 00C0 [(0002,01,003E),(0003,00,0040)],80000003 00C5 [(0002,01,0040),(0003,00,0042)],80000003 00CA [(0002,01,0042),(0003,00,0044)],80000003 00CF [(0002,01,0044),(0003,00,0046)],80000003 00D3 [(0002,01,0046),(0003,00,0048)],80000003 00D7 [(0002,01,0048),(0003,00,004A)],80000003 00DB [(0002,01,004A),(0003,00,004C)],80000003 00E0 [(0002,01,004C),(0003,00,004E)],80000003 00E5 [(0002,01,004E),(0003,00,0050)],80000003 00EA [(0002,01,0050),(0003,00,0052)],80000003 00EF [(0002,01,0052),(0003,00,0054)],80000003 00F4 [(0002,01,0054),(0003,00,0056)],80000003 00F8 [(0002,01,0054),(0003,00,0058)],80000003 00FE [(0002,01,0055),(0003,00,005A)],80000003 0103 [(0002,01,0057),(0003,00,005C)],80000003 0108 [(0002,01,0059),(0003,00,005E)],80000003 010D [(0002,01,005B),(0003,00,0060)],80000003 0111 [(0002,01,005D),(0003,00,0062)],80000003 80000016 [(0002,01,0003),(0003,00,0001)],80000003 8000001A [(0002,01,0005),(0003,00,0003)],80000003 8000001F [(0002,01,0006),(0003,00,0005)],80000003 80000024 [(0002,01,0008),(0003,00,0007)],80000003 80000029 [(0002,01,000A),(0003,00,0009)],80000003 8000002E [(0002,01,000C),(0003,00,000B)],80000003 80000033 [(0002,01,000E),(0003,00,000D)],80000003 80000038 [(0002,01,000F),(0003,00,000F)],80000003 8000003D [(0002,01,0011),(0003,00,0011)],80000003 80000042 [(0002,01,0013),(0003,00,0013)],80000003 80000047 [(0002,01,0015),(0003,00,0015)],80000003 8000004C [(0002,01,0017),(0003,00,0017)],80000003 80000051 [(0002,01,0019),(0003,00,0019)],80000003 80000056 [(0002,01,001B),(0003,00,001B)],80000003 8000005B [(0002,01,001D),(0003,00,001D)],80000003 80000060 [(0002,01,001F),(0003,00,001F)],80000003 80000065 [(0002,01,0020),(0003,00,0021)],80000003 8000006A [(0002,01,0021),(0003,00,0023)],80000003 8000006F [(0002,01,0023),(0003,00,0025)],80000003 80000074 [(0002,01,0025),(0003,00,0027)],80000003 80000079 [(0002,01,0027),(0003,00,0029)],80000003 80000080 [(0002,01,0029),(0003,00,002B)],80000003 80000085 [(0002,01,002B),(0003,00,002D)],80000003 8000008A [(0002,01,002D),(0003,00,002F)],80000003 8000008F [(0002,01,002F),(0003,00,0031)],80000003 80000094 [(0002,01,0031),(0003,00,0033)],80000003 80000099 [(0002,01,0033),(0003,00,0035)],80000003 8000009E [(0002,01,0035),(0003,00,0037)],80000003 800000A3 [(0002,01,0037),(0003,00,0039)],80000003 800000A8 [(0002,01,0039),(0003,00,003B)],80000003 800000B0 [(0002,01,003B),(0003,00,003D)],80000003 800000BA [(0002,01,003D),(0003,00,003F)],80000003 800000C0 [(0002,01,003F),(0003,00,0041)],80000003 800000C5 [(0002,01,0041),(0003,00,0043)],80000003 800000CA [(0002,01,0043),(0003,00,0045)],80000003 800000CF [(0002,01,0045),(0003,00,0047)],80000003 800000D3 [(0002,01,0047),(0003,00,0049)],80000003 800000D7 [(0002,01,0049),(0003,00,004B)],80000003 800000DB [(0002,01,004B),(0003,00,004D)],80000003 800000E0 [(0002,01,004D),(0003,00,004F)],80000003 800000E5 [(0002,01,004F),(0003,00,0051)],80000003 800000EA [(0002,01,0051),(0003,00,0053)],80000003 800000EF [(0002,01,0053),(0003,00,0055)],80000003 800000F4 [(0002,01,0054),(0003,00,0057)],80000003 800000F8 [(0002,01,0055),(0003,00,0059)],80000003 800000FE [(0002,01,0056),(0003,00,005B)],80000003 80000103 [(0002,01,0058),(0003,00,005D)],80000003 80000108 [(0002,01,005A),(0003,00,005F)],80000003 8000010D [(0002,01,005C),(0003,00,0061)],80000003 80000111 [(0002,01,005E),(0003,00,0063)]] u32_2=0000
+		asm = (011B): ASM u32_0=0357 schema=002C fmt="ASM BinaryFile4" selectedKey=0000 b1=True delta_state=-1 
+	*ref_4 = (0007): SurfaceBody 'Solid1'
+(0131): AsmEntityWrapper index=0017 u8_0=00  u32_1=0000
+	*asm = (011B): ASM
+(0138): AsmEntityWrapper index=001C u8_0=00  u32_1=0001
+	*asm = (011B): ASM
+(013F): AsmEntityWrapper index=0021 u8_0=00  u32_1=0002
+	*asm = (011B): ASM
+(0146): AsmEntityWrapper index=0026 u8_0=00  u32_1=0003
+	*asm = (011B): ASM
+(014D): AsmEntityWrapper index=002B u8_0=00  u32_1=0004
+	*asm = (011B): ASM
+(0154): AsmEntityWrapper index=0030 u8_0=00  u32_1=0005
+	*asm = (011B): ASM
+(015B): AsmEntityWrapper index=0035 u8_0=00  u32_1=0006
+	*asm = (011B): ASM
+(0162): AsmEntityWrapper index=003A u8_0=00  u32_1=0007
+	*asm = (011B): ASM
+(0169): AsmEntityWrapper index=003F u8_0=00  u32_1=0008
+	*asm = (011B): ASM
+(0170): AsmEntityWrapper index=0044 u8_0=00  u32_1=0009
+	*asm = (011B): ASM
+(0177): AsmEntityWrapper index=0049 u8_0=00  u32_1=000A
+	*asm = (011B): ASM
+(017E): AsmEntityWrapper index=004E u8_0=00  u32_1=000B
+	*asm = (011B): ASM
+(0185): AsmEntityWrapper index=0053 u8_0=00  u32_1=000C
+	*asm = (011B): ASM
+(018C): AsmEntityWrapper index=0058 u8_0=00  u32_1=000D
+	*asm = (011B): ASM
+(0193): AsmEntityWrapper index=005D u8_0=00  u32_1=000E
+	*asm = (011B): ASM
+(019A): AsmEntityWrapper index=0062 u8_0=00  u32_1=000F
+	*asm = (011B): ASM
+(01A1): AsmEntityWrapper index=0067 u8_0=00  u32_1=0010
+	*asm = (011B): ASM
+(01A8): AsmEntityWrapper index=006C u8_0=00  u32_1=0011
+	*asm = (011B): ASM
+(01AF): AsmEntityWrapper index=0071 u8_0=00  u32_1=0012
+	*asm = (011B): ASM
+(01B6): AsmEntityWrapper index=0076 u8_0=00  u32_1=0013
+	*asm = (011B): ASM
+(01BD): AsmEntityWrapper index=007B u8_0=00  u32_1=0014
+	*asm = (011B): ASM
+(01C6): AsmEntityWrapper index=0082 u8_0=00  u32_1=0015
+	*asm = (011B): ASM
+(01CD): AsmEntityWrapper index=0087 u8_0=00  u32_1=0016
+	*asm = (011B): ASM
+(01D4): AsmEntityWrapper index=008C u8_0=00  u32_1=0017
+	*asm = (011B): ASM
+(01DB): AsmEntityWrapper index=0091 u8_0=00  u32_1=0018
+	*asm = (011B): ASM
+(01E2): AsmEntityWrapper index=0096 u8_0=00  u32_1=0019
+	*asm = (011B): ASM
+(01E9): AsmEntityWrapper index=009B u8_0=00  u32_1=001A
+	*asm = (011B): ASM
+(01F0): AsmEntityWrapper index=00A0 u8_0=00  u32_1=001B
+	*asm = (011B): ASM
+(01F7): AsmEntityWrapper index=00A5 u8_0=00  u32_1=001C
+	*asm = (011B): ASM
+(01FE): AsmEntityWrapper index=00AA u8_0=00  u32_1=001D
+	*asm = (011B): ASM
+(021A): AsmEntityWrapper index=00BC u8_0=00  u32_1=001E
+	*asm = (011B): ASM
+(0222): AsmEntityWrapper index=00C2 u8_0=00  u32_1=001F
+	*asm = (011B): ASM
+(0229): AsmEntityWrapper index=00C7 u8_0=00  u32_1=0020
+	*asm = (011B): ASM
+(0230): AsmEntityWrapper index=00CC u8_0=00  u32_1=0021
+	*asm = (011B): ASM
+(0249): AsmEntityWrapper index=00DD u8_0=00  u32_1=0022
+	*asm = (011B): ASM
+(0250): AsmEntityWrapper index=00E2 u8_0=00  u32_1=0023
+	*asm = (011B): ASM
+(0257): AsmEntityWrapper index=00E7 u8_0=00  u32_1=0024
+	*asm = (011B): ASM
+(025E): AsmEntityWrapper index=00EC u8_0=00  u32_1=0025
+	*asm = (011B): ASM
+(0265): AsmEntityWrapper index=00F1 u8_0=00  u32_1=0026
+	*asm = (011B): ASM
+(0275): AsmEntityWrapper index=0100 u8_0=00  u32_1=0028
+	*asm = (011B): ASM
+(027C): AsmEntityWrapper index=0105 u8_0=00  u32_1=0029
+	*asm = (011B): ASM
+(0283): AsmEntityWrapper index=010A u8_0=00  u32_1=002A
+	*asm = (011B): ASM
+(0290): AsmEntityWrapper index=0113 u8_0=00  u32_1=002B
+	*asm = (011B): ASM
+(0294): 5BE20B76  u16_0=001
+	*ref = (012C): 1DCBFBA7
+*(0298): 1DCBFBA7
+*(029C): 1DCBFBA7
+*(02A0): 1DCBFBA7
+*(02A4): 1DCBFBA7
+*(02A8): 1DCBFBA7
+*(02AC): 1DCBFBA7
+*(02B0): 1DCBFBA7
+*(02B4): 1DCBFBA7
+*(02B8): 1DCBFBA7
+*(02BC): 1DCBFBA7
+*(02C0): 1DCBFBA7
+*(02C4): 1DCBFBA7
+*(02C8): 1DCBFBA7
+*(02CC): 1DCBFBA7
+*(02D0): 1DCBFBA7
+*(02D4): 1DCBFBA7
+*(02D8): 1DCBFBA7
+*(02DC): 1DCBFBA7
+*(02E4): 1DCBFBA7
+*(02E8): 1DCBFBA7
+*(02EE): 1DCBFBA7
+*(0302): 1DCBFBA7
+*(030E): 1DCBFBA7
+*(0315): 1DCBFBA7
+*(031C): 1DCBFBA7
+*(0327): 1DCBFBA7
+*(032B): 1DCBFBA7
+*(032F): 1DCBFBA7
+*(033F): 1DCBFBA7
+*(0343): 1DCBFBA7
+*(0347): 1DCBFBA7
+*(034B): 1DCBFBA7
+*(034F): 1DCBFBA7
+*(0353): 1DCBFBA7
+*(0358): 1DCBFBA7
+*(035C): 1DCBFBA7
