@@ -1,0 +1,14 @@
+[2024]
+(0001): ViewDirectionCollection '[Primary]' 
+	lst0[0000] = (0002): ViewDirection 'Isometric'  flags=3100 CodePage=409 aX=(02 00 00 30 00 00 00 00)
+		lst0[0000] = (0006): Camera target=Vector (0.0, 0.0, 0.0) eye=Vector (0.6230386127580079, 0.6230386127580079, 0.6230386127580079) a0=Vector (0.0, 0.0, 1.8386243386243386) angle=0 f64_0=-2.15827 up=Vector (-0.40824829046386313, 0.8164965809277263, -0.40824829046386313) aX=(01)
+		lst0[0001] = (0007): EBA31E2E u32_0=0001 a0=()
+	lst0[0001] = (0003): ViewDirection 'Front'  flags=3100 CodePage=409 aX=(02 00 00 30 00 00 00 00)
+		lst0[0000] = (0008): Camera target=Vector (0.0, 0.0, 0.0) eye=Vector (-3.126768595745626e-15, 0.0, 7.0408569413369) a0=Vector (0.0, 0.0, 2.0962059620596207) angle=0 f64_0=-14.0817 up=Vector (0.0, 1.0, 0.0) aX=(01)
+		lst0[0001] = (0009): EBA31E2E u32_0=0001 a0=()
+	lst0[0002] = (0004): ViewDirection 'Top'  flags=3100 CodePage=409 aX=(02 00 00 30 00 00 00 00)
+		lst0[0000] = (000A): Camera target=Vector (0.0, 0.0, 0.0) eye=Vector (0.0, 7.0408569413369, 0.0) a0=Vector (0.0, 0.0, 2.0962059620596207) angle=0 f64_0=-14.0817 up=Vector (0.0, 0.0, -1.0) aX=(01)
+		lst0[0001] = (000B): EBA31E2E u32_0=0001 a0=()
+	lst0[0003] = (0005): ViewDirection 'Right'  flags=3100 CodePage=409 aX=(02 00 00 30 00 00 00 00)
+		lst0[0000] = (000C): Camera target=Vector (0.0, 0.0, 0.0) eye=Vector (7.0408569413369, 0.0, 0.0) a0=Vector (0.0, 0.0, 2.0962059620596207) angle=0 f64_0=-14.0817 up=Vector (0.0, 1.0, 0.0) aX=(01)
+		lst0[0001] = (000D): EBA31E2E u32_0=0001 a0=()

@@ -1,0 +1,48 @@
+Design Tracking Control:
+ 13 -                NextVersion: '2'
+ 14 -             CurrentVersion: '1'
+ 16 -                LastSavedBy: 'AdminForWorker'
+ 17 -              LastSavedDate: 2025/09/15 16:25:17.800093
+ 18 -                         18: C2B45A27-4A70-2576-9EAB-EA996E81372E
+ 21 -                         21: F927AA99-47C7-0880-2774-369959B4357F
+ 22 -               BuildVersion: 284423000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2025/09/15 00:00:00.000000
+  5 -                 PartNumber: '4ho3xah1'
+ 20 -                   Material: 'Generic'
+ 21 -              PartPropRevId: 160C6E10-3ADE-44BF-BD3A-3909082BFAE8
+ 31 -                 DocSubType: 4D29B490-49B2-11D0-93C3-7E0706000000
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'AdminForWorker'
+ 46 -          ExternalPropRevId: 4D29B490-49B2-11D0-93C3-7E0706000000
+ 61 -                    Density: 1.0
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2024.4 (Build 284423000, 423)'
+ 71 -         MaterialIdentifier: 'C:\\Users\\Public\\Documents\\Autodesk\\Inventor 2015\\Design Data\\Materials\\InventorMaterialLibrary.adsklib#1:Generic\n#MaterialInv_072'
+ 72 -                 Appearance: 'Default'
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  2 -                      Title: 'no_mirror_no_tube_lens v17'
+  4 -                     Author: 'AdminForWorker'
+ 17 -                  Thumbnail: PNG: 512 x 512
+
+Inventor User Defined Properties:
+
+_PostAdaInternalDateMigration:
+  0 -                          0: 255
+  3 -                          3: True
+  4 -                          4: True
+
+_Private Model Information:
+  8 -                LengthUnits: 11268
+  9 -                 AngleUnits: 11278
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11286
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Default</Category><StyleName>Steel - Satin</StyleName><Protein><MaterialId></MaterialId><Scale>1.000000</Scale><Rotation>0.000000</Rotation></Protein></PartActiveColorStyle>'
+

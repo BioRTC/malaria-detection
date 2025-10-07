@@ -1,0 +1,45 @@
+[2024]
+(0001): AcisEntityContainer 
+	wrappers[0000] = (0003): AsmEntityWrapper indexDC=0002 u8_0=00  wrapperIdx=0000
+		asm = (0015): ASM u32_0=031D schema=002C fmt="ASM BinaryFile4" selectedKey=80000015 b1=True delta_state=12 
+			history = (0016): SatHistory s32_0=0  numbers=(2,3,4,5,6,7,8,9,10,11)  
+				delta_states[0002] = (0017): 09780457 data_set=2 
+				delta_states[0003] = (0018): 09780457 data_set=3 
+				delta_states[0004] = (0019): 09780457 data_set=4 
+				delta_states[0005] = (001A): 09780457 data_set=5 
+				delta_states[0006] = (001B): 09780457 data_set=6 
+				delta_states[0007] = (001C): 09780457 data_set=7 
+				delta_states[0008] = (001D): 09780457 data_set=8 
+				delta_states[0009] = (001E): 09780457 data_set=9 
+				delta_states[000A] = (001F): 09780457 data_set=10 
+				delta_states[000B] = (0020): 09780457 data_set=11 
+				ref_1 = (0021): 09780457 data_set=-1 
+	wrappers[0001] = (0004): AsmEntityWrapper indexDC=0011 u8_0=00  wrapperIdx=0001
+		*asm = (0015): ASM
+	wrappers[0002] = (0005): AsmEntityWrapper indexDC=0015 u8_0=00  wrapperIdx=0002
+		*asm = (0015): ASM
+	wrappers[0003] = (0006): AsmEntityWrapper indexDC=0019 u8_0=00  wrapperIdx=0003
+		*asm = (0015): ASM
+	wrappers[0004] = (0007): AsmEntityWrapper indexDC=001D u8_0=00  wrapperIdx=0004
+		*asm = (0015): ASM
+	wrappers[0005] = (0008): AsmEntityWrapper indexDC=0021 u8_0=00  wrapperIdx=0005
+		*asm = (0015): ASM
+	wrappers[0006] = (0009): AsmEntityWrapper indexDC=0025 u8_0=00  wrapperIdx=0006
+		*asm = (0015): ASM
+	wrappers[0007] = (000A): AsmEntityWrapper indexDC=0029 u8_0=00  wrapperIdx=0007
+		*asm = (0015): ASM
+	wrappers[0008] = (000B): AsmEntityWrapper indexDC=002F u8_0=03  wrapperIdx=0008
+		*asm = (0015): ASM
+(0002): BrepComponent  length=0000 angle=0000
+	components[000F] = (000C): 66085B35dcCreatorIdx=000F u16_0=10D 
+	components[0013] = (000D): 66085B35dcCreatorIdx=0013 u16_0=10D 
+	components[0017] = (000E): 66085B35dcCreatorIdx=0017 u16_0=10D 
+	components[001B] = (000F): 66085B35dcCreatorIdx=001B u16_0=10D 
+	components[001F] = (0010): 66085B35dcCreatorIdx=001F u16_0=10D 
+	components[0023] = (0011): 66085B35dcCreatorIdx=0023 u16_0=10D 
+	components[0027] = (0012): 66085B35dcCreatorIdx=0027 u16_0=10D 
+	components[002B] = (0013): 66085B35dcCreatorIdx=002B u16_0=10D 
+	components[002C] = (0014): 66085B35dcCreatorIdx=002C u16_0=10D 
+(0022): AcisEntityContainer 
+(0023): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+	nameTable = (0024): NameTable  lastIdx=0000 

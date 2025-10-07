@@ -1,0 +1,211 @@
+[2024]
+(0001): Document  u32_0=0040 uid_0={AE26AC08-CD33-11D3-B589-00902707C6F2}  a0=(0000,0000,0000)        u32_1=8000002C  u32_2=0001   segName="PmBRepSegment" f64_0=1 
+	next = (0002): FxAttrLabel a0=(0000,0000)    index=0002  uid={00000000-0000-0000-0000-000000000000}
+		*participants[0000] = (0009): BodiesFolder 'Solid Bodies'
+		*participants[0001] = (000A): BodiesFolder 'Surface Bodies'
+		*participants[0002] = (000B): BrowserFolder 'Origin'
+		*participants[0003] = (000C): FxReference 'Solid39'
+		*participants[0004] = (000D): FxReference 'Solid40'
+		*participants[0005] = (000E): FxReference 'Solid41'
+		*participants[0006] = (000F): FxReference 'Solid42'
+		*participants[0007] = (0010): FxReference 'Solid43'
+		*participants[0008] = (0011): FxReference 'Solid45'
+		*participants[0009] = (0012): FxReference 'Solid46'
+		*participants[000A] = (0013): FxReference 'microcontroller_holder_new'
+		*participants[000B] = (0014): FxNonParametricBase 'Composite1'
+		*participants[000C] = (0015): EndOfFeatures
+	component = (0003): PartComponent  a0=(100,000)    a1=(0008,0000) index=0032 u32_0=0014 lst1={{D09CCFCB-403B-0359-3117-519B51C4F3D2}:0001,{12115D87-4545-5E57-FD74-BAA2FC39CF26}:0008,{0CA9112D-11D0-838B-0008-19B00524DC09}:0008,{C2C74308-4C24-EE2D-62B9-5AB01118D108}:0001}    
+		objects[0000] = (0015): EndOfFeatures  flags=2200  index=0001 s32_0=-1
+			next = (0047): FxAttrLabel a0=(0000,0000)    index=FFFFFFFF  uid={00000000-0000-0000-0000-000000000000}
+		objects[0001] = (0008): SurfaceBody  flags=3004200  index=0002 
+			next = (003A): FxAttrLabel 'Solid1' a0=(0000,0000)    index=000B  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0004): NameTable
+		objects[0002] = (000B): BrowserFolder 'Origin'  flags=0200  index=0003
+			next = (003D): FxAttrLabel 'Origin' a0=(0000,0000)    index=000A  uid={00000000-0000-0000-0000-000000000000}
+				*participants[0000] = (0016): Plane 'YZ Plane'
+				*participants[0001] = (0017): Plane 'XZ Plane'
+				*participants[0002] = (0018): Plane 'XY Plane'
+				*participants[0003] = (0019): Line3D (-1,0,0)-(1,0,0)
+				*participants[0004] = (001A): Line3D (0,-1,0)-(0,1,0)
+				*participants[0005] = (001B): Line3D (0,0,-1)-(0,0,1)
+				*participants[0006] = (001C): Point3D - (0,0,0)
+		objects[0003] = (0016): Plane 'YZ Plane'  flags=20200  index=0004 flags2=428000   u32_1=0203 u32_2=0000 center=Vector (0.0, 0.0, 0.0) a1=Vector (-0.0, 1.0, 0.0) normal=Vector (0.0, -0.0, 1.0)
+			next = (0048): FxAttrLabel 'YZ Plane' a0=(0000,0000)    index=0003  uid={00000000-0000-0000-0000-000000000000}
+		objects[0004] = (0017): Plane 'XZ Plane'  flags=20200  index=0005 flags2=428000   u32_1=0000 center=Vector (0.0, 0.0, 0.0) a1=Vector (-1.0, 0.0, 0.0) normal=Vector (0.0, -0.0, 1.0)
+			next = (0049): FxAttrLabel 'XZ Plane' a0=(0000,0000)    index=0004  uid={00000000-0000-0000-0000-000000000000}
+		objects[0005] = (0018): Plane 'XY Plane'  flags=20200  index=0006 flags2=428000   u32_1=0000 center=Vector (0.0, 0.0, 0.0) a1=Vector (1.0, 0.0, -0.0) normal=Vector (-0.0, 1.0, 0.0)
+			next = (004A): FxAttrLabel 'XY Plane' a0=(0000,0000)    index=0005  uid={00000000-0000-0000-0000-000000000000}
+		objects[0006] = (0019): Line3D  flags=20200  index=0007 flags2=424000    pos=Vector (-1.0, 0.0, 0.0) dir=Vector (2.0, 0.0, 0.0) u8_0=00
+			next = (004B): FxAttrLabel 'X Axis' a0=(0000,0000)    index=0006  uid={00000000-0000-0000-0000-000000000000}
+		objects[0007] = (001A): Line3D  flags=20200  index=0008 flags2=424000    pos=Vector (0.0, -1.0, 0.0) dir=Vector (0.0, 2.0, 0.0) u8_0=00
+			next = (004C): FxAttrLabel 'Y Axis' a0=(0000,0000)    index=0007  uid={00000000-0000-0000-0000-000000000000}
+		objects[0008] = (001B): Line3D  flags=20200  index=0009 flags2=424000    pos=Vector (0.0, 0.0, -1.0) dir=Vector (0.0, 0.0, 2.0) u8_0=00
+			next = (004D): FxAttrLabel 'Z Axis' a0=(0000,0000)    index=0008  uid={00000000-0000-0000-0000-000000000000}
+		objects[0009] = (001C): Point3D  flags=20200  index=000A flags2=22000   pos=Vector (0.0, 0.0, 0.0)   
+			next = (004E): FxAttrLabel 'Center Point' a0=(0000,0000)    index=0009  uid={00000000-0000-0000-0000-000000000000}
+		objects[000A] = (000A): BodiesFolder 'Surface Bodies'  flags=0200  index=000B u16_0=001
+			next = (003C): FxAttrLabel 'Surface Bodies' a0=(0000,0000)    index=0002  uid={00000000-0000-0000-0000-000000000000}
+				*participants[0000] = (0036): CA02411F 'Srf1'
+		objects[000B] = (0009): BodiesFolder 'Solid Bodies'  flags=0200  index=000C u16_0=000
+			next = (003B): FxAttrLabel 'Solid Bodies' a0=(0000,0000)    index=0001  uid={00000000-0000-0000-0000-000000000000}
+				*participants[0000] = (0008): SurfaceBody 'Solid1'
+				*participants[0001] = (0020): SurfaceBody 'Solid2'
+				*participants[0002] = (0023): SurfaceBody 'Solid3'
+				*participants[0003] = (0026): SurfaceBody 'Solid4'
+				*participants[0004] = (0029): SurfaceBody 'Solid5'
+				*participants[0005] = (002C): SurfaceBody 'Solid6'
+				*participants[0006] = (002F): SurfaceBody 'Solid7'
+				*participants[0007] = (0032): SurfaceBody 'Solid8'
+		objects[000C] = (001D): SurfaceBody  flags=4200  index=000D 
+		objects[000D] = (001E): Parameter 'RDxVar0'  flags=8024200  index=000E valueNominal=0000 valueModel=0000
+		objects[000E] = (000C): FxReference 'Solid39'  flags=6200  index=000F s32_0=2803 outlineItem=0000  u32_1=0000
+			next = (003E): FxAttr_656DD01E 'Solid39' a0=(0000,0000)    u8_0=01
+				next = (0059): FxAttrLabel 'Solid39' a0=(0000,0000)    index=000B  uid={0CA9112D-11D0-838B-0008-19B00524DC09}
+					*owner = (000C): FxReference 'Solid39'
+					next = (0063): FxAttr_852F60CB a0=(0000,0000)   
+						*owner = (000C): FxReference 'Solid39'
+						next = (006C): FxAttr_56970DFA a0=(0000,0000)    u32_0=0000 u8_0=00
+							*owner = (000C): FxReference 'Solid39'
+			*properties[0000] = (001D): SurfaceBody
+			*properties[0001] = (0008): SurfaceBody 'Solid1'
+		objects[000F] = (001F): SurfaceBody  flags=4200  index=0010 
+		objects[0010] = (0020): SurfaceBody 'Solid2'  flags=3004200  index=0011 
+			next = (004F): FxAttrLabel 'Solid2' a0=(0000,0000)    index=000C  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0005): DisplayDecimals
+		objects[0011] = (0021): Parameter 'RDxVar1'  flags=8024200  index=0012 valueNominal=0000 valueModel=0000
+		objects[0012] = (000D): FxReference 'Solid40'  flags=6200  index=0013 s32_0=2803 outlineItem=0000  u32_1=0000
+			next = (003F): FxAttr_656DD01E 'Solid40' a0=(0000,0000)    u8_0=01
+				next = (005A): FxAttrLabel 'Solid40' a0=(0000,0000)    index=000C  uid={0CA9112D-11D0-838B-0008-19B00524DC09}
+					*owner = (000D): FxReference 'Solid40'
+					next = (0064): FxAttr_852F60CB a0=(0000,0000)   
+						*owner = (000D): FxReference 'Solid40'
+						next = (006D): FxAttr_56970DFA a0=(0000,0000)    u32_0=0000 u8_0=00
+							*owner = (000D): FxReference 'Solid40'
+			*properties[0000] = (001F): SurfaceBody
+			*properties[0001] = (0020): SurfaceBody 'Solid2'
+		objects[0013] = (0022): SurfaceBody  flags=4200  index=0014 
+		objects[0014] = (0023): SurfaceBody 'Solid3'  flags=3004200  index=0015 
+			next = (0050): FxAttrLabel 'Solid3' a0=(0000,0000)    index=000D  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0006): FaceMergeData
+		objects[0015] = (0024): Parameter 'RDxVar2'  flags=8024200  index=0016 valueNominal=0000 valueModel=0000
+		objects[0016] = (000E): FxReference 'Solid41'  flags=6200  index=0017 s32_0=2803 outlineItem=0000  u32_1=0000
+			next = (0040): FxAttr_656DD01E 'Solid41' a0=(0000,0000)    u8_0=01
+				next = (005B): FxAttrLabel 'Solid41' a0=(0000,0000)    index=000D  uid={0CA9112D-11D0-838B-0008-19B00524DC09}
+					*owner = (000E): FxReference 'Solid41'
+					next = (0065): FxAttr_852F60CB a0=(0000,0000)   
+						*owner = (000E): FxReference 'Solid41'
+						next = (006E): FxAttr_56970DFA a0=(0000,0000)    u32_0=0000 u8_0=00
+							*owner = (000E): FxReference 'Solid41'
+			*properties[0000] = (0022): SurfaceBody
+			*properties[0001] = (0023): SurfaceBody 'Solid3'
+		objects[0017] = (0025): SurfaceBody  flags=4200  index=0018 
+		objects[0018] = (0026): SurfaceBody 'Solid4'  flags=3004200  index=0019 
+			next = (0051): FxAttrLabel 'Solid4' a0=(0000,0000)    index=000E  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0007): ModelerTxnMgr
+		objects[0019] = (0027): Parameter 'RDxVar3'  flags=8024200  index=001A valueNominal=0000 valueModel=0000
+		objects[001A] = (000F): FxReference 'Solid42'  flags=6200  index=001B s32_0=2803 outlineItem=0000  u32_1=0000
+			next = (0041): FxAttr_656DD01E 'Solid42' a0=(0000,0000)    u8_0=01
+				next = (005C): FxAttrLabel 'Solid42' a0=(0000,0000)    index=000E  uid={0CA9112D-11D0-838B-0008-19B00524DC09}
+					*owner = (000F): FxReference 'Solid42'
+					next = (0066): FxAttr_852F60CB a0=(0000,0000)   
+						*owner = (000F): FxReference 'Solid42'
+						next = (006F): FxAttr_56970DFA a0=(0000,0000)    u32_0=0000 u8_0=00
+							*owner = (000F): FxReference 'Solid42'
+			*properties[0000] = (0025): SurfaceBody
+			*properties[0001] = (0026): SurfaceBody 'Solid4'
+		objects[001B] = (0028): SurfaceBody  flags=4200  index=001C 
+		objects[001C] = (0029): SurfaceBody 'Solid5'  flags=3004200  index=001D 
+			next = (0052): FxAttrLabel 'Solid5' a0=(0000,0000)    index=000F  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0008): SurfaceBody 'Solid1'
+		objects[001D] = (002A): Parameter 'RDxVar4'  flags=8024200  index=001E valueNominal=0000 valueModel=0000
+		objects[001E] = (0010): FxReference 'Solid43'  flags=6200  index=001F s32_0=2803 outlineItem=0000  u32_1=0000
+			next = (0042): FxAttr_656DD01E 'Solid43' a0=(0000,0000)    u8_0=01
+				next = (005D): FxAttrLabel 'Solid43' a0=(0000,0000)    index=000F  uid={0CA9112D-11D0-838B-0008-19B00524DC09}
+					*owner = (0010): FxReference 'Solid43'
+					next = (0067): FxAttr_852F60CB a0=(0000,0000)   
+						*owner = (0010): FxReference 'Solid43'
+						next = (0070): FxAttr_56970DFA a0=(0000,0000)    u32_0=0000 u8_0=00
+							*owner = (0010): FxReference 'Solid43'
+			*properties[0000] = (0028): SurfaceBody
+			*properties[0001] = (0029): SurfaceBody 'Solid5'
+		objects[001F] = (002B): SurfaceBody  flags=4200  index=0020 
+		objects[0020] = (002C): SurfaceBody 'Solid6'  flags=3004200  index=0021 
+			next = (0053): FxAttrLabel 'Solid6' a0=(0000,0000)    index=0010  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (0009): BodiesFolder 'Solid Bodies'
+		objects[0021] = (002D): Parameter 'RDxVar5'  flags=8024200  index=0022 valueNominal=0000 valueModel=0000
+		objects[0022] = (0011): FxReference 'Solid45'  flags=6200  index=0023 s32_0=2803 outlineItem=0000  u32_1=0000
+			next = (0043): FxAttr_656DD01E 'Solid45' a0=(0000,0000)    u8_0=01
+				next = (005E): FxAttrLabel 'Solid45' a0=(0000,0000)    index=0010  uid={0CA9112D-11D0-838B-0008-19B00524DC09}
+					*owner = (0011): FxReference 'Solid45'
+					next = (0068): FxAttr_852F60CB a0=(0000,0000)   
+						*owner = (0011): FxReference 'Solid45'
+						next = (0071): FxAttr_56970DFA a0=(0000,0000)    u32_0=0000 u8_0=00
+							*owner = (0011): FxReference 'Solid45'
+			*properties[0000] = (002B): SurfaceBody
+			*properties[0001] = (002C): SurfaceBody 'Solid6'
+		objects[0023] = (002E): SurfaceBody  flags=4200  index=0024 
+		objects[0024] = (002F): SurfaceBody 'Solid7'  flags=3004200  index=0025 
+			next = (0054): FxAttrLabel 'Solid7' a0=(0000,0000)    index=0011  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (000A): BodiesFolder 'Surface Bodies'
+		objects[0025] = (0030): Parameter 'RDxVar6'  flags=8024200  index=0026 valueNominal=0000 valueModel=0000
+		objects[0026] = (0012): FxReference 'Solid46'  flags=6200  index=0027 s32_0=2803 outlineItem=0000  u32_1=0000
+			next = (0044): FxAttr_656DD01E 'Solid46' a0=(0000,0000)    u8_0=01
+				next = (005F): FxAttrLabel 'Solid46' a0=(0000,0000)    index=0011  uid={0CA9112D-11D0-838B-0008-19B00524DC09}
+					*owner = (0012): FxReference 'Solid46'
+					next = (0069): FxAttr_852F60CB a0=(0000,0000)   
+						*owner = (0012): FxReference 'Solid46'
+						next = (0072): FxAttr_56970DFA a0=(0000,0000)    u32_0=0000 u8_0=00
+							*owner = (0012): FxReference 'Solid46'
+			*properties[0000] = (002E): SurfaceBody
+			*properties[0001] = (002F): SurfaceBody 'Solid7'
+		objects[0027] = (0031): SurfaceBody  flags=4200  index=0028 
+		objects[0028] = (0032): SurfaceBody 'Solid8'  flags=3004200  index=0029 
+			next = (0055): FxAttrLabel 'Solid8' a0=(0000,0000)    index=0012  uid={00000000-0000-0000-0000-000000000000}
+			*ref_0 = (000B): BrowserFolder 'Origin'
+		objects[0029] = (0033): Parameter 'RDxVar7'  flags=8024200  index=002A valueNominal=0000 valueModel=0000
+		objects[002A] = (0013): FxReference 'microcontroller_holder_new'  flags=6200  index=002B s32_0=2803 outlineItem=0000  u32_1=0000
+			next = (0045): FxAttr_656DD01E 'microcontroller_holder_new' a0=(0000,0000)    u8_0=01
+				next = (0060): FxAttrLabel 'microcontroller_holder_new' a0=(0000,0000)    index=0012  uid={0CA9112D-11D0-838B-0008-19B00524DC09}
+					*owner = (0013): FxReference 'microcontroller_holder_new'
+					next = (006A): FxAttr_852F60CB a0=(0000,0000)   
+						*owner = (0013): FxReference 'microcontroller_holder_new'
+						next = (0073): FxAttr_56970DFA a0=(0000,0000)    u32_0=0000 u8_0=00
+							*owner = (0013): FxReference 'microcontroller_holder_new'
+			*properties[0000] = (0031): SurfaceBody
+			*properties[0001] = (0032): SurfaceBody 'Solid8'
+		objects[002B] = (0014): FxNonParametricBase 'Composite1'  flags=6200  index=002C s32_0=2803 outlineItem=0000  u32_1=0000 
+			next = (0046): FxAttrExtrusionSurface 'Composite1' a0=(0000,0000)    u32_0=0001
+				next = (0061): FxAttrLabel 'Composite1' a0=(0000,0000)    index=0013  uid={C2C74308-4C24-EE2D-62B9-5AB01118D108}
+					*owner = (0014): FxNonParametricBase 'Composite1'
+					next = (006B): FxAttr_56970DFA a0=(0000,0000)    u32_0=0021 u8_0=00
+						*owner = (0014): FxNonParametricBase 'Composite1'
+			*properties[0000] = (0035): CA02411F
+			*properties[0001] = (0036): CA02411F 'Srf1'
+			*properties[0002] = (0037): Boolean=(False, 0)
+		objects[002C] = (0034): NMx_FFColor_Entity '204,153,51'  flags=0200  index=002D s32_0=0  u16_0=001
+			creator = (0056): SurfaceCreator  flags=0000    a0=(003,8000) idxCreator=02C u16_0=8000
+			*fx = (0014): FxNonParametricBase 'Composite1'
+		objects[002D] = (0035): CA02411F  flags=19004200  index=002E s32_0=0 
+			lst0[0000] = (0057): AsmEntityWrapper index=002F u8_0=03  u32_1=0000
+				*asm = (0039): ASM
+		objects[002E] = (0036): CA02411F 'Srf1'  flags=1B004200  index=0030 s32_0=0 lst1=(12)
+			next = (0058): FxAttr_AE5E4082 'Srf1' a0=(0000,0060)   
+				next = (0062): FxAttrLabel 'Srf1' a0=(0000,0000)    index=0013  uid={00000000-0000-0000-0000-000000000000}
+					*owner = (0036): CA02411F 'Srf1'
+		objects[002F] = (0037): Boolean  flags=8024200  index=0031 value=False
+		*parameters[RDxVar0] = (001E): Parameter 'RDxVar0'=0
+		*parameters[RDxVar1] = (0021): Parameter 'RDxVar1'=0
+		*parameters[RDxVar2] = (0024): Parameter 'RDxVar2'=0
+		*parameters[RDxVar3] = (0027): Parameter 'RDxVar3'=0
+		*parameters[RDxVar4] = (002A): Parameter 'RDxVar4'=0
+		*parameters[RDxVar5] = (002D): Parameter 'RDxVar5'=0
+		*parameters[RDxVar6] = (0030): Parameter 'RDxVar6'=0
+		*parameters[RDxVar7] = (0033): Parameter 'RDxVar7'=0
+	nameTable = (0004): NameTable  lastIdx=0000 
+	display = (0005): DisplayDecimals  u32_0=0000  length=003 angle=002 u16_0=000
+	*ref_3 = (0003): PartComponent
+	faceMerges = (0006): FaceMergeData s32_0=0   lst1=[] lst2=[] lst3=[]
+		nameTable = (0038): NameTable  lastIdx=0000 
+	mdlTxnMgr = (0007): ModelerTxnMgr  flags=0000   u32_0=0002 u32_1=0003 lst_1=[80000003 000F [(0002,01,0002),(0003,00,0000)],80000003 0013 [(0002,01,0003),(0003,00,0002)],80000003 0017 [(0002,01,0004),(0003,00,0004)],80000003 001B [(0002,01,0005),(0003,00,0006)],80000003 001F [(0002,01,0006),(0003,00,0008)],80000003 0023 [(0002,01,0007),(0003,00,000A)],80000003 0027 [(0002,01,0008),(0003,00,000C)],80000003 002B [(0002,01,0009),(0003,00,000E)],80000003 002C [(0002,01,000A),(0003,00,0010)],80000003 8000000F [(0002,01,0003),(0003,00,0001)],80000003 80000013 [(0002,01,0004),(0003,00,0003)],80000003 80000017 [(0002,01,0005),(0003,00,0005)],80000003 8000001B [(0002,01,0006),(0003,00,0007)],80000003 8000001F [(0002,01,0007),(0003,00,0009)],80000003 80000023 [(0002,01,0008),(0003,00,000B)],80000003 80000027 [(0002,01,0009),(0003,00,000D)],80000003 8000002B [(0002,01,000A),(0003,00,000F)],80000003 8000002C [(0002,01,000B),(0003,00,0011)]] u32_2=0000
+		asm = (0039): ASM u32_0=0357 schema=002C fmt="ASM BinaryFile4" selectedKey=80000039 b1=True delta_state=4 
+	*ref_4 = (0008): SurfaceBody 'Solid1'
