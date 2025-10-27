@@ -6,7 +6,8 @@ This project is developing and deploying a low cost solution for Malaria detecio
    
      2- A mechanical machine that allows primary health care workers to make uniform blood smears  
    
-     3- standard operating procedures and protocols that show how to collect blood, make the microscope slides, dye them, load slides into microscope and image them, send image to central database.  
+     3- standard operating procedures and protocols that show how to collect blood, make the microscope slides, dye them, 
+     load slides into microscope and image them, send image to central database.  
    
 
 
