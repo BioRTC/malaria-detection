@@ -1,9 +1,13 @@
 # Open source tools and protocols for malaria-detection
 
 This project is developing and deploying a low cost solution for Malaria detecion in [Yobe State](https://en.wikipedia.org/wiki/Yobe_State). Part of the efforts of [BioRTC](https://biortc.com/) and backed by the local government, the goal is to create an open source solution, comprising:  
- 1- An optical microscope that can digitise data from blood samples and be used in primary health care facilities.  
- 2- A mechanical machine that allows primary health care workers to make uniform blood smears  
- 3- standard operating procedures and protocols that show how to collect blood, make the microscope slides, dye them, load slides into microscope and image them, send image to central database.  
+  
+     1- An optical microscope that can digitise data from blood samples and be used in primary health care facilities.  
+   
+     2- A mechanical machine that allows primary health care workers to make uniform blood smears  
+   
+     3- standard operating procedures and protocols that show how to collect blood, make the microscope slides, dye them, load slides into microscope and image them, send image to central database.  
+   
 
 
 
