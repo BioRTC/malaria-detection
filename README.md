@@ -47,7 +47,7 @@ Find below the bills of materials needed to build the different parts of this pr
 
 TBC
 
-##smear maker
+## smear maker
 
 Currently we are replicating the mechanical smear maker described by Mcdermott et al. [here](https://pubs.aip.org/aip/rsi/article/93/1/014104/2848811/autohaem-3D-printed-devices-for-automated)
 
@@ -58,3 +58,12 @@ Currently we are replicating the mechanical smear maker described by Mcdermott e
 |--|--|--|--|--|
 ||||||
 
+
+
+## literature
+
+Open source kohler illumination: https://arxiv.org/pdf/1902.10521
+
+## interesting links:
+
+simulation of kohler illumination: https://phydemo.app/ray-optics/gallery/koehler-illumination
