@@ -67,3 +67,10 @@ Open source kohler illumination: https://arxiv.org/pdf/1902.10521
 ## interesting links:
 
 simulation of kohler illumination: https://phydemo.app/ray-optics/gallery/koehler-illumination
+
+## links for future improvements
+
+- grabcad link for the ESP32 controller (to be tested): https://grabcad.com/library/freenove-esp32-s3-wroom-cam-1
+- ELP camera: https://grabcad.com/library/usb-camera-module-1
+- sliding table: https://aliexpress.com/item/1005008157881482.html
+- esp32 controller with camera (choose OV5640 version): https://aliexpress.com/item/1005010184619897.html
