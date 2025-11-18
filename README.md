@@ -27,6 +27,7 @@ Find below the bills of materials needed to build the different parts of this pr
 |10|M4X12 Screws|attach parts together|5 USD|https://aliexpress.com/item/1005008314123679.html|
 |10|M4 nuts|attach parts together|2 USD|https://aliexpress.com/item/1005007593861199.html|
 |500g|Black PLA filament|print parts to hold optical assembly and attach it to sliding table|20 USD|https://aliexpress.com/item/1005006809853172.html|
+|01|flashlight|illuminate sample - get "tactical flashlight" to change light beam dispersion|20 USD|https://www.aliexpress.com/item/1005006344009961.html|
 
 
 
@@ -52,6 +53,16 @@ TBC
 Currently we are replicating the mechanical smear maker described by Mcdermott et al. [here](https://pubs.aip.org/aip/rsi/article/93/1/014104/2848811/autohaem-3D-printed-devices-for-automated)
 
 
+## file naming convention for images acquired with the microscopes:
+
+- YYYYMMDD_microscopeid_sampleid_ifasmearmakerwasusedornot
+
+so an example would look like with a smear maker would look like:
+20251119_m001_s003_maker
+
+and one example without the smear maker would look like:
+20251119_m001_s004_manual
+
 
 
 ||||||
@@ -74,3 +85,4 @@ simulation of kohler illumination: https://phydemo.app/ray-optics/gallery/koehle
 - ELP camera: https://grabcad.com/library/usb-camera-module-1
 - sliding table: https://aliexpress.com/item/1005008157881482.html
 - esp32 controller with camera (choose OV5640 version): https://aliexpress.com/item/1005010184619897.html
+- smaller flashlight
