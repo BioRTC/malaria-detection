@@ -81,8 +81,10 @@ simulation of kohler illumination: https://phydemo.app/ray-optics/gallery/koehle
 
 ## links for future improvements
 
-- grabcad link for the ESP32 controller (to be tested): https://grabcad.com/library/freenove-esp32-s3-wroom-cam-1
 - ELP camera: https://grabcad.com/library/usb-camera-module-1
 - sliding table: https://aliexpress.com/item/1005008157881482.html
-- esp32 controller with camera (choose OV5640 version): https://aliexpress.com/item/1005010184619897.html
+- esp32 controller with camera (choose OV5640 version): https://aliexpress.com/item/1005010184619897.html (UPDATE 18/12/2025 -  this microcontroller 
+  does not have enough processing power to transmit 5MP images fast enough for users to be able to focus images. Another shortcoming is that the camera chip
+  heats up too much, and it makes the PLA soft)
+- grabcad link for the ESP32 controller (to be tested): https://grabcad.com/library/freenove-esp32-s3-wroom-cam-1
 - smaller flashlight
