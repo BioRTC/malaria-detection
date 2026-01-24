@@ -41,7 +41,7 @@ Find below the bills of materials needed to build the different parts of this pr
 |01|gloves|protect health workers from blood contamination|2 USD|https://aliexpress.com/item/1005007990598273.html|
 |01|sharp objects waste|collect sharp objects, broken microscope slides, etc|5 USD|https://aliexpress.com/item/1005009050424318.html|
 |01|medical waste bag|collect non-sharp medical waste|2 USD|https://aliexpress.com/item/1005008159326306.html|
-|01|Pasteur pipette|2 USD|[https://aliexpress.com/item/1005008159326306.html](https://www.aliexpress.com/item/1005006549620753.html)|
+|01|Pasteur pipette|put a drop of blood on slide|2 USD|[https://aliexpress.com/item/1005008159326306.html](https://www.aliexpress.com/item/1005006549620753.html)|
 
 
 
