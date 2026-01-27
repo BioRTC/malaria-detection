@@ -24,8 +24,8 @@ Find below the bills of materials needed to build the different parts of this pr
 |01|achromatic objective 100X oil|using 100X oil so to have the exact same as defined gold standard by world health organisation|25 USD|https://aliexpress.com/item/1005003214487240.html|
 |01|immersion oil|objective works with immersion oil|25 USD|https://www.amazon.co.uk/Microscope-Immersion-Olympus-Celestron-20220830/dp/B0BKYPLCDH|
 |01| (alternative) immersion oil|objective works with immersion oil|14 USD|https://www.ebay.co.uk/itm/383553538337|
-|10|M4X12 Screws|attach parts together|5 USD|https://aliexpress.com/item/1005008314123679.html|
-|10|M4 nuts|attach parts together|2 USD|https://aliexpress.com/item/1005007593861199.html|
+|21|M3X10 Screws|attach parts together|3 USD|https://www.aliexpress.com/item/1005006889828011.html|
+|04|M3 nuts|attach parts together|2 USD|https://www.aliexpress.com/item/1005007593861199.html|
 |500g|Black PLA filament|print parts to hold optical assembly and attach it to sliding table|20 USD|https://aliexpress.com/item/1005006809853172.html|
 |01|flashlight|illuminate sample - get "tactical flashlight" to change light beam dispersion|20 USD|https://www.aliexpress.com/item/1005006344009961.html|
 
@@ -72,7 +72,7 @@ and one example without the smear maker would look like:
 
 
 
-## literature
+## literature:
 
 Open source kohler illumination: https://arxiv.org/pdf/1902.10521
 
@@ -80,7 +80,7 @@ Open source kohler illumination: https://arxiv.org/pdf/1902.10521
 
 simulation of kohler illumination: https://phydemo.app/ray-optics/gallery/koehler-illumination
 
-## links for future improvements
+## links for future improvements:
 
 - ELP camera: https://grabcad.com/library/usb-camera-module-1
 - sliding table: https://aliexpress.com/item/1005008157881482.html
@@ -89,3 +89,8 @@ simulation of kohler illumination: https://phydemo.app/ray-optics/gallery/koehle
   heats up too much, and it makes the PLA soft)
 - grabcad link for the ESP32 controller (to be tested): https://grabcad.com/library/freenove-esp32-s3-wroom-cam-1
 - smaller flashlight
+
+## references:
+
+- CAD design for objective in designs comes from Thorlabs https://www.thorlabs.com/item/RMS100X-O
+
