@@ -10,6 +10,9 @@ This project is developing and deploying a low cost solution for Malaria detecio
      load slides into microscope and image them, send image to central database.  
    
 
+# Instructions to build the microscope:
+
+ - https://stepwisedocs.com/docs/projects/yamm-10/guides/microscope-assembly-58#step1
 
 
 # BOMs:
