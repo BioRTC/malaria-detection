@@ -22,13 +22,14 @@ Find below the bills of materials needed to build the different parts of this pr
 
 |quantity|part|detail|cost|link|
 |--|--|--|--|--|
-|01|manual sliding table|holds printed parts with objective and camera, sets the Z axis positioning|30 USD|https://aliexpress.com/item/1005006085578165.html|
+|01|manual sliding table|holds printed parts with objective and camera, sets the Z axis positioning|10 USD|[https://aliexpress.com/item/1005006085578165.html](https://aliexpress.com/item/1005008157881482.html)|
 |01|Achromatic double lens 50mm focal length|focus image on camera sensor with proper magnification|10 USD|https://aliexpress.com/item/32637177731.html|
 |01|achromatic objective 100X oil|using 100X oil so to have the exact same as defined gold standard by world health organisation|25 USD|https://aliexpress.com/item/1005003214487240.html|
 |01|immersion oil|objective works with immersion oil|25 USD|https://www.amazon.co.uk/Microscope-Immersion-Olympus-Celestron-20220830/dp/B0BKYPLCDH|
 |01| (alternative) immersion oil|objective works with immersion oil|14 USD|https://www.ebay.co.uk/itm/383553538337|
 |21|M3X10 Screws|attach parts together|3 USD|https://www.aliexpress.com/item/1005006889828011.html|
 |04|M3 nuts|attach parts together|2 USD|https://www.aliexpress.com/item/1005007593861199.html|
+|01|8MP USB camera|digitize images|20 USD|https://aliexpress.com/item/1005008613864647.html|
 |500g|Black PLA filament|print parts to hold optical assembly and attach it to sliding table|20 USD|https://aliexpress.com/item/1005006809853172.html|
 |01|flashlight|illuminate sample - get "tactical flashlight" to change light beam dispersion|20 USD|https://www.aliexpress.com/item/1005006344009961.html|
 
